@@ -1,0 +1,12 @@
+@font-face{
+    font-family: "KTS-black";
+    src: url(./fonts/KyivTypeSans-Heavy.ttf);
+}
+@font-face{
+    font-family: "KTS";
+    src: url(./fonts/KyivTypeSans-Medium.ttf);
+}
+@font-face{
+    font-family: "KTS-R";
+    src: url(./fonts/KyivTypeSans-Regular.ttf)
+}

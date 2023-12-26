@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First draft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animation">
+        <div class="logo" onclick="location.href='index.html'"></div>
+        <div class="menu" onclick="toggle()">
+            <div class="line toggle"></div>
+        </div>
+        <div class="menu-mobile">
+            <div class="button-list">
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA free" onclick="off()">Безкоштовний урок</span></a>
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN" onclick="off()">Free lesson</span></a>
+            <a href="#program"><span class="UA" onclick="off()">Програма курсу</span></a>
+            <a href="#program"><span class="EN" onclick="off()">Course program</span></a>
+            <a href="#teacher"><span class="UA" onclick="off()">Про викладача</span></a>
+            <a href="#teacher"><span class="EN" onclick="off()">About teacher</span></a>
+            <a href="#price"><span class="UA" onclick="off()">Вартість</span></a>
+            <a href="#price"><span class="EN" onclick="off()">Price</span></a>
+                <div class="lang-buttons">
+                    <span class="ukr-button">Ukr</span>
+                    <span class="en-button">En</span>
+                </div>
+            <hr>
+            <p>Зв'язатись</p>
+            <div class="reg">
+                <input type="text" placeholder="Ім'я та прізвище" class="UA">
+                <input type="text" placeholder="First name and surname" class="EN">
+                <input type="text" placeholder="Email*">
+                <input type="text" placeholder="Повідомлення*" class="UA">
+                <input type="text" placeholder="Message*" class="EN">
+                <input type="button" value="НАДІСЛАТИ" class="button">
+            </div>
+            </div>
+            
+        </div>
+        <div class="top-block">
+            <div class="menu">
+    
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Безкоштовний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
+            </div>
+            <div class="lang-buttons">
+                <span class="ukr-button">Ukr</span>
+                <span class="en-button">En</span>
+            </div>
+            <div class="main-title">
+                <div class="title UA">КУРС АНІМАЦІЇ</div>
+                <div class="title EN">ANIMATION COURSE</div>
+                <div class="description UA">Хочеш дізнатися як створюють найвідоміших анімаційних героїв? А
+                    спробувати створити власного? Таймлайн, планування кадрів і секрети анімації Disney - не щось далеке і загадкове, а цілком досяжне на курсі анімації.                    
+                </div>
+                <div class="description EN">Do you want to know how the most famous animated characters are created?  Do you want to try to create your own? Timelines, scheduling, and the secrets of Disney animation are not something distant and mysterious, but quite achievable in an animation course.
+                </div>
+            </div>
+            <div class="blocks" id="about">
+                <div class="question-block UA">
+                    <div class="title">
+                        ЩО ТИ ОТРИМАЄШ?
+                         <div class="img"></div>                    
+                     </div>
+                    <span>створиш власний анімаційний ролик</span>
+                    <span>навчишся працювати у програмі Adobe Animate</span>
+                    <span>знання основних принципів 2D анімації</span>
+                    <span>дізнаєшся 12 правил анімації від Disney</span>
+
+                </div>
+                <div class="question-block EN">
+                    <div class="title">
+                        WHAT DO YOU GET?
+                        <div class="img"></div>                    
+                    </div>
+                    <span>create your <br> own animated video
+                    </span>
+                    <span>learn how to work in the Adobe Animate program</span>
+                    <span>knowledge of the basic principles of 2D animation
+                    </span>
+                    <span>learn the 12 rules of animation from Disney</span>
+                </div>
+            </div>
+            <div class="foryou-block">
+                <div class="img"></div>
+                <div class="text UA">
+                    <div class="title">ЦЕЙ КУРС САМЕ <br> ДЛЯ ТЕБЕ, ЯКЩО:</div>
+                    <span>ти новачок в анімації і хочеш створювати власні анімаційні ролики
+                    </span>
+                    <span>вже зробив перший крок в анімації, але розумієш, що для подальшого руху тобі потрібна допомога
+                    </span>
+                    <span>прагнеш заробляти гроші на моушн-дизайні для відео, але не маєш портфоліо</span>
+                </div>
+                <div class="text EN">
+                    <div class="title">THIS COURSE <br> IS FOR YOU IF
+                    </div>
+                    <span>you are a beginner in animation and want to create your own animated videos    
+                    </span>
+                    <span>you have already made the first step in animation, but realize that you need help to move forward
+                    </span>
+                    <span>you want to make money on motion design for video, but don't have a portfolio
+                    </span>
+                    </span>
+                </div>
+            </div>
+            <div class="blocks prog" id="program">
+                <div class="block UA" >
+                    <div class="title">ПРОГРАМА КУРСУ</div>
+                    <div class="info">
+                        <span class="first">Тривалість заняття - 60 хвилин </span>
+                        <span class="second">Інтенсивність - 10 занять <br> з можливістю вибору розкладу</span>
+                        <span class="last">Результат - портфоліо з власними роботами</span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">COURSE PROGRAM
+                    </div>
+                    <div class="info">
+                        <span class="first">Duration of the lesson - 60 minutes
+                        </span>
+                        <span class="second">Intensity - 10 lessons with the possibility of choosing a schedule
+                        </span>
+                        <span class="last">The result - a portfolio with your own works
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="middle-block">
+            <div class="course-progress-block">
+                <div class="block" id="0">
+                    <div class="progress-line" id="0"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="0">1 УРОК - ЗНАЙОМСТВО З ПРОГРАМОЮ ADOBE ANIMATE:</div>
+                        <div class="text" id="0">
+                            <div class="text-line"><span>1. </span><span class="description">Створення проєкту. Огляд інтерфейсу програми і основних інструментів</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Знайомство з анімацією</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Розглядаємо 12 правил анімації від Disney</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="0">LESSON 1 - INTRODUCTION TO THE ADOBE ANIMATE PROGRAM</div>
+                            <div class="text" id="0">
+                                <div class="text-line"><span>1. </span><span class="description">Creating a project. Overview of the program interface and main tools</span></div>
+                                <div class="text-line"><span>2. </span><span class="description">Introduction to animation</span></div>
+                                <div class="text-line"><span>3. </span><span class="description">Consider the 12 rules of animation from Disney</span></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="block" id="1">
+                    <div class="progress-line" id="1"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="1">2 УРОК - ПРОЦЕСИ СТВОРЕННЯ МУЛЬТФІЛЬМУ:</div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description">Сторібордінг, аніматік, озвучка</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Професії в анімаційній індустрії</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Домашнє завдання – вигадати коротку історію для фінального анімаційного проєкту на курсі
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="1">lESSON 2 - THE PROCESS OF CREATING A CARTOON</div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description">Storyboarding, animation, voice acting
+                                /span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Professions in the animation industry
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Homework - create a short story for your final animation in the course
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="2">
+                    <div class="progress-line" id="2"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="2">3 УРОК - АНІМАЦІЯ М'ЯЧИКА:</div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description">Лекція про правило Діснея «стиснення та розтягування»</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Знайомство з таймлайном і плануванням кадрів
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Домашнє завдання - анімація мʼячика</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="2">lESSON 3 - ANIMATION OF A BALL
+                        </div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description">Lecture on the Disney rule of «compression and stretching»
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Introduction to timeline and shots planning
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Homework - animation of a ball
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="3">
+                    <div class="progress-line" id="3"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="3">4 УРОК - АНІМАЦІЯ КВАДРАТУ З ХВОСТОМ:</div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description"> 	Лекція про правило Діснея «попередній рух» та «другорядний рух»
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> 	Домашнє завдання - анімація квадрата
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="3">lESSON 4 - ANIMATION OF A SQUARE WITH A TALL</div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description"> 	Lecture on the Disney rules of «previous movement» and «secondary movement»
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> 	Homework - animation of the square</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="4">
+                    <div class="progress-line" id="4"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="4">5 УРОК - АНІМАЦІЯ КОТЯЧОГО ХВОСТА:</div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description">Лекція про правило Діснея «поступовість рухів»
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Анімація хвоста</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="4">lESSON 5 - ANIMATION OF A CATS'S TAIL</div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description">Lecture on the Disney rule of "gradual movement"
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Tail animation
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="5">
+                    <div class="progress-line" id="5"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="5">6 УРОК - АНІМАЦІЯ КРОКУ ЛЮДИНИ:</div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description">Лекція з анімації людини
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Вчимося застосовувати раніше вивчені правила
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Домашнє завдання – анімація кроку та анімація тла</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="5">lESSON 6 - ANIMATION OF A PERSON'S STEP</div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description">Lecture on human animation
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Learn to apply the previously learned rules</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Homework - step animation and background animation
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="6">
+                    <div class="progress-line" id="6"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="6">7 УРОК - АНІМАЦІЯ КОРАБЛЯ НА ХВИЛЯХ:</div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description">Розбираємо композицію кадру
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Вивчаємо створення настрою </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="6">lESSON 7 - ANIMATION OF A SHIP ON THE WAVES</div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description">Analyze the composition of the frame
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Learn how to create a mood for animation
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="7">
+                    <div class="progress-line" id="7"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="7">8 УРОК - РОБОТА НАД ПРОЄКТОМ СТУДЕНТА</div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description"> Візуальне та психологічне
+                                    пропрацювання і стилізація персонажів
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Емоціі, пропорціїта інші
+                                    елементи, що підкреслюють персонажа</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Гіперболізація та
+                                    спрощення</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Практикуємо створення
+                                    швидких персонажів і портретів, напрацьовуємо вміння на емоціях і пропорціях</span>
+                            </div>
+                            <div class="text-line"><span>2. </span><span class="description"> Тренуємося спрощувати
+                                    ідеталізувати, гіперболізувати і стилізувати власних персонажів</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="7">lESSON 8 - WORK ON A STUDENT PROJECT</div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description"> Visual and psychological
+                                    development, stylization of characters
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Emotions, proportions and
+                                    other elements to emphasize the best of the character</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Hyperbolization and
+                                    simplification
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Practice creating quick
+                                    characters and portraits, working on emotions and proportions</span>
+                            </div>
+                            <div class="text-line"><span>2. </span><span class="description">Practice simplifying and
+                                    detailing. Practice hyperbolizing and stylizing your own characters
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="8">
+                    <div class="progress-line" id="8"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="8">9 УРОК - РОБОТА НАД ПРОЄКТОМ СТУДЕНТА</div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description"> Яка будова книги є
+                                    класичною, як ми можемо підлаштувати власну історію під
+                                    потрібний формат?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Вивчаємо верстку. Яка
+                                    розкадровка допоможе читачу краще зрозуміти вашу ідею?</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Робимо розкадровку
+                                    майбутнього зіна.Розробляємо обкладинку</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Працюємо з
+                                    порожнімпростором і досліджуємо його мету</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Адаптуємо історію під
+                                    зручний форматі готуємо до друку</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="8">lESSON 9 - WORK ON A STUDENT PROJECT</div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description">What is the classic
+                                    structure of a book, how can we adapt our story to the right format?
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Consider the layout and
+                                    what kind of storyboard will help the reader understand your idea better</span>
+                            </div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Create a storyboard for
+                                    future zine. Design the cover</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Work with empty space and
+                                    explore its purpose</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Adapting the story to a
+                                    convenient format and preparing it for publication
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="9">
+                    <div class="progress-line" id="9"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="9">10 УРОК - РОБОТА НАД ПРОЄКТОМ СТУДЕНТА</div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description"> Переглядаємо готову
+                                    роботу</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Підсумовуємо здобуті
+                                    знання</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Проходимо цікавий
+                                    мініквіз</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="9">lESSON 10 - WORK ON A STUDENT PROJECT</div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description"> Reviewing the finished
+                                    work</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Summarize the knowledge
+                                    gained</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Pass an interesting
+                                    mini-quiz</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-block">
+            <div class="extra">
+                <div class="advice UA">Для того аби реалізувати усі твої ідеї та попрактикувати здобуті
+                    знання радимо за можливості мати графічний планшет/пристрій зі стилусом. Тож з тебе
+                    – технічний аспект та бажання пізнати світ анімації, з нас – якісні та практичні знання,
+                    а ще класна атмосфера на заняттях. 
+                </div>
+                <div class="advice EN">In order to realize all your ideas and practice the knowledge you
+                     have gained we recommend that you have a graphic tablet/device with a stylus if possible.
+                      So, you bring the technical aspect and the desire to learn about the world of animation,
+                       we bring quality and practical knowledge, and a cool atmosphere at the class.
+                </div>
+                    <div class="sertificate-text UA">Отримаєш сертифікат-підтвердження твого успішного проходження курсу.</div>
+                    <div class="sertificate-text EN">You will receive a certificate confirming your successful completion of the
+                    course</div>
+                
+                <div class="sertificate"></div>
+            </div>
+            
+
+            <div class="title UA mainT">ПРО ВИКЛАДАЧА</div>
+            <div class="title EN mainT">ABOUT THE TEACHER
+            </div>
+            <div class="anika-block" id="teacher">
+                <div class="info UA"><span>Неллі!</span>- ініціативна і повна енергії. Викладачка, яка вже працює у сфері і створила анімацію для випуску Bromance podcast, ЦЕДЕМ та власної короткометражної історії «Unexpected».
+
+                </div>
+                <div class="info EN"><span>Nelly!</span>is proactive and full of energy. She is a teacher who already works in the field and has created animation for the Bromance podcast, CEDEM and her own short story "Unexpected".
+                </div>
+    
+                <div class="img"></div>
+            </div>
+            <div class="experiense">
+                <div class="block UA">
+                    <div class="title">ДОСВІД</div>
+                    <div class="info">
+                        <span>3 роки роботи аніматоркою та моушен дизайнеркою</span>
+                        <span>авторка короткометражної анімації «Unexpected», представленої на анімаційних фестивалях у різних країнах
+                        </span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EXPERIENCE</div>
+                    <div class="info">
+                        <span>3 years of experience as an animator and motion designer
+                        </span>
+                        <span>author of the short animation "Unexpected", presented at animation festivals in different countries
+                        </span>
+                    </div>
+                </div>
+                <div class="block UA">
+                    <div class="title">ОСВІТА</div>
+                    <div class="info">
+                        <span class="mini-title">Анімація</span>
+                        <span>Польсько-Японська Академія Комп'ютерних технологій</span>
+                        <span class="mini-title">Режисура анімаційного кіно</span>
+                        <span>Projector Professium</span>
+    
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EDUCATION</div>
+                    <div class="info">
+                        <span class="mini-title">Animation
+                        </span>
+                        <span>Polish-Japanese Academy of Computer Technology
+                        </span>
+                        <span class="mini-title">Animation film directing
+                        </span>
+                        <span>Projector Professium
+                        </span>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="works">
+                <div class="title UA">РОБОТИ НЕЛЛІ</div>
+                <div class="title EN">Nelli's work</div>
+
+            <div class="videos">
+                <div class="left" onclick="leftV()"></div>
+                <div class="right" onclick="rightV()"></div>
+                <div class="vid">
+                    <iframe src="https://player.vimeo.com/video/837201458?h=6f757bc77b" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                    <p><a href="https://vimeo.com/837201458">UNEXPECTED by Nelli Yaskula - Trailer</a> from <a href="https://vimeo.com/user143529720">Nelli Yaskula</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                </div>
+                <div class="vid">
+                    <iframe  src="https://www.youtube.com/embed/BrvDEai3XSM" title="Нове шоу на СТБ: БІДНІ, АЛЕ ПРИНЦИПОВІ || подкаст Bromance  з Щербиною та Алієвим" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="vid">
+                    <iframe  src="https://www.youtube.com/embed/nTFWIeab-3g" title="Механізм відсоткового відрахування" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+            
+            <div class="price" id="price">
+                <div class="title UA">ВАРТІСТЬ</div>
+                <div class="title EN">Price</div>
+                <div class="price-block">
+                    <div class="title UA">5000 ГРН</div>
+                    <div class="title EN">5000 UAH</div>
+                    <div class="info UA">
+                        <span> 10 занять</span>
+                        <span> навички роботи в Adobe Animate </span>
+                        <span> розуміння базових принципів створення анімації</span>
+                        <span> власний анімаційний ролик для портфоліо</span>
+                        <span> сертифікат підтвердження проходження курсу</span>
+                    </div>
+                    <div class="info EN">
+                        <span> 10 lessons
+                        </span>
+                        <span> basic skills in Adobe Animate</span>
+                        <span> understanding of the basic principles of animation creation</span>
+                        <span> own animated video for your portfolio
+                        </span>
+                        <span> certificate of completion of the course</span>
+                    </div>
+                    <div class="price EN" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> CHOOSE</div>
+                        <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-menu">
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                    <a href="#about"><span class="UA">Про курс</span></a>
+                    <a href="#about"><span class="EN">About course</span></a>
+                    <a href="#program"><span class="UA">Програма курсу</span></a>
+                    <a href="#program"><span class="EN">Course program</span></a>
+                    <a href="#teacher"><span class="UA">Про викладача</span></a>
+                    <a href="#teacher"><span class="EN">About teacher</span></a>
+                    <a href="#price"><span class="UA">Вартість</span></a>
+                    <a href="#price"><span class="EN">Price</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="animation.js"></script>
+</body>
+</html>

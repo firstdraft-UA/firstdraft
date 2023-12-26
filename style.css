@@ -1,0 +1,4040 @@
+@import url("./base.css");
+@import url("./font.css");
+html {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-tap-highlight-color: transparent;
+}
+html::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+main {
+  width: 100%;
+  height: 284vw;
+  background-image: url(./images/img11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "KTS-black";
+}
+main .menu-mobile {
+  display: none;
+}
+main .imgg {
+  background-image: url(./images/logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 9.02vw;
+  height: 8.33vw;
+  position: absolute;
+  top: 2vw;
+  left: 2vw;
+}
+main .header {
+  height: 63vw;
+}
+main .header .lang-buttons {
+  position: absolute;
+  width: 4.16vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.11vw;
+  top: 0.69vw;
+  right: 1.38vw;
+  cursor: pointer;
+}
+main .header .lang-buttons .en-button:hover {
+  color: rgb(130, 68, 181);
+}
+main .header .lang-buttons .ukr-button:hover {
+  color: rgb(130, 68, 181);
+}
+main .header .lang-buttons .en-button::after {
+  content: "/";
+  font-size: 1.11vw;
+  position: absolute;
+  right: 1.38vw;
+}
+main .header .buttons {
+  height: 80px;
+  width: 56.25%;
+  margin: 2.46% 3% 0px 0px;
+  float: right;
+  padding: 1.9% 0px 0px 0px;
+}
+main .header .buttons span {
+  float: left;
+  margin-right: 12.5%;
+  font-size: 1.45vw;
+  color: black;
+}
+main .header .buttons .button {
+  margin: 0px;
+}
+main .header .title {
+  width: 36.8vw;
+  height: 18.05vw;
+  margin-top: 19.5vw;
+  margin-left: 18%;
+  font-weight: lighter;
+  background-image: url(./images/firstdraft.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+main .main {
+  width: 100%;
+  height: 166vw;
+  padding-top: 11.11vw;
+}
+main .main .main-top {
+  width: 55.5vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+main .main .main-top .about {
+  width: 35.44vw;
+  height: 20.13vw;
+}
+main .main .main-top .about .title {
+  display: block;
+  font-size: 2.5vw;
+  margin-bottom: 4vw;
+}
+main .main .main-top .about .EN {
+  display: none;
+}
+main .main .main-top .about p {
+  margin-bottom: 1.73vw;
+  font-size: 1.3vw;
+  line-height: 1.85vw;
+  position: relative;
+}
+main .main .main-top .about p::after {
+  content: "";
+  position: absolute;
+  width: 0.55vw;
+  height: 0.13vw;
+  background-color: black;
+  left: -1.04vw;
+  top: 1.04vw;
+}
+main .main .main-top .about .last {
+  margin-bottom: 0px;
+}
+main .main .main-top .img img {
+  margin-top: 6.8vw;
+  width: 15.81vw;
+  height: 15vw;
+}
+main .main .main-midle {
+  padding-top: 30px;
+  width: 53.55vw;
+  height: 41.51vw;
+  margin: 18.58vw auto 0px;
+}
+main .main .main-midle .top,
+main .main .main-midle .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+main .main .main-midle span {
+  font-size: 3.08vw;
+  display: block;
+}
+main .main .main-midle .EN {
+  display: none;
+}
+main .main .main-midle .editing {
+  width: 18.9vw;
+  height: 20.75vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/editing.png);
+}
+main .main .main-midle .editing span {
+  margin-top: 12vw;
+  margin-left: -1.84vw;
+}
+main .main .main-midle .gdesign {
+  height: 16.29vw;
+  width: 17.96vw;
+  margin-right: 1.2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/graphicdesign\ \(2\).png);
+}
+main .main .main-midle .gdesign span {
+  margin-top: 0.6vw;
+  margin-left: -4.94vw;
+  line-height: 3.7vw;
+}
+main .main .main-midle .animation {
+  height: 17.96vw;
+  width: 22.12vw;
+  margin-left: 0.6vw;
+  margin-top: 3.08vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/animation.png);
+}
+main .main .main-midle .animation span {
+  margin-top: 12.37vw;
+  margin-left: 4.94vw;
+}
+main .main .main-midle .illustration {
+  height: 19.5vw;
+  width: 24.78vw;
+  margin-right: 1.97vw;
+  margin-top: 0.6vw;
+  margin: 0.6vw 1.97vw 0px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(./images/illustration.png);
+}
+main .main .main-midle .illustration span {
+  margin-top: 7.18vw;
+  margin-left: 1.22vw;
+}
+main .main .main-bottom {
+  width: 49.3vw;
+  height: 26.38vw;
+  background-image: url(./images/freelesson.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20.83vw;
+  margin-left: 33vw;
+}
+main .main .main-bottom span {
+  display: block;
+  position: absolute;
+  margin-top: 11.31vw;
+  margin-left: -3.47vw;
+  font-size: 3.1vw;
+}
+main .main .main-bottom .EN {
+  display: none;
+}
+main .footer {
+  width: 100%;
+  height: 54.86vw;
+  padding: 9.93vw 0px 0px 10.76vw;
+}
+main .footer .main-block {
+  display: flex;
+  height: 37.4vw;
+}
+main .footer .main-block .left-block .contacts {
+  width: 21.52vw;
+  height: 4.51vw;
+  background-image: url(./images/contacts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1.45vw;
+  padding-left: 2.77vw;
+  margin-bottom: 3.81vw;
+}
+main .footer .main-block .left-block .contacts span {
+  font-size: 2.5vw;
+}
+main .footer .main-block .left-block p {
+  margin-bottom: 2.43vw;
+  margin-left: 2.77vw;
+  font-size: 1.11vw;
+}
+main .footer .main-block .left-block .social {
+  width: 13.88vw;
+  margin-top: 5.2vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.77vw;
+}
+main .footer .main-block .left-block .social .instagram {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .footer .main-block .left-block .social .facebook {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/facebook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .footer .main-block .left-block .social .tik-tok {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/tiktok.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .footer .main-block .center-block {
+  width: 31.25vw;
+  margin-left: 2.43vw;
+}
+main .footer .main-block .center-block .reg {
+  margin-top: 3.12vw;
+  margin-left: 12.5vw;
+  width: 18.4vw;
+}
+main .footer .main-block .center-block .reg input {
+  width: 18.4vw;
+  height: 2.77vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 1.25vw;
+  font-family: "KTS-black";
+}
+main .footer .main-block .center-block .reg input::-moz-placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+main .footer .main-block .center-block .reg input::placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+main .footer .main-block .center-block .send {
+  cursor: pointer;
+  width: 30.9vw;
+  height: 19.09vw;
+  background-image: url(./images/send.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .footer .main-block .center-block .send span {
+  position: absolute;
+  font-size: 1.5vw;
+  margin-top: 12.5vw;
+  margin-left: 20.13vw;
+}
+main .footer .main-block .center-block .send .EN {
+  display: none;
+}
+main .footer .main-block .right-block {
+  width: 16.31vw;
+  height: 25.69vw;
+  background-image: url(./images/form.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+main .footer .main-block .right-block span {
+  display: block;
+  font-size: 3.2vw;
+  margin-top: 2.43vw;
+  margin-left: 4.86vw;
+}
+main .footer .main-block .right-block .EN {
+  display: none;
+}
+main .footer .bottom-block {
+  width: 35.83vw;
+  height: 6.94vw;
+  margin-left: 50.29vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vw;
+}
+main .footer .bottom-block span {
+  color: rgb(223, 223, 223);
+  font-size: 1.6vw;
+}
+main .footer .bottom-block a {
+  text-decoration: none;
+}
+main .EN {
+  display: none;
+}
+
+.editing {
+  width: 100vw;
+  max-height: 703.3vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "KTS-black";
+}
+.editing .menu-mobile {
+  display: none;
+}
+.editing a {
+  text-decoration: none;
+  color: black;
+}
+.editing .EN {
+  display: none;
+}
+.editing .logo {
+  width: 9.02vw;
+  height: 8.68vw;
+  background-image: url(./images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 2;
+  top: 2.56vw;
+  left: 2.56vw;
+}
+.editing .top-block {
+  width: 100vw;
+  height: 221.5vw;
+  padding-top: 1.73vw;
+  background-image: url(./images/editing/top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.editing .top-block .lang-buttons {
+  position: absolute;
+  width: 4.16vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.11vw;
+  top: 0.69vw;
+  right: 1.38vw;
+  cursor: pointer;
+}
+.editing .top-block .lang-buttons .en-button:hover {
+  color: rgb(130, 68, 181);
+}
+.editing .top-block .lang-buttons .ukr-button:hover {
+  color: rgb(130, 68, 181);
+}
+.editing .top-block .lang-buttons .en-button::after {
+  content: "/";
+  font-size: 1.11vw;
+  position: absolute;
+  right: 1.38vw;
+}
+.editing .top-block .menu {
+  width: 64.58vw;
+  height: 6.04vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.38vw;
+  margin-left: auto;
+  margin-right: 2.56vw;
+  padding-top: 1.73vw;
+}
+.editing .top-block .menu a:hover {
+  color: rgb(130, 68, 181);
+  transition-duration: 0.2s;
+}
+.editing .top-block .mtitle {
+  display: block;
+  text-align: center;
+  margin-top: 10.76vw;
+  font-size: 3.12vw;
+  line-height: 3.2vw;
+}
+.editing .top-block .EN {
+  display: none;
+}
+.editing .top-block .description {
+  text-align: center;
+  font-size: 1.4vw;
+  font-family: "KTS";
+  margin-top: 0vw;
+  line-height: 2vw;
+}
+.editing .top-block .description span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.editing .top-block .description .button {
+  width: 30vw;
+  height: 4vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 1vw;
+  background-color: rgb(245, 219, 88);
+  border-radius: 1vw;
+  border: 1.5px solid black;
+  margin: 2vw auto;
+  cursor: pointer;
+}
+.editing .top-block .question-block {
+  width: 29.86vw;
+  height: 37.98vw;
+  margin: 13.61vw 0px 0px 36.8vw;
+  padding-top: 5vw;
+}
+.editing .top-block .question-block .title {
+  text-align: left;
+  font-size: 2.22vw;
+  margin: 0px 0px 4.16vw;
+}
+.editing .top-block .question-block span {
+  display: block;
+  font-family: "KTS";
+  margin-bottom: 5.55vw;
+  font-size: 1.59vw;
+  line-height: 2.08vw;
+  position: relative;
+}
+.editing .top-block .question-block span::after {
+  content: "";
+  width: 1.041vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.editing .top-block .foryou-block {
+  width: 68.4vw;
+  height: 33.75vw;
+  margin: 26.04vw 18.19vw 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.editing .top-block .foryou-block .img {
+  width: 21.66vw;
+  height: 33.42vw;
+  background-image: url(./images/editing/illustration3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .top-block .foryou-block .text {
+  width: 35.34vw;
+  height: 30.06vw;
+}
+.editing .top-block .foryou-block .text .title {
+  text-align: left;
+  font-size: 2.29vw;
+  line-height: 2.43vw;
+  margin: 0px 0px 4.16vw;
+}
+.editing .top-block .foryou-block .text span {
+  display: block;
+  font-family: "KTS";
+  margin-bottom: 3.12vw;
+  font-size: 1.59vw;
+  line-height: 2.08vw;
+  position: relative;
+}
+.editing .top-block .foryou-block .text span::after {
+  content: "";
+  width: 1.04vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.editing .top-block .block {
+  width: 32.29vw;
+  height: 37.77vw;
+  margin: 20.27vw 34.23vw 0px;
+  padding-top: 10vw;
+}
+.editing .top-block .block .title {
+  text-align: center;
+  font-size: 2.56vw;
+  margin-bottom: 7.63vw;
+  margin-top: 0px;
+}
+.editing .top-block .block .info {
+  width: 100%;
+}
+.editing .top-block .block .info span {
+  display: block;
+  margin-bottom: 3.47vw;
+  font-size: 1.38vw;
+  margin-left: 1.73vw;
+  position: relative;
+}
+.editing .top-block .block .info span::after {
+  content: "";
+  width: 2.98vw;
+  height: 2.98vw;
+  border-radius: 100%;
+  background: rgb(47, 255, 172);
+  position: absolute;
+  top: 5%;
+  left: -4.16vw;
+}
+.editing .top-block .block .info span::before {
+  content: "";
+  width: 1.87vw;
+  height: 1.87vw;
+  border-radius: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 25%;
+  left: -3.61vw;
+  z-index: 2;
+}
+.editing .top-block .block .info .first::after {
+  top: -0.69vw;
+}
+.editing .top-block .block .info .first::before {
+  top: 0px;
+  background-image: url(./images/editing/icon.png);
+}
+.editing .top-block .block .info .second::before {
+  height: 1.18vw;
+  top: 37%;
+  left: -3.81vw;
+  width: 2.43vw;
+  background-image: url(./images/editing/icon2.png);
+}
+.editing .top-block .block .info .last::before {
+  background-image: url(./images/editing/icon3.png);
+}
+.editing .top-block .block .info .last2 {
+  padding-top: 0.9vw;
+  margin-bottom: 0px;
+}
+.editing .middle-block {
+  width: 100vww;
+  max-height: 220vw;
+  background-image: url(./images/editing/middle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 4.86vw;
+}
+.editing .middle-block .course-progress-block {
+  width: 59.93vw;
+  max-height: 220vw;
+  margin: auto;
+}
+.editing .middle-block .course-progress-block .block {
+  padding-left: 1.11vw;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+  height: 7.29vw;
+  transition: 0.3s;
+  transition-timing-function: ease-in, ease, linear;
+}
+.editing .middle-block .course-progress-block .block .line {
+  width: 2.43vw;
+  height: 2.43vw;
+  border: 0.277vw solid black;
+  border-radius: 100%;
+  margin-right: 0.69;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  font-size: 1.52vw;
+}
+.editing .middle-block .course-progress-block .block .line::after {
+  content: "";
+  width: 2.08vw;
+  height: 0.34vw;
+  background-color: black;
+  position: absolute;
+  top: 0.9vw;
+  left: -2.08vw;
+}
+.editing .middle-block .course-progress-block .block .progress-line,
+.editing .middle-block .course-progress-block .block .green {
+  width: 0.34vw;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: 2.43vw;
+  display: block;
+}
+.editing .middle-block .course-progress-block .block .progress-line::after,
+.editing .middle-block .course-progress-block .block .green::after {
+  content: "1";
+  font-size: 1.52vw;
+  text-align: center;
+  width: 2.08vw;
+  height: 2.08vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.277vw solid black;
+  border-radius: 100%;
+  position: absolute;
+  top: -2.43vw;
+  left: -1.11vw;
+}
+.editing .middle-block .course-progress-block .block .info {
+  width: 50vw;
+  margin-top: 0.34vw;
+}
+.editing .middle-block .course-progress-block .block .info .title {
+  font-size: 1.38vw;
+  margin-bottom: 1.38vw;
+  cursor: pointer;
+}
+.editing .middle-block .course-progress-block .block .info .text {
+  width: 36.24vw;
+  margin-left: 4.16vw;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: "KTS";
+  transition-property: max-height;
+  transition-timing-function: ease-in, ease, linear;
+}
+.editing .middle-block .course-progress-block .block .info .text .add-info {
+  position: absolute;
+  width: 63.8vw;
+  height: 6.52vw;
+  background-image: url(./images/editing/dodatkovo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2.08vw;
+  padding-right: 4vw;
+  font-size: 1.11vw;
+}
+.editing .middle-block .course-progress-block .block .info .text span {
+  font-size: 1.111vw;
+}
+.editing .middle-block .course-progress-block .block .info .text .text-line {
+  display: flex;
+  justify-content: space-between;
+}
+.editing .middle-block .course-progress-block .block .info .text .text-line span {
+  display: block;
+  margin-bottom: 1.38vw;
+}
+.editing .middle-block .course-progress-block .block .info .text .text-line .description {
+  width: 34.72vw;
+}
+.editing .middle-block .course-progress-block .block:nth-child(2) .progress-line::after {
+  content: "2";
+}
+.editing .middle-block .course-progress-block .block:nth-child(3) .progress-line::after {
+  content: "3";
+}
+.editing .middle-block .course-progress-block .block:nth-child(4) .progress-line::after {
+  content: "4";
+}
+.editing .middle-block .course-progress-block .block:nth-child(5) .progress-line::after {
+  content: "5";
+}
+.editing .middle-block .course-progress-block .block:nth-child(6) .progress-line::after {
+  content: "7";
+}
+.editing .middle-block .course-progress-block .block:nth-child(7) .progress-line::after {
+  content: "8";
+}
+.editing .middle-block .course-progress-block .block:nth-child(8) .progress-line::after {
+  content: "9";
+}
+.editing .middle-block .course-progress-block .block:nth-child(9) {
+  width: 76.3vw;
+}
+.editing .middle-block .course-progress-block .block:nth-child(9) .info {
+  width: 66.58vw;
+}
+.editing .middle-block .course-progress-block .block:nth-child(9) .progress-line::after {
+  content: "10";
+}
+.editing .middle-block .course-progress-block .block:nth-child(10) .progress-line::after {
+  content: "12";
+}
+.editing .middle-block .course-progress-block .block:nth-child(11) .progress-line::after {
+  content: "13";
+}
+.editing .middle-block .course-progress-block .block:nth-child(12) .progress-line::after {
+  content: "14";
+}
+.editing .middle-block .course-progress-block .block:nth-child(13) .progress-line::after {
+  content: "15";
+}
+.editing .middle-block .course-progress-block .block:nth-child(14) .progress-line::after {
+  content: "16";
+}
+.editing .middle-block .course-progress-block .block:nth-child(15) .progress-line {
+  background-color: transparent;
+}
+.editing .middle-block .course-progress-block .block:nth-child(15) .progress-line::after {
+  content: "17";
+}
+.editing .middle-block .sertificate-text {
+  width: 65.97vw;
+  height: 5.2vw;
+  background-image: url(./images/editing/certificate\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  text-align: center;
+  font-size: 1.45vw;
+  margin: auto;
+  padding-top: 1.38vw;
+}
+.editing .middle-block .sertificate {
+  width: 52.77vw;
+  height: 31.25vw;
+  margin: auto;
+  background-image: url(./images/editing/Group\ 203.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.25vw;
+}
+.editing .middle-block .EN {
+  display: none;
+}
+.editing .bottom-block1 {
+  width: 100vw;
+  height: 262.5vw;
+  background-image: url(./images/editing/bottom.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 30.58vw;
+  position: relative;
+}
+.editing .bottom-block1 .title {
+  text-align: center;
+  font-size: 3vw;
+  margin-bottom: 6vw;
+}
+.editing .bottom-block1 .EN {
+  display: none;
+}
+.editing .bottom-block1 .yara-block {
+  width: 59vw;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.editing .bottom-block1 .yara-block .info {
+  width: 24.09vw;
+  height: 10.41vw;
+  margin-top: auto;
+  font-family: "KTS";
+  margin-left: 1.38vw;
+  font-size: 1.31vw;
+  line-height: 1.52vw;
+  margin-bottom: 1.38vw;
+}
+.editing .bottom-block1 .yara-block .info span {
+  font-size: 2.08vw;
+}
+.editing .bottom-block1 .yara-block .img {
+  width: 26.04vw;
+  height: 25vw;
+  background-image: url(./images/editing/square.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 1.38vw;
+}
+.editing .bottom-block1 .yara-block .img::after {
+  content: "";
+  width: 34vw;
+  height: 29.16vw;
+  position: absolute;
+  background-image: url(./images/editing/circle\ \(1\).png);
+  background-size: contain;
+  top: -4.16vw;
+  left: -5.2vw;
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+.editing .bottom-block1 .yara-block .img::before {
+  content: "";
+  width: 27.08vw;
+  height: 25vw;
+  position: absolute;
+  background-image: url(./images/editing/yara.jpeg);
+  background-size: contain;
+  z-index: 1;
+  top: -1.38vw;
+  left: -1.38vw;
+  background-repeat: no-repeat;
+}
+.editing .bottom-block1 .experiense {
+  width: 69.4vw;
+  height: 18.05vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16vw;
+  margin-top: 5.9vw;
+}
+.editing .bottom-block1 .experiense .block {
+  width: 32.08vw;
+}
+.editing .bottom-block1 .experiense .block .title {
+  text-align: left;
+  margin-bottom: 2.43vw;
+  font-size: 1.73vw;
+}
+.editing .bottom-block1 .experiense .block span {
+  display: block;
+  margin-bottom: 1.38vw;
+  font-family: "KTS";
+  font-size: 1.25vw;
+  line-height: 1.52vw;
+}
+.editing .bottom-block1 .experiense .block .mini-title {
+  font-family: "KTS-black";
+}
+.editing .bottom-block1 .experiense .block:nth-child(1) {
+  width: 25vw;
+}
+.editing .bottom-block1 .experiense .block:nth-child(1) span {
+  position: relative;
+}
+.editing .bottom-block1 .experiense .block:nth-child(1) span::after {
+  content: "";
+  width: 1.04vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.editing .bottom-block1 .experiense .block:nth-child(2) {
+  width: 32.08vw;
+}
+.editing .bottom-block1 .works {
+  text-align: center;
+  margin-top: 12.5vw;
+}
+.editing .bottom-block1 .works .title {
+  font-size: 2.22vw;
+  margin-bottom: 2.77vw;
+}
+.editing .bottom-block1 .works .info {
+  width: 52.08vw;
+  font-family: "KTS";
+  font-size: 1.31vw;
+  margin: auto;
+  line-height: 1.52vw;
+}
+.editing .bottom-block1 .comments {
+  width: 50vw;
+  height: 14vw;
+  position: relative;
+  margin: 8.33vw auto 0px;
+}
+.editing .bottom-block1 .comments .comments-block {
+  width: 50vw;
+  height: 14vw;
+  overflow: hidden;
+  position: relative;
+}
+.editing .bottom-block1 .comments .comments-block .comment {
+  background-image: url(./images/editing/bubblereview.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 13.19vw;
+  font-family: "KTS";
+  font-size: 1.25vw;
+  text-align: center;
+  line-height: 1.52vw;
+  padding: 2.08vw 5.2vw;
+  position: relative;
+  float: left;
+  position: relative;
+}
+.editing .bottom-block1 .comments .comments-block .comment .comment-text {
+  transition-property: opacity;
+  transition: 0.2s;
+}
+.editing .bottom-block1 .comments .comments-block .comment .comment-text .name {
+  position: absolute;
+  bottom: 3.5vw;
+  right: 5vw;
+  font-weight: bold;
+}
+.editing .bottom-block1 .comments .left,
+.editing .bottom-block1 .comments .right {
+  width: 1.875vw;
+  height: 4.444vw;
+  position: absolute;
+  top: 4.16vw;
+  cursor: pointer;
+  background-image: url(./images/editing/left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .bottom-block1 .comments .left {
+  left: -5.55vw;
+}
+.editing .bottom-block1 .comments .right {
+  right: -5.55vw;
+  background-image: url(./images/editing/right.png);
+}
+.editing .bottom-block1 .wtitle {
+  font-size: 2.22vw;
+  text-align: center;
+  margin-top: 7.5vw;
+}
+.editing .bottom-block1 .videos {
+  width: 45.48vw;
+  height: 30.83vw;
+  background-image: url(./images/editing/element9\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 3vw auto 0px;
+  padding-top: 4.86vw;
+  position: relative;
+}
+.editing .bottom-block1 .videos .left,
+.editing .bottom-block1 .videos .right {
+  width: 1.87vw;
+  height: 4.44vw;
+  position: absolute;
+  top: 12.33vw;
+  background-image: url(./images/editing/left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .bottom-block1 .videos .left {
+  left: -9.72vw;
+}
+.editing .bottom-block1 .videos .right {
+  right: -9.72vw;
+  background-image: url(./images/editing/right.png);
+}
+.editing .bottom-block1 .videos .vid {
+  width: 40.27vw;
+  height: 22.22vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+}
+.editing .bottom-block1 .videos .vid iframe {
+  width: 40.27vw;
+  height: 22.22vw;
+}
+.editing .bottom-block1 .videos .vid iframe p {
+  font-size: 1vw;
+}
+.editing .bottom-block1 .price {
+  margin-top: 14.93vw;
+}
+.editing .bottom-block1 .price .title {
+  font-size: 2.77vw;
+  text-align: center;
+}
+.editing .bottom-block1 .price .price-blocks {
+  width: 76.38vw;
+  height: 34.72vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 9.02vw auto 0px;
+}
+.editing .bottom-block1 .price .price-blocks .price-block {
+  width: 32.63vw;
+  height: 100%;
+  background-image: url(./images/editing/cost1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 3.12vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .EN {
+  display: none;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .title {
+  font-size: 3.12vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .info {
+  width: 19.09vw;
+  height: 19.09vw;
+  margin-top: 4.86vw;
+  margin-left: 9.37vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .info h1 {
+  font-family: "KTS";
+  margin: -1.04vw 0px 1.73vw 0px;
+  font-size: 1.11vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .info span {
+  display: block;
+  margin-bottom: 1.73vw;
+  font-size: 1.11vw;
+  position: relative;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .info span::after {
+  content: "";
+  width: 0.8vw;
+  height: 0.15vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block .price {
+  width: 25.69vw;
+  height: 2.43vw;
+  margin: 1.08vw 0px 0px 4.51vw;
+  text-align: center;
+  padding-top: 0.55vw;
+  font-size: 1.38vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) {
+  background-image: url(./images/editing/cost2.png);
+}
+.editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) .info {
+  margin-left: 6.94vw;
+}
+.editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) .price {
+  margin-left: 2.77vw;
+}
+.editing .bottom-block1 .description {
+  text-align: center;
+  font-size: 1.4vw;
+  font-family: "KTS";
+  margin-top: 5vw;
+  line-height: 2vw;
+}
+.editing .bottom-block1 .description .button {
+  width: 30vw;
+  height: 4vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 1vw;
+  background-color: rgb(245, 219, 88);
+  border-radius: 1vw;
+  border: 1.5px solid black;
+  margin: 2vw auto;
+  cursor: pointer;
+}
+.editing .bottom-block1 .bottom-menu {
+  width: 69.44vw;
+  height: 6.94vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.43vw;
+  position: absolute;
+  bottom: 0px;
+  right: 7.63vw;
+  font-size: 1.52vw;
+}
+.editing .bottom-block1 .bottom-menu span {
+  color: white;
+}
+.editing .add-block {
+  width: 100vw;
+  height: 10vw;
+  background-image: url(./images/editing/addbottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.editing .footer {
+  width: 100%;
+  height: 51.4vw;
+  padding: 6.93vw 0px 0px 10.76vw;
+  background-image: url(./images/bottomInfo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.editing .footer .main-block {
+  display: flex;
+  height: 37.4vw;
+}
+.editing .footer .main-block .left-block .contacts {
+  width: 21.52vw;
+  height: 4.51vw;
+  background-image: url(./images/contacts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1.45vw;
+  padding-left: 2.77vw;
+  margin-bottom: 3.81vw;
+}
+.editing .footer .main-block .left-block .contacts span {
+  font-size: 2.5vw;
+}
+.editing .footer .main-block .left-block p {
+  margin-bottom: 2.43vw;
+  margin-left: 2.77vw;
+  font-size: 1.11vw;
+}
+.editing .footer .main-block .left-block .social {
+  width: 13.88vw;
+  margin-top: 5.2vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2.77vw;
+}
+.editing .footer .main-block .left-block .social .instagram {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .footer .main-block .left-block .social .facebook {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/facebook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .footer .main-block .left-block .social .tik-tok {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/tiktok.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .footer .main-block .center-block {
+  width: 31.25vw;
+  margin-left: 2.43vw;
+}
+.editing .footer .main-block .center-block .reg {
+  margin-top: 3.12vw;
+  margin-left: 12.5vw;
+  width: 18.4vw;
+}
+.editing .footer .main-block .center-block .reg input {
+  width: 18.4vw;
+  height: 2.77vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 1.25vw;
+  font-family: "KTS-black";
+}
+.editing .footer .main-block .center-block .reg input::-moz-placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+.editing .footer .main-block .center-block .reg input::placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+.editing .footer .main-block .center-block .send {
+  width: 30.9vw;
+  height: 19.09vw;
+  background-image: url(./images/send.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .footer .main-block .center-block .send span {
+  position: absolute;
+  font-size: 1.5vw;
+  margin-top: 12.5vw;
+  margin-left: 20.13vw;
+}
+.editing .footer .main-block .center-block .send .EN {
+  display: none;
+}
+.editing .footer .main-block .right-block {
+  width: 16.31vw;
+  height: 25.69vw;
+  background-image: url(./images/form.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.editing .footer .main-block .right-block span {
+  display: block;
+  font-size: 3.2vw;
+  margin-top: 2.43vw;
+  margin-left: 4.86vw;
+}
+.editing .footer .main-block .right-block .EN {
+  display: none;
+}
+.editing .footer .bottom-block {
+  width: 35.83vw;
+  height: 6.94vw;
+  margin-left: 50.29vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vw;
+}
+.editing .footer .bottom-block span {
+  color: rgb(223, 223, 223);
+  font-size: 1.6vw;
+}
+.editing .footer .bottom-block a {
+  text-decoration: none;
+}
+
+.illustration,
+.animation,
+.graphic {
+  width: 100vw;
+  font-family: "KTS-black";
+}
+.illustration .menu, .illustration .menu-mobile,
+.animation .menu,
+.animation .menu-mobile,
+.graphic .menu,
+.graphic .menu-mobile {
+  display: none;
+}
+.illustration a,
+.animation a,
+.graphic a {
+  text-decoration: none;
+  color: black;
+}
+.illustration .EN,
+.animation .EN,
+.graphic .EN {
+  display: none;
+}
+.illustration .logo,
+.animation .logo,
+.graphic .logo {
+  width: 9.02vw;
+  height: 8.68vw;
+  background-image: url(./images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 2.56vw;
+  left: 2.56vw;
+}
+.illustration .top-block,
+.animation .top-block,
+.graphic .top-block {
+  width: 100%;
+  height: 383.68vw;
+  background-image: url(./images/illustration/top.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1.5vw;
+}
+.illustration .top-block .lang-buttons,
+.animation .top-block .lang-buttons,
+.graphic .top-block .lang-buttons {
+  position: absolute;
+  width: 4.16vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.11vw;
+  top: 0.69vw;
+  right: 1.38vw;
+  cursor: pointer;
+}
+.illustration .top-block .lang-buttons .en-button:hover,
+.animation .top-block .lang-buttons .en-button:hover,
+.graphic .top-block .lang-buttons .en-button:hover {
+  color: rgb(130, 68, 181);
+}
+.illustration .top-block .lang-buttons .ukr-button:hover,
+.animation .top-block .lang-buttons .ukr-button:hover,
+.graphic .top-block .lang-buttons .ukr-button:hover {
+  color: rgb(130, 68, 181);
+}
+.illustration .top-block .lang-buttons .en-button::after,
+.animation .top-block .lang-buttons .en-button::after,
+.graphic .top-block .lang-buttons .en-button::after {
+  content: "/";
+  font-size: 1.11vw;
+  position: absolute;
+  right: 1.38vw;
+}
+.illustration .top-block .menu,
+.animation .top-block .menu,
+.graphic .top-block .menu {
+  background-image: url(./images/illustration/menu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 71.5vw;
+  height: 6.94vw;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.38vw;
+  margin-left: auto;
+  padding: 2.5vw 2.77vw 0px 4.51vw;
+}
+.illustration .top-block .main-title .title,
+.animation .top-block .main-title .title,
+.graphic .top-block .main-title .title {
+  background-image: url(./images/illustration/title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48.95vw;
+  height: 12.15vw;
+  font-size: 3.12vw;
+  text-align: center;
+  margin: 9.37vw auto 0px;
+  padding-top: 5vw;
+}
+.illustration .top-block .main-title .description,
+.animation .top-block .main-title .description,
+.graphic .top-block .main-title .description {
+  margin: auto;
+  width: 42.36vw;
+  text-align: center;
+  font-size: 1.52vw;
+  font-family: "KTS";
+  margin-top: 4.5vw;
+}
+.illustration .top-block .question-block,
+.animation .top-block .question-block,
+.graphic .top-block .question-block {
+  width: 29.86vw;
+  height: 37.98vw;
+  margin: 18.61vw 0px 0px 36.8vw;
+  padding-top: 3.6vw;
+}
+.illustration .top-block .question-block .title,
+.animation .top-block .question-block .title,
+.graphic .top-block .question-block .title {
+  text-align: left;
+  font-size: 2.22vw;
+  margin: 0px 0px 4.16vw;
+}
+.illustration .top-block .question-block span,
+.animation .top-block .question-block span,
+.graphic .top-block .question-block span {
+  display: block;
+  font-family: "KTS";
+  margin-bottom: 5vw;
+  font-size: 1.59vw;
+  line-height: 2.08vw;
+  position: relative;
+}
+.illustration .top-block .question-block span::after,
+.animation .top-block .question-block span::after,
+.graphic .top-block .question-block span::after {
+  content: "";
+  width: 1.041vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.illustration .top-block .zin,
+.animation .top-block .zin,
+.graphic .top-block .zin {
+  width: 57vw;
+  margin: 25vw auto 0px;
+  text-align: center;
+}
+.illustration .top-block .zin .title,
+.animation .top-block .zin .title,
+.graphic .top-block .zin .title {
+  font-size: 3.47vw;
+  margin-bottom: 3.47vw;
+}
+.illustration .top-block .zin .termin,
+.animation .top-block .zin .termin,
+.graphic .top-block .zin .termin {
+  margin-bottom: 2.91vw;
+  font-size: 1.73vw;
+}
+.illustration .top-block .zin .description,
+.animation .top-block .zin .description,
+.graphic .top-block .zin .description {
+  font-size: 1.5vw;
+  font-family: "KTS";
+  line-height: 2vw;
+}
+.illustration .top-block .foryou-block,
+.animation .top-block .foryou-block,
+.graphic .top-block .foryou-block {
+  width: 34.72vw;
+  height: 38.88vw;
+  margin: 115.625vw 0px 0px 51.38vw;
+}
+.illustration .top-block .foryou-block .text,
+.animation .top-block .foryou-block .text,
+.graphic .top-block .foryou-block .text {
+  width: 35.34vw;
+  height: 30.06vw;
+}
+.illustration .top-block .foryou-block .text .title,
+.animation .top-block .foryou-block .text .title,
+.graphic .top-block .foryou-block .text .title {
+  text-align: left;
+  font-size: 2.29vw;
+  line-height: 2.43vw;
+  margin: 0px 0px 3.8vw;
+}
+.illustration .top-block .foryou-block .text span,
+.animation .top-block .foryou-block .text span,
+.graphic .top-block .foryou-block .text span {
+  display: block;
+  font-family: "KTS";
+  margin-bottom: 2.7vw;
+  font-size: 1.59vw;
+  line-height: 2.08vw;
+  position: relative;
+}
+.illustration .top-block .foryou-block .text span::after,
+.animation .top-block .foryou-block .text span::after,
+.graphic .top-block .foryou-block .text span::after {
+  content: "";
+  width: 1.04vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.illustration .top-block .block,
+.animation .top-block .block,
+.graphic .top-block .block {
+  width: 32.29vw;
+  height: 37.77vw;
+  margin: 27.27vw 33vw 0px;
+  padding-top: 10vw;
+}
+.illustration .top-block .block .title,
+.animation .top-block .block .title,
+.graphic .top-block .block .title {
+  text-align: center;
+  font-size: 2.56vw;
+  margin-bottom: 9.3vw;
+  margin-top: 0px;
+}
+.illustration .top-block .block .info,
+.animation .top-block .block .info,
+.graphic .top-block .block .info {
+  width: 100%;
+}
+.illustration .top-block .block .info span,
+.animation .top-block .block .info span,
+.graphic .top-block .block .info span {
+  display: block;
+  margin-bottom: 3.47vw;
+  font-size: 1.6vw;
+  margin-left: 1.73vw;
+  position: relative;
+}
+.illustration .top-block .block .info span::after,
+.animation .top-block .block .info span::after,
+.graphic .top-block .block .info span::after {
+  content: "";
+  width: 2.98vw;
+  height: 2.98vw;
+  border-radius: 100%;
+  background: rgb(47, 255, 172);
+  position: absolute;
+  top: 5%;
+  left: -4.16vw;
+}
+.illustration .top-block .block .info span::before,
+.animation .top-block .block .info span::before,
+.graphic .top-block .block .info span::before {
+  content: "";
+  width: 1.87vw;
+  height: 1.87vw;
+  border-radius: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 25%;
+  left: -3.61vw;
+  z-index: 2;
+}
+.illustration .top-block .block .info .first::after,
+.animation .top-block .block .info .first::after,
+.graphic .top-block .block .info .first::after {
+  top: -0.69vw;
+}
+.illustration .top-block .block .info .first::before,
+.animation .top-block .block .info .first::before,
+.graphic .top-block .block .info .first::before {
+  top: 0px;
+  background-image: url(./images/editing/icon.png);
+}
+.illustration .top-block .block .info .second::before,
+.animation .top-block .block .info .second::before,
+.graphic .top-block .block .info .second::before {
+  height: 1.18vw;
+  top: 37%;
+  left: -3.81vw;
+  width: 2.43vw;
+  background-image: url(./images/editing/icon2.png);
+}
+.illustration .top-block .block .info .last::before,
+.animation .top-block .block .info .last::before,
+.graphic .top-block .block .info .last::before {
+  background-image: url(./images/editing/icon3.png);
+}
+.illustration .middle-block,
+.animation .middle-block,
+.graphic .middle-block {
+  width: 100%;
+  max-height: 312.5vw;
+  background-image: url(./images/editing/middle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 6.94vw;
+}
+.illustration .middle-block .course-progress-block,
+.animation .middle-block .course-progress-block,
+.graphic .middle-block .course-progress-block {
+  width: 59.93vw;
+  max-height: 250vw;
+  margin: auto;
+}
+.illustration .middle-block .course-progress-block .block,
+.animation .middle-block .course-progress-block .block,
+.graphic .middle-block .course-progress-block .block {
+  padding-left: 1.11vw;
+  display: flex;
+  height: 7.29vw;
+  position: relative;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: 0.3s;
+  transition-timing-function: ease-in, ease, linear;
+}
+.illustration .middle-block .course-progress-block .block .line,
+.animation .middle-block .course-progress-block .block .line,
+.graphic .middle-block .course-progress-block .block .line {
+  width: 2.43vw;
+  height: 2.43vw;
+  border: 0.277vw solid black;
+  border-radius: 100%;
+  margin-right: 0.69;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  font-size: 1.52vw;
+}
+.illustration .middle-block .course-progress-block .block .line::after,
+.animation .middle-block .course-progress-block .block .line::after,
+.graphic .middle-block .course-progress-block .block .line::after {
+  content: "";
+  width: 2.08vw;
+  height: 0.34vw;
+  background-color: black;
+  position: absolute;
+  top: 0.9vw;
+  left: -2.08vw;
+}
+.illustration .middle-block .course-progress-block .block .progress-line,
+.illustration .middle-block .course-progress-block .block .green,
+.animation .middle-block .course-progress-block .block .progress-line,
+.animation .middle-block .course-progress-block .block .green,
+.graphic .middle-block .course-progress-block .block .progress-line,
+.graphic .middle-block .course-progress-block .block .green {
+  width: 0.34vw;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  margin-top: 2.43vw;
+  display: block;
+}
+.illustration .middle-block .course-progress-block .block .progress-line::after,
+.illustration .middle-block .course-progress-block .block .green::after,
+.animation .middle-block .course-progress-block .block .progress-line::after,
+.animation .middle-block .course-progress-block .block .green::after,
+.graphic .middle-block .course-progress-block .block .progress-line::after,
+.graphic .middle-block .course-progress-block .block .green::after {
+  content: "1";
+  font-size: 1.52vw;
+  text-align: center;
+  width: 2.08vw;
+  height: 2.08vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 0.277vw solid black;
+  border-radius: 100%;
+  position: absolute;
+  top: -2.43vw;
+  left: -1.11vw;
+}
+.illustration .middle-block .course-progress-block .block .info,
+.animation .middle-block .course-progress-block .block .info,
+.graphic .middle-block .course-progress-block .block .info {
+  width: 50vw;
+  margin-top: 0.34vw;
+}
+.illustration .middle-block .course-progress-block .block .info .title,
+.animation .middle-block .course-progress-block .block .info .title,
+.graphic .middle-block .course-progress-block .block .info .title {
+  font-size: 1.38vw;
+  margin-bottom: 1.38vw;
+  cursor: pointer;
+}
+.illustration .middle-block .course-progress-block .block .info .text,
+.animation .middle-block .course-progress-block .block .info .text,
+.graphic .middle-block .course-progress-block .block .info .text {
+  width: 36.24vw;
+  margin-left: 4.16vw;
+  max-height: 0px;
+  overflow: hidden;
+  transition: 0.2s;
+  font-family: "KTS";
+  transition-property: max-height;
+  transition-timing-function: ease-in, ease, linear;
+}
+.illustration .middle-block .course-progress-block .block .info .text .img,
+.animation .middle-block .course-progress-block .block .info .text .img,
+.graphic .middle-block .course-progress-block .block .info .text .img {
+  width: 21.18vw;
+  height: 4.16vw;
+  background-image: url(./images/illustration/practical\ part.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "KTS-black";
+  padding: 1.38vw 0px 0px 1.04vw;
+  font-size: 1.38vw;
+  margin-bottom: 0.9vw;
+}
+.illustration .middle-block .course-progress-block .block .info .text .add-info,
+.animation .middle-block .course-progress-block .block .info .text .add-info,
+.graphic .middle-block .course-progress-block .block .info .text .add-info {
+  position: absolute;
+  width: 63.8vw;
+  height: 6.52vw;
+  background-image: url(./images/editing/dodatkovo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 2.08vw;
+  padding-right: 4vw;
+  font-size: 1.11vw;
+}
+.illustration .middle-block .course-progress-block .block .info .text span,
+.animation .middle-block .course-progress-block .block .info .text span,
+.graphic .middle-block .course-progress-block .block .info .text span {
+  font-size: 1.111vw;
+}
+.illustration .middle-block .course-progress-block .block .info .text .text-line,
+.animation .middle-block .course-progress-block .block .info .text .text-line,
+.graphic .middle-block .course-progress-block .block .info .text .text-line {
+  display: flex;
+  justify-content: space-between;
+}
+.illustration .middle-block .course-progress-block .block .info .text .text-line span,
+.animation .middle-block .course-progress-block .block .info .text .text-line span,
+.graphic .middle-block .course-progress-block .block .info .text .text-line span {
+  display: block;
+  margin-bottom: 1.38vw;
+}
+.illustration .middle-block .course-progress-block .block .info .text .text-line .description,
+.animation .middle-block .course-progress-block .block .info .text .text-line .description,
+.graphic .middle-block .course-progress-block .block .info .text .text-line .description {
+  width: 34.72vw;
+}
+.illustration .middle-block .course-progress-block .block:nth-child(2) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(2) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(2) .progress-line::after {
+  content: "2";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(3) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(3) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(3) .progress-line::after {
+  content: "3";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(4) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(4) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(4) .progress-line::after {
+  content: "4";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(5) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(5) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(5) .progress-line::after {
+  content: "5";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(6) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(6) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(6) .progress-line::after {
+  content: "6";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(7) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(7) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(7) .progress-line::after {
+  content: "7";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(8) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(8) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(8) .progress-line::after {
+  content: "8";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(9),
+.animation .middle-block .course-progress-block .block:nth-child(9),
+.graphic .middle-block .course-progress-block .block:nth-child(9) {
+  width: 76.3vw;
+}
+.illustration .middle-block .course-progress-block .block:nth-child(9) .info,
+.animation .middle-block .course-progress-block .block:nth-child(9) .info,
+.graphic .middle-block .course-progress-block .block:nth-child(9) .info {
+  width: 66.58vw;
+}
+.illustration .middle-block .course-progress-block .block:nth-child(9) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(9) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(9) .progress-line::after {
+  content: "9";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(10) .progress-line::after,
+.animation .middle-block .course-progress-block .block:nth-child(10) .progress-line::after,
+.graphic .middle-block .course-progress-block .block:nth-child(10) .progress-line::after {
+  content: "10";
+}
+.illustration .middle-block .course-progress-block .block:nth-child(10) .progress-line,
+.animation .middle-block .course-progress-block .block:nth-child(10) .progress-line,
+.graphic .middle-block .course-progress-block .block:nth-child(10) .progress-line {
+  background-color: transparent;
+}
+.illustration .middle-block .sertificate-text,
+.animation .middle-block .sertificate-text,
+.graphic .middle-block .sertificate-text {
+  width: 65.97vw;
+  height: 5.2vw;
+  background-image: url(./images/editing/certificate\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  text-align: center;
+  font-size: 1.45vw;
+  margin: auto;
+  padding-top: 1.38vw;
+}
+.illustration .middle-block .EN,
+.animation .middle-block .EN,
+.graphic .middle-block .EN {
+  display: none;
+}
+.illustration .middle-block .sertificate,
+.animation .middle-block .sertificate,
+.graphic .middle-block .sertificate {
+  width: 52.77vw;
+  height: 31.25vw;
+  margin: auto;
+  background-image: url(./images/illustration/Group\ 209.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.25vw;
+}
+.illustration .bottom-block,
+.animation .bottom-block,
+.graphic .bottom-block {
+  width: 100%;
+  height: 212.5vw;
+  background-image: url(./images/illustration/bottom.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 22.91vw;
+  position: relative;
+}
+.illustration .bottom-block .title,
+.animation .bottom-block .title,
+.graphic .bottom-block .title {
+  text-align: center;
+  font-size: 2.77vw;
+}
+.illustration .bottom-block .anika-block,
+.animation .bottom-block .anika-block,
+.graphic .bottom-block .anika-block {
+  width: 64.58vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 4.16vw auto 0px;
+}
+.illustration .bottom-block .anika-block .info,
+.animation .bottom-block .anika-block .info,
+.graphic .bottom-block .anika-block .info {
+  width: 28.47vw;
+  height: 10.41vw;
+  margin-top: auto;
+  font-family: "KTS";
+  margin-left: 6vw;
+  font-size: 1.31vw;
+  line-height: 1.52vw;
+  padding-top: 1.04vw;
+}
+.illustration .bottom-block .anika-block .info span,
+.animation .bottom-block .anika-block .info span,
+.graphic .bottom-block .anika-block .info span {
+  font-size: 1.78vw;
+}
+.illustration .bottom-block .anika-block .img,
+.animation .bottom-block .anika-block .img,
+.graphic .bottom-block .anika-block .img {
+  width: 24.3vw;
+  height: 32.91vw;
+  background-image: url(./images/illustration/teacher.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.illustration .bottom-block .experiense,
+.animation .bottom-block .experiense,
+.graphic .bottom-block .experiense {
+  width: 72.91vw;
+  height: 18.05vw;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13vw;
+  margin-top: 5.9vw;
+}
+.illustration .bottom-block .experiense .block,
+.animation .bottom-block .experiense .block,
+.graphic .bottom-block .experiense .block {
+  width: 33.33vw;
+}
+.illustration .bottom-block .experiense .block .title,
+.animation .bottom-block .experiense .block .title,
+.graphic .bottom-block .experiense .block .title {
+  margin-bottom: 2.43vw;
+  font-size: 1.73vw;
+  text-align: left;
+}
+.illustration .bottom-block .experiense .block span,
+.animation .bottom-block .experiense .block span,
+.graphic .bottom-block .experiense .block span {
+  display: block;
+  margin-bottom: 1.38vw;
+  font-family: "KTS";
+  font-size: 1.25vw;
+  line-height: 1.52vw;
+}
+.illustration .bottom-block .experiense .block .mini-title,
+.animation .bottom-block .experiense .block .mini-title,
+.graphic .bottom-block .experiense .block .mini-title {
+  font-family: "KTS-black";
+}
+.illustration .bottom-block .experiense .block:nth-child(1),
+.animation .bottom-block .experiense .block:nth-child(1),
+.graphic .bottom-block .experiense .block:nth-child(1) {
+  width: 27.08vw;
+}
+.illustration .bottom-block .experiense .block:nth-child(1) span,
+.animation .bottom-block .experiense .block:nth-child(1) span,
+.graphic .bottom-block .experiense .block:nth-child(1) span {
+  position: relative;
+}
+.illustration .bottom-block .experiense .block:nth-child(1) span::after,
+.animation .bottom-block .experiense .block:nth-child(1) span::after,
+.graphic .bottom-block .experiense .block:nth-child(1) span::after {
+  content: "";
+  width: 1.04vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.illustration .bottom-block .experiense .block:nth-child(1) .title,
+.animation .bottom-block .experiense .block:nth-child(1) .title,
+.graphic .bottom-block .experiense .block:nth-child(1) .title {
+  padding-left: 2.77vw;
+}
+.illustration .bottom-block .experiense .block:nth-child(2),
+.animation .bottom-block .experiense .block:nth-child(2),
+.graphic .bottom-block .experiense .block:nth-child(2) {
+  width: 32.08vw;
+}
+.illustration .bottom-block .experiense .block:nth-child(2) .title,
+.animation .bottom-block .experiense .block:nth-child(2) .title,
+.graphic .bottom-block .experiense .block:nth-child(2) .title {
+  padding-left: 2.08vw;
+}
+.illustration .bottom-block .comments,
+.animation .bottom-block .comments,
+.graphic .bottom-block .comments {
+  width: 50vw;
+  height: 14vw;
+  position: relative;
+  margin: 20.5vw auto 0px;
+}
+.illustration .bottom-block .comments .title,
+.animation .bottom-block .comments .title,
+.graphic .bottom-block .comments .title {
+  text-align: center;
+}
+.illustration .bottom-block .comments .comments-block,
+.animation .bottom-block .comments .comments-block,
+.graphic .bottom-block .comments .comments-block {
+  width: 50vw;
+  height: 19vw;
+  overflow: hidden;
+  position: relative;
+}
+.illustration .bottom-block .comments .comments-block .comments-line,
+.animation .bottom-block .comments .comments-block .comments-line,
+.graphic .bottom-block .comments .comments-block .comments-line {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  height: 16vw;
+  position: absolute;
+  left: 0px;
+  transition: 0.3s;
+}
+.illustration .bottom-block .comments .comments-block .comments-line .comment,
+.animation .bottom-block .comments .comments-block .comments-line .comment,
+.graphic .bottom-block .comments .comments-block .comments-line .comment {
+  background-image: url(./images/editing/bubblereview.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 13.6vw;
+  margin: 4.86vw auto 0px;
+  font-family: "KTS";
+  font-size: 1.25vw;
+  text-align: center;
+  line-height: 1.52vw;
+  padding: 2.08vw 5.2vw;
+  position: relative;
+  float: left;
+}
+.illustration .bottom-block .comments .left,
+.illustration .bottom-block .comments .right,
+.animation .bottom-block .comments .left,
+.animation .bottom-block .comments .right,
+.graphic .bottom-block .comments .left,
+.graphic .bottom-block .comments .right {
+  width: 1.875vw;
+  height: 4.444vw;
+  position: absolute;
+  top: 11.16vw;
+  background-image: url(./images/editing/left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .bottom-block .comments .left,
+.animation .bottom-block .comments .left,
+.graphic .bottom-block .comments .left {
+  left: -5.55vw;
+}
+.illustration .bottom-block .comments .right,
+.animation .bottom-block .comments .right,
+.graphic .bottom-block .comments .right {
+  right: -5.55vw;
+  background-image: url(./images/editing/right.png);
+  font-size: 2.22vw;
+}
+.illustration .bottom-block .price,
+.animation .bottom-block .price,
+.graphic .bottom-block .price {
+  margin-top: 18.93vw;
+}
+.illustration .bottom-block .price .title,
+.animation .bottom-block .price .title,
+.graphic .bottom-block .price .title {
+  font-size: 2.77vw;
+  text-align: center;
+}
+.illustration .bottom-block .price .price-block,
+.animation .bottom-block .price .price-block,
+.graphic .bottom-block .price .price-block {
+  width: 45.13vw;
+  height: 36.8vw;
+  background-image: url(./images/illustration/cost.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 3.12vw;
+  margin: 5.55vw auto 0px;
+}
+.illustration .bottom-block .price .price-block .EN,
+.animation .bottom-block .price .price-block .EN,
+.graphic .bottom-block .price .price-block .EN {
+  display: none;
+}
+.illustration .bottom-block .price .price-block .title,
+.animation .bottom-block .price .price-block .title,
+.graphic .bottom-block .price .price-block .title {
+  font-size: 3.12vw;
+}
+.illustration .bottom-block .price .price-block .info,
+.animation .bottom-block .price .price-block .info,
+.graphic .bottom-block .price .price-block .info {
+  width: 20.13vw;
+  height: 19.09vw;
+  margin-top: 4.86vw;
+  margin-left: 15.37vw;
+}
+.illustration .bottom-block .price .price-block .info h1,
+.animation .bottom-block .price .price-block .info h1,
+.graphic .bottom-block .price .price-block .info h1 {
+  font-family: "KTS";
+  margin: -1.04vw 0px 1.73vw 0px;
+  font-size: 1.11vw;
+}
+.illustration .bottom-block .price .price-block .info span,
+.animation .bottom-block .price .price-block .info span,
+.graphic .bottom-block .price .price-block .info span {
+  display: block;
+  margin-bottom: 1.73vw;
+  font-size: 1.11vw;
+  position: relative;
+}
+.illustration .bottom-block .price .price-block .info span::after,
+.animation .bottom-block .price .price-block .info span::after,
+.graphic .bottom-block .price .price-block .info span::after {
+  content: "";
+  width: 0.8vw;
+  height: 0.15vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2vw;
+}
+.illustration .bottom-block .price .price-block .price,
+.animation .bottom-block .price .price-block .price,
+.graphic .bottom-block .price .price-block .price {
+  width: 25.69vw;
+  height: 2.43vw;
+  margin: 3.8vw 0px 0px 10.51vw;
+  text-align: center;
+  padding-top: 0.55vw;
+  font-size: 1.58vw;
+}
+.illustration .bottom-block .bottom,
+.animation .bottom-block .bottom,
+.graphic .bottom-block .bottom {
+  width: 100%;
+  height: 6.94vw;
+  background-color: black;
+  position: absolute;
+  bottom: 0px;
+}
+.illustration .bottom-block .bottom .bottom-menu,
+.animation .bottom-block .bottom .bottom-menu,
+.graphic .bottom-block .bottom .bottom-menu {
+  width: 69.44vw;
+  height: 6.94vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.43vw;
+  position: absolute;
+  bottom: 0px;
+  right: 7.63vw;
+  font-size: 1.52vw;
+}
+.illustration .bottom-block .bottom .bottom-menu span,
+.animation .bottom-block .bottom .bottom-menu span,
+.graphic .bottom-block .bottom .bottom-menu span {
+  color: white;
+}
+
+.animation .top-block {
+  height: 223.61vw;
+  background-image: url(./images/animation/top.jpg);
+}
+.animation .top-block .main-title .description {
+  width: 44.36vw;
+}
+.animation .top-block .main-title .title {
+  margin-top: 8.33vw;
+  background: none;
+}
+.animation .top-block .question-block span {
+  margin-bottom: 3.125vw;
+}
+.animation .top-block .foryou-block {
+  margin: 23.26vw auto 0px;
+  width: 71.25vw;
+  display: flex;
+  justify-content: space-between;
+}
+.animation .top-block .foryou-block .text {
+  width: 34.72vw;
+}
+.animation .top-block .foryou-block .img {
+  width: 26.52vw;
+  height: 31.73vw;
+  background-image: url(./images/animation/illustration\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.animation .top-block .block {
+  margin: 24.3vw auto;
+  padding: 1.38vw 0px;
+}
+.animation .middle-block {
+  max-height: 277.77vw;
+  padding-bottom: 0px;
+}
+.animation .bottom-block {
+  padding-top: 6.26vw;
+  height: 302.19vw;
+  background-image: url(./images/animation/bottom.jpg);
+}
+.animation .bottom-block .advice {
+  width: 52.08vw;
+  margin-left: 22.91vw;
+  font-size: 1.22vw;
+  text-align: center;
+  line-height: 1.66vw;
+  font-family: "KTS";
+}
+.animation .bottom-block .sertificate-text {
+  width: 60.41vw;
+  font-size: 1.4vw;
+  margin: 8.33vw auto;
+}
+.animation .bottom-block .sertificate {
+  width: 52.77vw;
+  height: 31.25vw;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.25vw;
+  background-image: url(./images/animation/Group\ 216.jpg);
+}
+.animation .bottom-block .mainT {
+  margin-top: 35.41vw;
+}
+.animation .bottom-block .anika-block .info {
+  width: 25.69vw;
+  margin-left: 2.08vw;
+  margin-top: 14.93vw;
+}
+.animation .bottom-block .anika-block .img {
+  margin-right: 6.94vw;
+  margin-top: 2.43vw;
+  width: 19.79vw;
+  height: 25.69vw;
+  background-image: url(./images/animation/IMG_20230918_134313_495.jpg);
+}
+.animation .bottom-block .experiense .block:nth-child(1) {
+  padding-left: 2.63vw;
+}
+.animation .bottom-block .experiense .block:nth-child(1) .title {
+  padding-left: 0px;
+}
+.animation .bottom-block .works .title {
+  margin: 18.05vw 0px 3.47vw;
+}
+.animation .bottom-block .works .videos {
+  width: 46.25vw;
+  height: 25.97vw;
+  background-image: url(./images/animation/works.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-top: 4vw;
+  position: relative;
+}
+.animation .bottom-block .works .videos .left,
+.animation .bottom-block .works .videos .right {
+  width: 1.87vw;
+  height: 4.44vw;
+  position: absolute;
+  top: 12.5vw;
+  background-image: url(./images/editing/left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.animation .bottom-block .works .videos .left {
+  left: -4.72vw;
+}
+.animation .bottom-block .works .videos .right {
+  right: -4.72vw;
+  background-image: url(./images/editing/right.png);
+}
+.animation .bottom-block .works .vid {
+  width: 38.19vw;
+  height: 19.44vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+  transition-property: opacity;
+  transition-duration: 0.3;
+}
+.animation .bottom-block .works .vid iframe {
+  width: 38.19vw;
+  height: 19.44vw;
+}
+.animation .bottom-block .works .vid p {
+  font-size: 1vw;
+}
+.animation .bottom-block .price {
+  margin-top: 19.58vw;
+}
+.animation .bottom-block .price .price-block {
+  width: 41.66vw;
+  height: 36.11vw;
+  margin-top: 8.33vw;
+  background-image: url(./images/animation/cost\ \(1\).png);
+}
+.animation .bottom-block .price .price-block .info {
+  width: 17.7vw;
+  margin-left: 11.8vw;
+}
+.animation .bottom-block .price .price-block .price {
+  margin: 2.77vw 0px 0px 6.59vw;
+}
+
+.graphic .menu-mobile {
+  display: none;
+}
+.graphic a {
+  text-decoration: none;
+  color: black;
+}
+.graphic .EN {
+  display: none;
+}
+.graphic .logo {
+  width: 9.02vw;
+  height: 8.68vw;
+  background-image: url(./images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: 2;
+  top: 2.56vw;
+  left: 2.56vw;
+}
+.graphic .top-block {
+  background-image: url(./images/graphicdesign/top.jpg);
+  height: 164.4vw;
+}
+.graphic .top-block .main-title {
+  background: none;
+}
+.graphic .top-block .main-title .title {
+  padding-top: 3.47vw;
+}
+.graphic .top-block .main-title .description {
+  margin-top: 2.77vw;
+}
+.graphic .top-block .question-block {
+  margin-top: 15.97vw;
+}
+.graphic .top-block .block {
+  padding-top: 5.55vw;
+}
+.graphic .middle-block .program-count {
+  font-size: 3.12vw;
+  text-align: center;
+  margin: 3.47vw 0px;
+  cursor: pointer;
+}
+.graphic .middle-block .EN {
+  display: none;
+}
+.graphic .middle-block .trans {
+  background-color: transparent;
+}
+.graphic .middle-block .course-progress-block {
+  display: block;
+  overflow: hidden;
+  max-height: 0px;
+  transition-duration: 2s;
+  transition-property: max-height;
+}
+.graphic .middle-block .course-progress-block .block:nth-child(10) .progress-line {
+  background-color: black;
+}
+.graphic .middle-block .course-progress-block .block:nth-child(10) .trans {
+  background-color: transparent;
+}
+.graphic .middle-block .course-progress-block .block:nth-child(11) .progress-line::after {
+  content: "11";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(12) .progress-line::after {
+  content: "12";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(12) .trans {
+  background-color: transparent;
+}
+.graphic .middle-block .course-progress-block .block:nth-child(13) .progress-line::after {
+  content: "13";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(14) .progress-line::after {
+  content: "14";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(15) .progress-line::after {
+  content: "15";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(16) .progress-line::after {
+  content: "16";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(17) .progress-line::after {
+  content: "17";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(18) .progress-line::after {
+  content: "18";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(19) .progress-line::after {
+  content: "19";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(20) .progress-line::after {
+  content: "20";
+}
+.graphic .middle-block .course-progress-block .block:nth-child(20) .progress-line {
+  background-color: transparent;
+}
+.graphic .bottom-block {
+  background-image: url(./images/graphicdesign/bottom.jpg);
+  height: 441vw;
+  padding-top: 6.94vw;
+}
+.graphic .bottom-block .maint {
+  margin-top: 27.77vw;
+}
+.graphic .bottom-block .sertificate-text {
+  width: 65.97vw;
+  height: 5.2vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.45vw;
+  margin: auto;
+}
+.graphic .bottom-block .sertificate {
+  width: 52.77vw;
+  height: 31.25vw;
+  margin: auto;
+  background-image: url(./images/graphicdesign/Group\ 217.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 6.25vw;
+}
+.graphic .bottom-block .EN {
+  display: none;
+}
+.graphic .bottom-block .anika-block {
+  width: 63.61vw;
+  margin-left: 13.19vw;
+}
+.graphic .bottom-block .anika-block .info {
+  width: 32.63vw;
+  height: 6.94vw;
+  margin-left: 0px;
+  margin-bottom: 6.94vw;
+}
+.graphic .bottom-block .anika-block .img {
+  width: 19.3vw;
+  height: 26.18vw;
+  background-image: url(./images/graphicdesign/msg565874734-32392.jpg);
+  margin-top: 4.16vw;
+  margin-right: 0.694vw;
+}
+.graphic .bottom-block .experiense {
+  margin-top: 4.86vw;
+}
+.graphic .bottom-block .experiense .block:nth-child(1) {
+  padding-left: 2.63vw;
+}
+.graphic .bottom-block .experiense .block:nth-child(1) .title {
+  padding-left: 0px;
+}
+.graphic .bottom-block .experiense .block .b2 {
+  width: 25.7vw;
+}
+.graphic .bottom-block .experiense .block span {
+  position: relative;
+}
+.graphic .bottom-block .experiense .block span::after {
+  content: "";
+  width: 1.04vw;
+  height: 0.277vw;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: -2.77vw;
+}
+.graphic .bottom-block .comments {
+  width: 61.11vw;
+  height: 24.3vw;
+  margin: auto;
+  margin-top: 13.88vw;
+}
+.graphic .bottom-block .comments .left, .graphic .bottom-block .comments .right {
+  top: 13.19vw;
+}
+.graphic .bottom-block .comments .comments-block {
+  width: 61.11vw;
+  height: 24.3vw;
+}
+.graphic .bottom-block .comments .comments-block .comments-line {
+  width: 61.11vw;
+  height: 24.3vw;
+  overflow: visible;
+}
+.graphic .bottom-block .comments .comments-block .comments-line .comment {
+  width: 61.11vw;
+  height: 17.36vw;
+}
+.graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text {
+  transition-property: opacity;
+  transition: 0.3;
+}
+.graphic .bottom-block .works {
+  margin-top: 10.41vw;
+}
+.graphic .bottom-block .works .title {
+  text-align: center;
+  margin-bottom: 4.16vw;
+}
+.graphic .bottom-block .works .videos {
+  width: 46.25vw;
+  height: 25.97vw;
+  margin: auto;
+  padding-top: 4vw;
+  position: relative;
+}
+.graphic .bottom-block .works .videos .left,
+.graphic .bottom-block .works .videos .right {
+  width: 1.87vw;
+  height: 4.44vw;
+  position: absolute;
+  top: 15.5vw;
+  background-image: url(./images/editing/left.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.graphic .bottom-block .works .videos .left {
+  left: -2.72vw;
+}
+.graphic .bottom-block .works .videos .right {
+  right: -2.72vw;
+  background-image: url(./images/editing/right.png);
+}
+.graphic .bottom-block .works .videos .vid {
+  width: 23.26vw;
+  height: 27.26vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+  background-image: url(./images/graphicdesign/work.png);
+  transition-property: opacity;
+  transition: 0.3;
+}
+.graphic .bottom-block .price {
+  display: block;
+  margin-top: 21.66vw;
+}
+.graphic .bottom-block .price .price-block {
+  width: 43.95vw;
+  height: 45.2vw;
+  background-image: url(./images/graphicdesign/price1.png);
+  margin-top: 7.63vw;
+  padding-top: 6.94vw;
+}
+.graphic .bottom-block .price .price-block .title span {
+  display: block;
+  text-align: center;
+  font-size: 2.77vw;
+  margin-top: 0.694vw;
+}
+.graphic .bottom-block .price .price-block .info {
+  width: 35.76vw;
+  margin: 4.86vw auto 0px;
+}
+.graphic .bottom-block .price .price-block .info span {
+  font-size: 1.38vw;
+}
+.graphic .bottom-block .price .price-block .price {
+  margin-top: 4.51vw;
+  margin-left: 9vw;
+}
+.graphic .bottom-block .price .second {
+  background-image: url(./images/graphicdesign/price2.png);
+}
+.graphic .bottom-block .price .third {
+  background-image: url(./images/graphicdesign/price3.png);
+}
+
+@media screen and (max-width: 500px) {
+  main {
+    width: 100%;
+    height: 700vw;
+    background-image: none;
+  }
+  main .imgg {
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16.24vw;
+    height: 15vw;
+    position: fixed;
+    top: 1vw;
+    left: 1vw;
+  }
+  main .menu {
+    display: block;
+    position: fixed;
+    right: 1vw;
+    top: 1vw;
+    z-index: 3;
+  }
+  main .menu .line, main .menu .line1 {
+    margin: 12px auto;
+    border-radius: 5px;
+    width: 22px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+  }
+  main .menu .line::before, main .menu .line::after, main .menu .line1::before, main .menu .line1::after {
+    content: "";
+    width: 22px;
+    height: 3.5px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    transition: all 500ms ease;
+  }
+  main .menu .line::after, main .menu .line1::after {
+    top: 7px;
+    left: 0px;
+  }
+  main .menu .line::before, main .menu .line1::before {
+    top: 15px;
+    left: 0px;
+  }
+  main .menu .line1 {
+    background-color: transparent;
+  }
+  main .menu .line1::after {
+    transform: rotate(135deg);
+  }
+  main .menu .line1::before {
+    top: 7px;
+    transform: rotate(-135deg);
+  }
+  main .menu-mobile {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    background-image: url("./images/middle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: -100%;
+    top: 0px;
+    transition: right 500ms ease;
+    border-radius: 0px 0px 0px 10px;
+    z-index: 2;
+  }
+  main .menu-mobile hr {
+    height: 3px;
+    background-color: black;
+  }
+  main .menu-mobile .button-list {
+    width: 100%;
+    height: 100%;
+    padding: 10vw 2vw 0vw;
+  }
+  main .menu-mobile .button-list .EN {
+    display: none;
+  }
+  main .menu-mobile .button-list span {
+    text-align: center;
+    display: block;
+    font-size: 7vw;
+    margin-bottom: 8.5vw;
+    color: black;
+  }
+  main .menu-mobile .button-list a {
+    text-decoration: none;
+  }
+  main .menu-mobile .button-list .lang-buttons {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+  }
+  main .menu-mobile .button-list .lang-buttons .en-button:hover {
+    color: rgb(130, 68, 181);
+  }
+  main .menu-mobile .button-list .lang-buttons .ukr-button:hover {
+    color: rgb(130, 68, 181);
+  }
+  main .menu-mobile .button-list .lang-buttons .en-button::after {
+    content: "/";
+    font-size: 7vw;
+    position: absolute;
+    right: 11.38vw;
+  }
+  main .menu-mobile p {
+    text-align: center;
+    display: block;
+    font-size: 7vw;
+    margin: 8vw 0px;
+    color: black;
+  }
+  main .menu-mobile .reg {
+    margin-top: 3.12vw;
+    margin: auto;
+    width: 60vw;
+    display: block;
+  }
+  main .menu-mobile .reg input {
+    width: 60vw;
+    height: 12.77vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 4vw;
+    font-family: "KTS-black";
+  }
+  main .menu-mobile .reg input::-moz-placeholder {
+    color: rgb(107, 107, 107);
+    font-family: "KTS-black";
+    font-size: 4vw;
+  }
+  main .menu-mobile .reg input::placeholder {
+    color: rgb(107, 107, 107);
+    font-family: "KTS-black";
+    font-size: 4vw;
+  }
+  main .menu-mobile .reg .button {
+    width: 40vw;
+    height: 8vw;
+    font-size: 4vw;
+    color: black;
+    background-color: transparent;
+    border-radius: 1vw;
+    border: 1.5px solid black;
+    margin-top: 12vw;
+    margin-left: 10vw;
+    cursor: pointer;
+  }
+  main .header {
+    background-image: url("./images/top.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vw;
+    padding-top: 30vw;
+    z-index: 1;
+  }
+  main .header .lang-buttons {
+    display: none;
+  }
+  main .header .buttons {
+    display: none;
+  }
+  main .header .title {
+    width: 81.55vw;
+    height: 40vw;
+    margin-top: 0px;
+    margin-left: 10%;
+    font-weight: lighter;
+    background-image: url(./images/firstdraft.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: static;
+    z-index: 0;
+  }
+  main .main {
+    height: 500vw;
+    padding-top: 11.11vw;
+    background-image: url(./images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  main .main .main-top {
+    width: 80.5vw;
+  }
+  main .main .main-top .about {
+    width: 100%;
+    height: 100.13vw;
+  }
+  main .main .main-top .about .title {
+    text-align: center;
+    font-size: 7vw;
+    margin-bottom: 8vw;
+  }
+  main .main .main-top .about p {
+    padding-left: 5vw;
+    margin-bottom: 8vw;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  main .main .main-top .about p::after {
+    width: 2vw;
+    height: 0.6vw;
+    background-color: black;
+    left: -1.04vw;
+    top: 3.84vw;
+  }
+  main .main .main-top .img {
+    display: none;
+  }
+  main .main .main-midle {
+    padding-top: 30px;
+    width: 70.55vw;
+    height: 300.51vw;
+    margin: 5.58vw auto 0px;
+  }
+  main .main .main-midle .top,
+  main .main .main-midle .bottom {
+    display: block;
+  }
+  main .main .main-midle span {
+    font-size: 10vw;
+    display: block;
+  }
+  main .main .main-midle .EN {
+    display: none;
+  }
+  main .main .main-midle .editing {
+    width: 18.9vw;
+    height: 20.75vw;
+    width: 60vw;
+    height: 65.87vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./images/editing.png);
+    margin-left: 2vw;
+    padding-top: 27vw;
+  }
+  main .main .main-midle .editing span {
+    margin-left: -7.84vw;
+  }
+  main .main .main-midle .gdesign {
+    height: 51.69vw;
+    width: 57vw;
+    margin-left: 10.2vw;
+    margin-top: 5vw;
+    margin-bottom: 20vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./images/graphicdesign\ \(2\).png);
+    padding-top: 5vw;
+  }
+  main .main .main-midle .gdesign span {
+    margin-top: 0.6vw;
+    margin-left: -16.94vw;
+    line-height: 10vw;
+  }
+  main .main .main-midle .animation {
+    height: 56vw;
+    width: 69vw;
+    margin-left: 4vw;
+    margin-top: 3.08vw;
+    margin-bottom: 5vw;
+    padding-top: 25vw;
+  }
+  main .main .main-midle .animation span {
+    margin-top: 12.37vw;
+    margin-left: 14vw;
+  }
+  main .main .main-midle .illustration {
+    height: 62.95vw;
+    width: 80vw;
+    margin-left: -15vw;
+    padding-top: 16vw;
+  }
+  main .main .main-midle .illustration span {
+    margin-top: 7.18vw;
+    margin-left: 3.22vw;
+  }
+  main .main .main-bottom {
+    width: 74.78vw;
+    height: 40vw;
+    margin-top: 20.83vw;
+    margin-left: 13vw;
+  }
+  main .main .main-bottom span {
+    display: block;
+    position: absolute;
+    margin-top: 14.31vw;
+    margin-left: -3.47vw;
+    font-size: 6vw;
+  }
+  main .main .main-bottom .EN {
+    display: none;
+  }
+  main .footer {
+    width: 100%;
+    height: 100.86vw;
+    padding: 30vw 0px 0px;
+    background-image: url(./images/bottomjpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  main .footer .main-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+  }
+  main .footer .main-block .left-block {
+    height: 40vw;
+    margin: 0px auto;
+  }
+  main .footer .main-block .left-block .contacts {
+    width: 47.67vw;
+    height: 10vw;
+    padding-top: 1.45vw;
+    padding-left: 7.77vw;
+    margin-bottom: 6.81vw;
+    margin-left: 9vw;
+  }
+  main .footer .main-block .left-block .contacts span {
+    font-size: 6vw;
+  }
+  main .footer .main-block .left-block p {
+    text-align: center;
+    margin-bottom: 7.43vw;
+    margin-left: 2.77vw;
+    font-size: 4vw;
+  }
+  main .footer .main-block .left-block .social {
+    width: 40vw;
+    margin-top: 5.2vw;
+    margin-left: 12vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 5vw;
+  }
+  main .footer .main-block .left-block .social .instagram, main .footer .main-block .left-block .social .facebook, main .footer .main-block .left-block .social .tik-tok {
+    width: 8.47vw;
+    height: 8.47vw;
+    background-image: url(./images/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  main .footer .main-block .left-block .social .facebook {
+    background-image: url(./images/facebook.png);
+  }
+  main .footer .main-block .left-block .social .tik-tok {
+    background-image: url(./images/tiktok.png);
+  }
+  main .footer .main-block .center-block {
+    display: none;
+  }
+  main .footer .main-block .right-block {
+    display: none;
+  }
+  main .footer .bottom-block {
+    display: none;
+  }
+  .editing, .illustration, .graphic, .animation {
+    width: 100vw;
+    max-height: 711.3vw;
+  }
+  .editing .logo, .illustration .logo, .graphic .logo, .animation .logo {
+    width: 16.24vw;
+    height: 15vw;
+    position: fixed;
+    background-image: url(./images/logo.png);
+    top: 1vw;
+    left: 1vw;
+    z-index: 2;
+  }
+  .editing .menu, .illustration .menu, .graphic .menu, .animation .menu {
+    display: block;
+    position: fixed;
+    right: 1vw;
+    top: 1vw;
+    z-index: 3;
+  }
+  .editing .menu .line, .editing .menu .line1, .illustration .menu .line, .illustration .menu .line1, .graphic .menu .line, .graphic .menu .line1, .animation .menu .line, .animation .menu .line1 {
+    margin: 12px auto;
+    border-radius: 5px;
+    width: 22px;
+    height: 3px;
+    background-color: black;
+    position: relative;
+  }
+  .editing .menu .line::before, .editing .menu .line::after, .editing .menu .line1::before, .editing .menu .line1::after, .illustration .menu .line::before, .illustration .menu .line::after, .illustration .menu .line1::before, .illustration .menu .line1::after, .graphic .menu .line::before, .graphic .menu .line::after, .graphic .menu .line1::before, .graphic .menu .line1::after, .animation .menu .line::before, .animation .menu .line::after, .animation .menu .line1::before, .animation .menu .line1::after {
+    content: "";
+    width: 22px;
+    height: 3.5px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    border-radius: 5px;
+    transition: all 500ms ease;
+  }
+  .editing .menu .line::after, .editing .menu .line1::after, .illustration .menu .line::after, .illustration .menu .line1::after, .graphic .menu .line::after, .graphic .menu .line1::after, .animation .menu .line::after, .animation .menu .line1::after {
+    top: 7px;
+    left: 0px;
+  }
+  .editing .menu .line::before, .editing .menu .line1::before, .illustration .menu .line::before, .illustration .menu .line1::before, .graphic .menu .line::before, .graphic .menu .line1::before, .animation .menu .line::before, .animation .menu .line1::before {
+    top: 15px;
+    left: 0px;
+  }
+  .editing .menu .line1, .illustration .menu .line1, .graphic .menu .line1, .animation .menu .line1 {
+    background-color: transparent;
+  }
+  .editing .menu .line1::after, .illustration .menu .line1::after, .graphic .menu .line1::after, .animation .menu .line1::after {
+    transform: rotate(135deg);
+  }
+  .editing .menu .line1::before, .illustration .menu .line1::before, .graphic .menu .line1::before, .animation .menu .line1::before {
+    top: 7px;
+    transform: rotate(-135deg);
+  }
+  .editing .menu-mobile, .illustration .menu-mobile, .graphic .menu-mobile, .animation .menu-mobile {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    background-image: url("./images/middle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: -100%;
+    top: 0px;
+    transition: right 500ms ease;
+    border-radius: 0px 0px 0px 10px;
+    z-index: 2;
+  }
+  .editing .menu-mobile hr, .illustration .menu-mobile hr, .graphic .menu-mobile hr, .animation .menu-mobile hr {
+    height: 3px;
+    background-color: black;
+  }
+  .editing .menu-mobile .button-list, .illustration .menu-mobile .button-list, .graphic .menu-mobile .button-list, .animation .menu-mobile .button-list {
+    width: 100%;
+    height: 100%;
+    padding: 10vw 2vw 0vw;
+  }
+  .editing .menu-mobile .button-list .EN, .illustration .menu-mobile .button-list .EN, .graphic .menu-mobile .button-list .EN, .animation .menu-mobile .button-list .EN {
+    display: none;
+  }
+  .editing .menu-mobile .button-list span, .illustration .menu-mobile .button-list span, .graphic .menu-mobile .button-list span, .animation .menu-mobile .button-list span {
+    text-align: center;
+    display: block;
+    font-size: 7vw;
+    margin-bottom: 8.5vw;
+    color: black;
+  }
+  .editing .menu-mobile .button-list a, .illustration .menu-mobile .button-list a, .graphic .menu-mobile .button-list a, .animation .menu-mobile .button-list a {
+    text-decoration: none;
+  }
+  .editing .menu-mobile .button-list .lang-buttons, .illustration .menu-mobile .button-list .lang-buttons, .graphic .menu-mobile .button-list .lang-buttons, .animation .menu-mobile .button-list .lang-buttons {
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: auto;
+    position: relative;
+  }
+  .editing .menu-mobile .button-list .lang-buttons .en-button:hover, .illustration .menu-mobile .button-list .lang-buttons .en-button:hover, .graphic .menu-mobile .button-list .lang-buttons .en-button:hover, .animation .menu-mobile .button-list .lang-buttons .en-button:hover {
+    color: rgb(130, 68, 181);
+  }
+  .editing .menu-mobile .button-list .lang-buttons .ukr-button:hover, .illustration .menu-mobile .button-list .lang-buttons .ukr-button:hover, .graphic .menu-mobile .button-list .lang-buttons .ukr-button:hover, .animation .menu-mobile .button-list .lang-buttons .ukr-button:hover {
+    color: rgb(130, 68, 181);
+  }
+  .editing .menu-mobile .button-list .lang-buttons .en-button::after, .illustration .menu-mobile .button-list .lang-buttons .en-button::after, .graphic .menu-mobile .button-list .lang-buttons .en-button::after, .animation .menu-mobile .button-list .lang-buttons .en-button::after {
+    content: "/";
+    font-size: 7vw;
+    position: absolute;
+    right: 11.38vw;
+  }
+  .editing .menu-mobile p, .illustration .menu-mobile p, .graphic .menu-mobile p, .animation .menu-mobile p {
+    text-align: center;
+    display: block;
+    font-size: 7vw;
+    margin: 8vw 0px;
+    color: black;
+  }
+  .editing .menu-mobile .reg, .illustration .menu-mobile .reg, .graphic .menu-mobile .reg, .animation .menu-mobile .reg {
+    margin-top: 3.12vw;
+    margin: auto;
+    width: 60vw;
+    display: block;
+  }
+  .editing .menu-mobile .reg input, .illustration .menu-mobile .reg input, .graphic .menu-mobile .reg input, .animation .menu-mobile .reg input {
+    width: 60vw;
+    height: 12.77vw;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 4vw;
+    font-family: "KTS-black";
+  }
+  .editing .menu-mobile .reg input::-moz-placeholder, .illustration .menu-mobile .reg input::-moz-placeholder, .graphic .menu-mobile .reg input::-moz-placeholder, .animation .menu-mobile .reg input::-moz-placeholder {
+    color: rgb(107, 107, 107);
+    font-family: "KTS-black";
+    font-size: 4vw;
+  }
+  .editing .menu-mobile .reg input::placeholder, .illustration .menu-mobile .reg input::placeholder, .graphic .menu-mobile .reg input::placeholder, .animation .menu-mobile .reg input::placeholder {
+    color: rgb(107, 107, 107);
+    font-family: "KTS-black";
+    font-size: 4vw;
+  }
+  .editing .menu-mobile .reg .button, .illustration .menu-mobile .reg .button, .graphic .menu-mobile .reg .button, .animation .menu-mobile .reg .button {
+    width: 40vw;
+    height: 8vw;
+    font-size: 4vw;
+    color: black;
+    background-color: transparent;
+    border-radius: 1vw;
+    border: 1.5px solid black;
+    margin-top: 12vw;
+    margin-left: 10vw;
+    cursor: pointer;
+  }
+  .editing a, .illustration a, .graphic a, .animation a {
+    text-decoration: none;
+    color: black;
+  }
+  .editing .EN, .illustration .EN, .graphic .EN, .animation .EN {
+    display: none;
+  }
+  .editing .top-block, .illustration .top-block, .graphic .top-block, .animation .top-block {
+    width: 100vw;
+    height: 405.5vw;
+    padding-top: 6.73vw;
+    background-image: url(./images/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+  }
+  .editing .top-block .lang-buttons, .illustration .top-block .lang-buttons, .graphic .top-block .lang-buttons, .animation .top-block .lang-buttons {
+    display: none;
+  }
+  .editing .top-block .menu, .illustration .top-block .menu, .graphic .top-block .menu, .animation .top-block .menu {
+    display: none;
+  }
+  .editing .top-block .main-title .title, .illustration .top-block .main-title .title, .graphic .top-block .main-title .title, .animation .top-block .main-title .title {
+    background-image: url("./images/editing/title (1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 25vw;
+    font-size: 6vw;
+    line-height: 7.16vw;
+    padding-top: 5vw;
+  }
+  .editing .top-block .main-title .description, .illustration .top-block .main-title .description, .graphic .top-block .main-title .description, .animation .top-block .main-title .description {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    margin-top: 5.55vw;
+    width: 85vw;
+  }
+  .editing .top-block .mtitle, .illustration .top-block .mtitle, .graphic .top-block .mtitle, .animation .top-block .mtitle {
+    display: block;
+    width: 90vw;
+    height: 25vw;
+    text-align: center;
+    margin: 10.76vw auto 6vw;
+    font-size: 6vw;
+    line-height: 7.16vw;
+    background-image: url("./images/editing/title (1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5vw;
+  }
+  .editing .top-block .EN, .illustration .top-block .EN, .graphic .top-block .EN, .animation .top-block .EN {
+    display: none;
+  }
+  .editing .top-block .description, .illustration .top-block .description, .graphic .top-block .description, .animation .top-block .description {
+    font-size: 4vw;
+    margin-top: 5.55vw;
+    line-height: 6vw;
+  }
+  .editing .top-block .description span, .illustration .top-block .description span, .graphic .top-block .description span, .animation .top-block .description span {
+    display: contents;
+  }
+  .editing .top-block .description .button, .illustration .top-block .description .button, .graphic .top-block .description .button, .animation .top-block .description .button {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    border-radius: 10px;
+    margin-top: 5vw;
+  }
+  .editing .top-block .question-block, .illustration .top-block .question-block, .graphic .top-block .question-block, .animation .top-block .question-block {
+    position: relative;
+    width: 75.86vw;
+    height: 100.98vw;
+    margin: 13vw auto;
+    padding-top: 7vw;
+    padding-left: 5vw;
+  }
+  .editing .top-block .question-block .arrow, .illustration .top-block .question-block .arrow, .graphic .top-block .question-block .arrow, .animation .top-block .question-block .arrow {
+    width: 95vw;
+    height: 100%;
+    background-image: url(./images/editing/arrow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -10vw;
+    bottom: -10vw;
+  }
+  .editing .top-block .question-block .title, .illustration .top-block .question-block .title, .graphic .top-block .question-block .title, .animation .top-block .question-block .title {
+    text-align: center;
+    padding-bottom: 5vw;
+    font-size: 4.6vw;
+    margin: 0px 0px 6.16vw;
+    position: relative;
+    margin-left: -5vw;
+  }
+  .editing .top-block .question-block .title .img, .illustration .top-block .question-block .title .img, .graphic .top-block .question-block .title .img, .animation .top-block .question-block .title .img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/editing/title2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .editing .top-block .question-block span, .illustration .top-block .question-block span, .graphic .top-block .question-block span, .animation .top-block .question-block span {
+    margin-bottom: 8.55vw;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .editing .top-block .question-block span::after, .illustration .top-block .question-block span::after, .graphic .top-block .question-block span::after, .animation .top-block .question-block span::after {
+    width: 2.041vw;
+    height: 0.677vw;
+    top: 40%;
+    left: -4.77vw;
+  }
+  .editing .top-block .foryou-block, .illustration .top-block .foryou-block, .graphic .top-block .foryou-block, .animation .top-block .foryou-block {
+    width: 75vw;
+    height: 100.75vw;
+    margin: 10.04vw auto 0px;
+    justify-content: center;
+    position: relative;
+  }
+  .editing .top-block .foryou-block .img, .illustration .top-block .foryou-block .img, .graphic .top-block .foryou-block .img, .animation .top-block .foryou-block .img {
+    width: 30vw;
+    height: 100vw;
+    position: absolute;
+    background-image: url(./images/editing/element1\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: -35vw;
+    top: -35vw;
+  }
+  .editing .top-block .foryou-block .img2, .illustration .top-block .foryou-block .img2, .graphic .top-block .foryou-block .img2, .animation .top-block .foryou-block .img2 {
+    bottom: 0px;
+    right: -30vw;
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    background-image: url(./images/editing/element2\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .editing .top-block .foryou-block .text, .illustration .top-block .foryou-block .text, .graphic .top-block .foryou-block .text, .animation .top-block .foryou-block .text {
+    width: 100%;
+    height: 100%;
+  }
+  .editing .top-block .foryou-block .text .title, .illustration .top-block .foryou-block .text .title, .graphic .top-block .foryou-block .text .title, .animation .top-block .foryou-block .text .title {
+    width: 60vw;
+    height: 15vw;
+    text-align: center;
+    font-size: 4.6vw;
+    line-height: 5.3vw;
+    margin: 0px auto 5vw;
+    background-image: url(./images/editing/title3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .editing .top-block .foryou-block .text span, .illustration .top-block .foryou-block .text span, .graphic .top-block .foryou-block .text span, .animation .top-block .foryou-block .text span {
+    padding-left: 3.5vw;
+    margin-bottom: 8vw;
+    font-size: 4vw;
+    line-height: 5vw;
+  }
+  .editing .top-block .foryou-block .text span::after, .illustration .top-block .foryou-block .text span::after, .graphic .top-block .foryou-block .text span::after, .animation .top-block .foryou-block .text span::after {
+    width: 2.041vw;
+    height: 0.677vw;
+    top: 40%;
+    left: -1vw;
+  }
+  .editing .top-block .prog, .illustration .top-block .prog, .graphic .top-block .prog, .animation .top-block .prog {
+    margin-top: 17vw;
+    box-sizing: border-box;
+    width: 100%;
+    height: 83vw;
+    background-image: url(./images/editing/block.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 17vw;
+    position: absolute;
+    bottom: 0px;
+  }
+  .editing .top-block .prog .block, .illustration .top-block .prog .block, .graphic .top-block .prog .block, .animation .top-block .prog .block {
+    width: 70.29vw;
+    height: 50.77vw;
+    margin: 0vw auto 0px;
+    padding-top: 10vw;
+  }
+  .editing .top-block .prog .block .title, .illustration .top-block .prog .block .title, .graphic .top-block .prog .block .title, .animation .top-block .prog .block .title {
+    text-align: center;
+    font-size: 4.6vw;
+    margin-bottom: 9.63vw;
+    margin-top: 0px;
+  }
+  .editing .top-block .prog .block .info, .illustration .top-block .prog .block .info, .graphic .top-block .prog .block .info, .animation .top-block .prog .block .info {
+    width: 100%;
+  }
+  .editing .top-block .prog .block .info span, .illustration .top-block .prog .block .info span, .graphic .top-block .prog .block .info span, .animation .top-block .prog .block .info span {
+    display: block;
+    margin-bottom: 6.47vw;
+    font-size: 3.5vw;
+    margin-left: 5.73vw;
+    position: relative;
+  }
+  .editing .top-block .prog .block .info span::after, .illustration .top-block .prog .block .info span::after, .graphic .top-block .prog .block .info span::after, .animation .top-block .prog .block .info span::after {
+    width: 4.98vw;
+    height: 4.98vw;
+    top: 5%;
+    left: -7.16vw;
+  }
+  .editing .top-block .prog .block .info span::before, .illustration .top-block .prog .block .info span::before, .graphic .top-block .prog .block .info span::before, .animation .top-block .prog .block .info span::before {
+    width: 3.87vw;
+    height: 3.87vw;
+    top: 20%;
+    left: -6.61vw;
+  }
+  .editing .top-block .prog .block .info .first::after, .illustration .top-block .prog .block .info .first::after, .graphic .top-block .prog .block .info .first::after, .animation .top-block .prog .block .info .first::after {
+    top: -0.69vw;
+  }
+  .editing .top-block .prog .block .info .second::before, .illustration .top-block .prog .block .info .second::before, .graphic .top-block .prog .block .info .second::before, .animation .top-block .prog .block .info .second::before {
+    height: 2vw;
+    top: 27%;
+    left: -6.81vw;
+    width: 3.83vw;
+  }
+  .editing .top-block .prog .block .info .last2, .illustration .top-block .prog .block .info .last2, .graphic .top-block .prog .block .info .last2, .animation .top-block .prog .block .info .last2 {
+    margin-bottom: 0px;
+  }
+  .editing .middle-block, .illustration .middle-block, .graphic .middle-block, .animation .middle-block {
+    width: 100vw;
+    max-height: 700vw;
+    background-image: url(./images/editing/middle.jpg);
+    padding: 15.86vw 0px;
+  }
+  .editing .middle-block .course-progress-block, .illustration .middle-block .course-progress-block, .graphic .middle-block .course-progress-block, .animation .middle-block .course-progress-block {
+    width: 85.93vw;
+    max-height: 700vw;
+  }
+  .editing .middle-block .course-progress-block .block, .illustration .middle-block .course-progress-block .block, .graphic .middle-block .course-progress-block .block, .animation .middle-block .course-progress-block .block {
+    height: 14.29vw;
+  }
+  .editing .middle-block .course-progress-block .block .line, .illustration .middle-block .course-progress-block .block .line, .graphic .middle-block .course-progress-block .block .line, .animation .middle-block .course-progress-block .block .line {
+    width: 5.43vw;
+    height: 5.43vw;
+    border: 0.477vw solid black;
+    margin-right: 0.69;
+    font-size: 3.52vw;
+  }
+  .editing .middle-block .course-progress-block .block .line::after, .illustration .middle-block .course-progress-block .block .line::after, .graphic .middle-block .course-progress-block .block .line::after, .animation .middle-block .course-progress-block .block .line::after {
+    width: 1.18vw;
+    height: 0.54vw;
+    top: 1.8vw;
+    left: -1.18vw;
+  }
+  .editing .middle-block .course-progress-block .block .progress-line,
+  .editing .middle-block .course-progress-block .block .green, .illustration .middle-block .course-progress-block .block .progress-line,
+  .illustration .middle-block .course-progress-block .block .green, .graphic .middle-block .course-progress-block .block .progress-line,
+  .graphic .middle-block .course-progress-block .block .green, .animation .middle-block .course-progress-block .block .progress-line,
+  .animation .middle-block .course-progress-block .block .green {
+    width: 0.54vw;
+    margin-top: 5.73vw;
+    margin-left: 2vw;
+  }
+  .editing .middle-block .course-progress-block .block .progress-line::after,
+  .editing .middle-block .course-progress-block .block .green::after, .illustration .middle-block .course-progress-block .block .progress-line::after,
+  .illustration .middle-block .course-progress-block .block .green::after, .graphic .middle-block .course-progress-block .block .progress-line::after,
+  .graphic .middle-block .course-progress-block .block .green::after, .animation .middle-block .course-progress-block .block .progress-line::after,
+  .animation .middle-block .course-progress-block .block .green::after {
+    font-size: 3.52vw;
+    width: 5.08vw;
+    height: 5.08vw;
+    border: 0.477vw solid black;
+    top: -5.73vw;
+    left: -2.511vw;
+  }
+  .editing .middle-block .course-progress-block .block .info, .illustration .middle-block .course-progress-block .block .info, .graphic .middle-block .course-progress-block .block .info, .animation .middle-block .course-progress-block .block .info {
+    width: 70vw;
+    margin-top: 1vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .title, .illustration .middle-block .course-progress-block .block .info .title, .graphic .middle-block .course-progress-block .block .info .title, .animation .middle-block .course-progress-block .block .info .title {
+    font-size: 3vw;
+    margin-bottom: 2.38vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text, .illustration .middle-block .course-progress-block .block .info .text, .graphic .middle-block .course-progress-block .block .info .text, .animation .middle-block .course-progress-block .block .info .text {
+    width: 100%;
+    margin-left: 1vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text .add-info, .illustration .middle-block .course-progress-block .block .info .text .add-info, .graphic .middle-block .course-progress-block .block .info .text .add-info, .animation .middle-block .course-progress-block .block .info .text .add-info {
+    position: absolute;
+    width: 67vw;
+    height: 8.52vw;
+    background-image: none;
+    padding: 0px;
+    font-size: 2.5vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text .img, .illustration .middle-block .course-progress-block .block .info .text .img, .graphic .middle-block .course-progress-block .block .info .text .img, .animation .middle-block .course-progress-block .block .info .text .img {
+    height: 10vw;
+    width: 40vw;
+    font-size: 2.7vw;
+    padding-top: 3vw;
+    padding-left: 2vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text span, .illustration .middle-block .course-progress-block .block .info .text span, .graphic .middle-block .course-progress-block .block .info .text span, .animation .middle-block .course-progress-block .block .info .text span {
+    font-size: 3.111vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text .text-line span, .illustration .middle-block .course-progress-block .block .info .text .text-line span, .graphic .middle-block .course-progress-block .block .info .text .text-line span, .animation .middle-block .course-progress-block .block .info .text .text-line span {
+    display: block;
+    margin-bottom: 2.38vw;
+  }
+  .editing .middle-block .course-progress-block .block .info .text .text-line .description, .illustration .middle-block .course-progress-block .block .info .text .text-line .description, .graphic .middle-block .course-progress-block .block .info .text .text-line .description, .animation .middle-block .course-progress-block .block .info .text .text-line .description {
+    width: 65.72vw;
+  }
+  .editing .middle-block .course-progress-block .block:nth-child(9), .illustration .middle-block .course-progress-block .block:nth-child(9), .graphic .middle-block .course-progress-block .block:nth-child(9), .animation .middle-block .course-progress-block .block:nth-child(9) {
+    width: 85.8vw;
+  }
+  .editing .middle-block .course-progress-block .block:nth-child(9) .info, .illustration .middle-block .course-progress-block .block:nth-child(9) .info, .graphic .middle-block .course-progress-block .block:nth-child(9) .info, .animation .middle-block .course-progress-block .block:nth-child(9) .info {
+    width: 69.58vw;
+  }
+  .editing .middle-block .sertificate-text, .illustration .middle-block .sertificate-text, .graphic .middle-block .sertificate-text, .animation .middle-block .sertificate-text {
+    background-image: url(./images/editing/dodatkovo.png);
+    width: 93.97vw;
+    height: 10.2vw;
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 1.5vw 5vw 0vw;
+  }
+  .editing .middle-block .sertificate, .illustration .middle-block .sertificate, .graphic .middle-block .sertificate, .animation .middle-block .sertificate {
+    width: 76vw;
+    height: 45vw;
+    margin: auto;
+    margin-top: 6.25vw;
+  }
+  .editing .middle-block .EN, .illustration .middle-block .EN, .graphic .middle-block .EN, .animation .middle-block .EN {
+    display: none;
+  }
+  .editing .bottom-block1, .editing .bottom-block, .illustration .bottom-block1, .illustration .bottom-block, .graphic .bottom-block1, .graphic .bottom-block, .animation .bottom-block1, .animation .bottom-block {
+    width: 100vw;
+    height: 770.5vw;
+    background-image: url(./images/main.jpg);
+    background-size: cover;
+    padding-top: 10.58vw;
+  }
+  .editing .bottom-block1 .sertificate-text, .editing .bottom-block .sertificate-text, .illustration .bottom-block1 .sertificate-text, .illustration .bottom-block .sertificate-text, .graphic .bottom-block1 .sertificate-text, .graphic .bottom-block .sertificate-text, .animation .bottom-block1 .sertificate-text, .animation .bottom-block .sertificate-text {
+    background-image: url(./images/editing/dodatkovo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 93.97vw;
+    height: 10.2vw;
+    font-size: 3vw;
+    line-height: 4vw;
+    padding: 1.5vw 5vw 0vw;
+    text-align: center;
+  }
+  .editing .bottom-block1 .sertificate, .editing .bottom-block .sertificate, .illustration .bottom-block1 .sertificate, .illustration .bottom-block .sertificate, .graphic .bottom-block1 .sertificate, .graphic .bottom-block .sertificate, .animation .bottom-block1 .sertificate, .animation .bottom-block .sertificate {
+    width: 76vw;
+    height: 45vw;
+    margin: auto;
+    margin-top: 6.25vw;
+  }
+  .editing .bottom-block1 .title, .editing .bottom-block1 .maint, .editing .bottom-block .title, .editing .bottom-block .maint, .illustration .bottom-block1 .title, .illustration .bottom-block1 .maint, .illustration .bottom-block .title, .illustration .bottom-block .maint, .graphic .bottom-block1 .title, .graphic .bottom-block1 .maint, .graphic .bottom-block .title, .graphic .bottom-block .maint, .animation .bottom-block1 .title, .animation .bottom-block1 .maint, .animation .bottom-block .title, .animation .bottom-block .maint {
+    text-align: center;
+    font-size: 5vw;
+    margin-top: 10vw;
+  }
+  .editing .bottom-block1 .extra, .editing .bottom-block .extra, .illustration .bottom-block1 .extra, .illustration .bottom-block .extra, .graphic .bottom-block1 .extra, .graphic .bottom-block .extra, .animation .bottom-block1 .extra, .animation .bottom-block .extra {
+    width: 100%;
+    height: 80vw;
+    background-image: url(./images/graphicdesign/bottom1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .editing .bottom-block1 .yara-block, .editing .bottom-block1 .anika-block, .editing .bottom-block .yara-block, .editing .bottom-block .anika-block, .illustration .bottom-block1 .yara-block, .illustration .bottom-block1 .anika-block, .illustration .bottom-block .yara-block, .illustration .bottom-block .anika-block, .graphic .bottom-block1 .yara-block, .graphic .bottom-block1 .anika-block, .graphic .bottom-block .yara-block, .graphic .bottom-block .anika-block, .animation .bottom-block1 .yara-block, .animation .bottom-block1 .anika-block, .animation .bottom-block .yara-block, .animation .bottom-block .anika-block {
+    width: 80vw;
+    height: 100vw;
+    display: block;
+    margin: 10vw auto 0vw;
+    position: relative;
+  }
+  .editing .bottom-block1 .yara-block .info, .editing .bottom-block1 .anika-block .info, .editing .bottom-block .yara-block .info, .editing .bottom-block .anika-block .info, .illustration .bottom-block1 .yara-block .info, .illustration .bottom-block1 .anika-block .info, .illustration .bottom-block .yara-block .info, .illustration .bottom-block .anika-block .info, .graphic .bottom-block1 .yara-block .info, .graphic .bottom-block1 .anika-block .info, .graphic .bottom-block .yara-block .info, .graphic .bottom-block .anika-block .info, .animation .bottom-block1 .yara-block .info, .animation .bottom-block1 .anika-block .info, .animation .bottom-block .yara-block .info, .animation .bottom-block .anika-block .info {
+    background-image: url(./images/editing/element4\ \(1\).png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40.41vw;
+    margin-top: 5vw;
+    font-size: 3.7vw;
+    line-height: 4.2vw;
+    bottom: 0px;
+    position: absolute;
+    padding: 2vw 2.5vw 0px 5vw;
+  }
+  .editing .bottom-block1 .yara-block .info span, .editing .bottom-block1 .anika-block .info span, .editing .bottom-block .yara-block .info span, .editing .bottom-block .anika-block .info span, .illustration .bottom-block1 .yara-block .info span, .illustration .bottom-block1 .anika-block .info span, .illustration .bottom-block .yara-block .info span, .illustration .bottom-block .anika-block .info span, .graphic .bottom-block1 .yara-block .info span, .graphic .bottom-block1 .anika-block .info span, .graphic .bottom-block .yara-block .info span, .graphic .bottom-block .anika-block .info span, .animation .bottom-block1 .yara-block .info span, .animation .bottom-block1 .anika-block .info span, .animation .bottom-block .yara-block .info span, .animation .bottom-block .anika-block .info span {
+    font-size: 4.08vw;
+  }
+  .editing .bottom-block1 .yara-block .EN, .editing .bottom-block1 .anika-block .EN, .editing .bottom-block .yara-block .EN, .editing .bottom-block .anika-block .EN, .illustration .bottom-block1 .yara-block .EN, .illustration .bottom-block1 .anika-block .EN, .illustration .bottom-block .yara-block .EN, .illustration .bottom-block .anika-block .EN, .graphic .bottom-block1 .yara-block .EN, .graphic .bottom-block1 .anika-block .EN, .graphic .bottom-block .yara-block .EN, .graphic .bottom-block .anika-block .EN, .animation .bottom-block1 .yara-block .EN, .animation .bottom-block1 .anika-block .EN, .animation .bottom-block .yara-block .EN, .animation .bottom-block .anika-block .EN {
+    display: none;
+  }
+  .editing .bottom-block1 .yara-block .img, .editing .bottom-block1 .anika-block .img, .editing .bottom-block .yara-block .img, .editing .bottom-block .anika-block .img, .illustration .bottom-block1 .yara-block .img, .illustration .bottom-block1 .anika-block .img, .illustration .bottom-block .yara-block .img, .illustration .bottom-block .anika-block .img, .graphic .bottom-block1 .yara-block .img, .graphic .bottom-block1 .anika-block .img, .graphic .bottom-block .yara-block .img, .graphic .bottom-block .anika-block .img, .animation .bottom-block1 .yara-block .img, .animation .bottom-block1 .anika-block .img, .animation .bottom-block .yara-block .img, .animation .bottom-block .anika-block .img {
+    width: 52vw;
+    height: 50vw;
+    margin: auto;
+  }
+  .editing .bottom-block1 .yara-block .img::after, .editing .bottom-block1 .anika-block .img::after, .editing .bottom-block .yara-block .img::after, .editing .bottom-block .anika-block .img::after, .illustration .bottom-block1 .yara-block .img::after, .illustration .bottom-block1 .anika-block .img::after, .illustration .bottom-block .yara-block .img::after, .illustration .bottom-block .anika-block .img::after, .graphic .bottom-block1 .yara-block .img::after, .graphic .bottom-block1 .anika-block .img::after, .graphic .bottom-block .yara-block .img::after, .graphic .bottom-block .anika-block .img::after, .animation .bottom-block1 .yara-block .img::after, .animation .bottom-block1 .anika-block .img::after, .animation .bottom-block .yara-block .img::after, .animation .bottom-block .anika-block .img::after {
+    content: "";
+    width: 67.91vw;
+    height: 58.25vw;
+  }
+  .editing .bottom-block1 .yara-block .img::before, .editing .bottom-block1 .anika-block .img::before, .editing .bottom-block .yara-block .img::before, .editing .bottom-block .anika-block .img::before, .illustration .bottom-block1 .yara-block .img::before, .illustration .bottom-block1 .anika-block .img::before, .illustration .bottom-block .yara-block .img::before, .illustration .bottom-block .anika-block .img::before, .graphic .bottom-block1 .yara-block .img::before, .graphic .bottom-block1 .anika-block .img::before, .graphic .bottom-block .yara-block .img::before, .graphic .bottom-block .anika-block .img::before, .animation .bottom-block1 .yara-block .img::before, .animation .bottom-block1 .anika-block .img::before, .animation .bottom-block .yara-block .img::before, .animation .bottom-block .anika-block .img::before {
+    width: 54vw;
+    height: 50vw;
+  }
+  .editing .bottom-block1 .anika-block, .editing .bottom-block .anika-block, .illustration .bottom-block1 .anika-block, .illustration .bottom-block .anika-block, .graphic .bottom-block1 .anika-block, .graphic .bottom-block .anika-block, .animation .bottom-block1 .anika-block, .animation .bottom-block .anika-block {
+    height: 105vw;
+  }
+  .editing .bottom-block1 .anika-block .info, .editing .bottom-block .anika-block .info, .illustration .bottom-block1 .anika-block .info, .illustration .bottom-block .anika-block .info, .graphic .bottom-block1 .anika-block .info, .graphic .bottom-block .anika-block .info, .animation .bottom-block1 .anika-block .info, .animation .bottom-block .anika-block .info {
+    margin-bottom: 0px;
+  }
+  .editing .bottom-block1 .anika-block .img::before, .editing .bottom-block .anika-block .img::before, .illustration .bottom-block1 .anika-block .img::before, .illustration .bottom-block .anika-block .img::before, .graphic .bottom-block1 .anika-block .img::before, .graphic .bottom-block .anika-block .img::before, .animation .bottom-block1 .anika-block .img::before, .animation .bottom-block .anika-block .img::before {
+    content: "";
+    background-image: url(./images/animation/IMG_20230918_134313_495.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40vw;
+    height: 55vw;
+    margin-bottom: 10vw;
+    position: absolute;
+    top: -1vw;
+    left: -2vw;
+  }
+  .editing .bottom-block1 .anika-block .img, .editing .bottom-block .anika-block .img, .illustration .bottom-block1 .anika-block .img, .illustration .bottom-block .anika-block .img, .graphic .bottom-block1 .anika-block .img, .graphic .bottom-block .anika-block .img, .animation .bottom-block1 .anika-block .img, .animation .bottom-block .anika-block .img {
+    background-color: rgb(220, 196, 79);
+    background-image: none;
+    width: 40vw;
+    height: 55vw;
+    position: relative;
+  }
+  .editing .bottom-block1 .experiense, .editing .bottom-block .experiense, .illustration .bottom-block1 .experiense, .illustration .bottom-block .experiense, .graphic .bottom-block1 .experiense, .graphic .bottom-block .experiense, .animation .bottom-block1 .experiense, .animation .bottom-block .experiense {
+    width: 80vw;
+    height: 150.05vw;
+    display: block;
+    margin: 0px auto;
+  }
+  .editing .bottom-block1 .experiense .info:nth-child(2), .editing .bottom-block .experiense .info:nth-child(2), .illustration .bottom-block1 .experiense .info:nth-child(2), .illustration .bottom-block .experiense .info:nth-child(2), .graphic .bottom-block1 .experiense .info:nth-child(2), .graphic .bottom-block .experiense .info:nth-child(2), .animation .bottom-block1 .experiense .info:nth-child(2), .animation .bottom-block .experiense .info:nth-child(2) {
+    width: 100%;
+  }
+  .editing .bottom-block1 .experiense .block:nth-child(2), .editing .bottom-block .experiense .block:nth-child(2), .illustration .bottom-block1 .experiense .block:nth-child(2), .illustration .bottom-block .experiense .block:nth-child(2), .graphic .bottom-block1 .experiense .block:nth-child(2), .graphic .bottom-block .experiense .block:nth-child(2), .animation .bottom-block1 .experiense .block:nth-child(2), .animation .bottom-block .experiense .block:nth-child(2) {
+    width: 100%;
+  }
+  .editing .bottom-block1 .experiense .block, .editing .bottom-block .experiense .block, .illustration .bottom-block1 .experiense .block, .illustration .bottom-block .experiense .block, .graphic .bottom-block1 .experiense .block, .graphic .bottom-block .experiense .block, .animation .bottom-block1 .experiense .block, .animation .bottom-block .experiense .block {
+    width: 80vw;
+    margin-bottom: 15vw;
+  }
+  .editing .bottom-block1 .experiense .block .title, .editing .bottom-block .experiense .block .title, .illustration .bottom-block1 .experiense .block .title, .illustration .bottom-block .experiense .block .title, .graphic .bottom-block1 .experiense .block .title, .graphic .bottom-block .experiense .block .title, .animation .bottom-block1 .experiense .block .title, .animation .bottom-block .experiense .block .title {
+    text-align: center;
+    margin: 2vw 0px 5vw;
+    font-size: 4.5vw;
+  }
+  .editing .bottom-block1 .experiense .block span, .editing .bottom-block .experiense .block span, .illustration .bottom-block1 .experiense .block span, .illustration .bottom-block .experiense .block span, .graphic .bottom-block1 .experiense .block span, .graphic .bottom-block .experiense .block span, .animation .bottom-block1 .experiense .block span, .animation .bottom-block .experiense .block span {
+    display: block;
+    margin-bottom: 4vw;
+    font-size: 4vw;
+    line-height: 4.7vw;
+  }
+  .editing .bottom-block1 .experiense .block .mini-title, .editing .bottom-block .experiense .block .mini-title, .illustration .bottom-block1 .experiense .block .mini-title, .illustration .bottom-block .experiense .block .mini-title, .graphic .bottom-block1 .experiense .block .mini-title, .graphic .bottom-block .experiense .block .mini-title, .animation .bottom-block1 .experiense .block .mini-title, .animation .bottom-block .experiense .block .mini-title {
+    font-family: "KTS-black";
+  }
+  .editing .bottom-block1 .experiense .block:nth-child(1), .editing .bottom-block .experiense .block:nth-child(1), .illustration .bottom-block1 .experiense .block:nth-child(1), .illustration .bottom-block .experiense .block:nth-child(1), .graphic .bottom-block1 .experiense .block:nth-child(1), .graphic .bottom-block .experiense .block:nth-child(1), .animation .bottom-block1 .experiense .block:nth-child(1), .animation .bottom-block .experiense .block:nth-child(1) {
+    width: 100%;
+  }
+  .editing .bottom-block1 .experiense .block:nth-child(1) span, .editing .bottom-block .experiense .block:nth-child(1) span, .illustration .bottom-block1 .experiense .block:nth-child(1) span, .illustration .bottom-block .experiense .block:nth-child(1) span, .graphic .bottom-block1 .experiense .block:nth-child(1) span, .graphic .bottom-block .experiense .block:nth-child(1) span, .animation .bottom-block1 .experiense .block:nth-child(1) span, .animation .bottom-block .experiense .block:nth-child(1) span {
+    position: relative;
+  }
+  .editing .bottom-block1 .experiense .block:nth-child(1) span::after, .editing .bottom-block .experiense .block:nth-child(1) span::after, .illustration .bottom-block1 .experiense .block:nth-child(1) span::after, .illustration .bottom-block .experiense .block:nth-child(1) span::after, .graphic .bottom-block1 .experiense .block:nth-child(1) span::after, .graphic .bottom-block .experiense .block:nth-child(1) span::after, .animation .bottom-block1 .experiense .block:nth-child(1) span::after, .animation .bottom-block .experiense .block:nth-child(1) span::after {
+    content: "";
+    width: 2vw;
+    height: 0.577vw;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: -4.3vw;
+  }
+  .editing .bottom-block1 .works, .editing .bottom-block .works, .illustration .bottom-block1 .works, .illustration .bottom-block .works, .graphic .bottom-block1 .works, .graphic .bottom-block .works, .animation .bottom-block1 .works, .animation .bottom-block .works {
+    text-align: center;
+    margin-top: 0vw;
+  }
+  .editing .bottom-block1 .works .title, .editing .bottom-block .works .title, .illustration .bottom-block1 .works .title, .illustration .bottom-block .works .title, .graphic .bottom-block1 .works .title, .graphic .bottom-block .works .title, .animation .bottom-block1 .works .title, .animation .bottom-block .works .title {
+    font-size: 4.7vw;
+    margin-bottom: 9vw;
+  }
+  .editing .bottom-block1 .works .info, .editing .bottom-block .works .info, .illustration .bottom-block1 .works .info, .illustration .bottom-block .works .info, .graphic .bottom-block1 .works .info, .graphic .bottom-block .works .info, .animation .bottom-block1 .works .info, .animation .bottom-block .works .info {
+    width: 80.08vw;
+    font-family: "KTS";
+    font-size: 4vw;
+    margin: auto;
+    line-height: 4.5vw;
+  }
+  .editing .bottom-block1 .comments, .editing .bottom-block .comments, .illustration .bottom-block1 .comments, .illustration .bottom-block .comments, .graphic .bottom-block1 .comments, .graphic .bottom-block .comments, .animation .bottom-block1 .comments, .animation .bottom-block .comments {
+    width: 90vw;
+    height: 30vw;
+    position: relative;
+    margin: 8.33vw auto 0px;
+  }
+  .editing .bottom-block1 .comments .comments-block, .editing .bottom-block .comments .comments-block, .illustration .bottom-block1 .comments .comments-block, .illustration .bottom-block .comments .comments-block, .graphic .bottom-block1 .comments .comments-block, .graphic .bottom-block .comments .comments-block, .animation .bottom-block1 .comments .comments-block, .animation .bottom-block .comments .comments-block {
+    width: 90vw;
+    height: 30vw;
+    overflow: hidden;
+    position: relative;
+  }
+  .editing .bottom-block1 .comments .comments-block .comments-line, .editing .bottom-block .comments .comments-block .comments-line, .illustration .bottom-block1 .comments .comments-block .comments-line, .illustration .bottom-block .comments .comments-block .comments-line, .graphic .bottom-block1 .comments .comments-block .comments-line, .graphic .bottom-block .comments .comments-block .comments-line, .animation .bottom-block1 .comments .comments-block .comments-line, .animation .bottom-block .comments .comments-block .comments-line {
+    width: 90vw;
+    height: 30vw;
+  }
+  .editing .bottom-block1 .comments .comments-block .comment, .editing .bottom-block1 .comments .comments-block .comments-line .comment, .editing .bottom-block .comments .comments-block .comment, .editing .bottom-block .comments .comments-block .comments-line .comment, .illustration .bottom-block1 .comments .comments-block .comment, .illustration .bottom-block1 .comments .comments-block .comments-line .comment, .illustration .bottom-block .comments .comments-block .comment, .illustration .bottom-block .comments .comments-block .comments-line .comment, .graphic .bottom-block1 .comments .comments-block .comment, .graphic .bottom-block1 .comments .comments-block .comments-line .comment, .graphic .bottom-block .comments .comments-block .comment, .graphic .bottom-block .comments .comments-block .comments-line .comment, .animation .bottom-block1 .comments .comments-block .comment, .animation .bottom-block1 .comments .comments-block .comments-line .comment, .animation .bottom-block .comments .comments-block .comment, .animation .bottom-block .comments .comments-block .comments-line .comment {
+    background-image: url(./images/editing/bubblereview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 30vw;
+    font-family: "KTS";
+    font-size: 3vw;
+    text-align: center;
+    line-height: 3.5vw;
+    padding: 4.08vw 6.2vw 0vw;
+    position: relative;
+    float: left;
+  }
+  .editing .bottom-block1 .comments .comments-block .comment .comment-text, .editing .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .editing .bottom-block .comments .comments-block .comment .comment-text, .editing .bottom-block .comments .comments-block .comments-line .comment .comment-text, .illustration .bottom-block1 .comments .comments-block .comment .comment-text, .illustration .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .illustration .bottom-block .comments .comments-block .comment .comment-text, .illustration .bottom-block .comments .comments-block .comments-line .comment .comment-text, .graphic .bottom-block1 .comments .comments-block .comment .comment-text, .graphic .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .graphic .bottom-block .comments .comments-block .comment .comment-text, .graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text, .animation .bottom-block1 .comments .comments-block .comment .comment-text, .animation .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .animation .bottom-block .comments .comments-block .comment .comment-text, .animation .bottom-block .comments .comments-block .comments-line .comment .comment-text {
+    transition-property: opacity;
+    transition: 0.2s;
+  }
+  .editing .bottom-block1 .comments .comments-block .comment .comment-text .name, .editing .bottom-block1 .comments .comments-block .comments-line .comment .comment-text .name, .editing .bottom-block .comments .comments-block .comment .comment-text .name, .editing .bottom-block .comments .comments-block .comments-line .comment .comment-text .name, .illustration .bottom-block1 .comments .comments-block .comment .comment-text .name, .illustration .bottom-block1 .comments .comments-block .comments-line .comment .comment-text .name, .illustration .bottom-block .comments .comments-block .comment .comment-text .name, .illustration .bottom-block .comments .comments-block .comments-line .comment .comment-text .name, .graphic .bottom-block1 .comments .comments-block .comment .comment-text .name, .graphic .bottom-block1 .comments .comments-block .comments-line .comment .comment-text .name, .graphic .bottom-block .comments .comments-block .comment .comment-text .name, .graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text .name, .animation .bottom-block1 .comments .comments-block .comment .comment-text .name, .animation .bottom-block1 .comments .comments-block .comments-line .comment .comment-text .name, .animation .bottom-block .comments .comments-block .comment .comment-text .name, .animation .bottom-block .comments .comments-block .comments-line .comment .comment-text .name {
+    bottom: 10vw;
+    font-size: 2.5vw;
+  }
+  .editing .bottom-block1 .comments .left,
+  .editing .bottom-block1 .comments .right, .editing .bottom-block .comments .left,
+  .editing .bottom-block .comments .right, .illustration .bottom-block1 .comments .left,
+  .illustration .bottom-block1 .comments .right, .illustration .bottom-block .comments .left,
+  .illustration .bottom-block .comments .right, .graphic .bottom-block1 .comments .left,
+  .graphic .bottom-block1 .comments .right, .graphic .bottom-block .comments .left,
+  .graphic .bottom-block .comments .right, .animation .bottom-block1 .comments .left,
+  .animation .bottom-block1 .comments .right, .animation .bottom-block .comments .left,
+  .animation .bottom-block .comments .right {
+    width: 2.7vw;
+    height: 8.444vw;
+    position: absolute;
+    top: 27vw;
+    cursor: pointer;
+    background-image: url(./images/editing/left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  .editing .bottom-block1 .comments .left, .editing .bottom-block .comments .left, .illustration .bottom-block1 .comments .left, .illustration .bottom-block .comments .left, .graphic .bottom-block1 .comments .left, .graphic .bottom-block .comments .left, .animation .bottom-block1 .comments .left, .animation .bottom-block .comments .left {
+    left: 35vw;
+  }
+  .editing .bottom-block1 .comments .right, .editing .bottom-block .comments .right, .illustration .bottom-block1 .comments .right, .illustration .bottom-block .comments .right, .graphic .bottom-block1 .comments .right, .graphic .bottom-block .comments .right, .animation .bottom-block1 .comments .right, .animation .bottom-block .comments .right {
+    right: 35vw;
+    background-image: url(./images/editing/right.png);
+  }
+  .editing .bottom-block1 .wtitle, .editing .bottom-block .wtitle, .illustration .bottom-block1 .wtitle, .illustration .bottom-block .wtitle, .graphic .bottom-block1 .wtitle, .graphic .bottom-block .wtitle, .animation .bottom-block1 .wtitle, .animation .bottom-block .wtitle {
+    font-size: 4.7vw;
+    text-align: center;
+    margin-top: 17vw;
+  }
+  .editing .bottom-block1 .videos, .editing .bottom-block .videos, .illustration .bottom-block1 .videos, .illustration .bottom-block .videos, .graphic .bottom-block1 .videos, .graphic .bottom-block .videos, .animation .bottom-block1 .videos, .animation .bottom-block .videos {
+    width: 94.9vw;
+    height: 65vw;
+    margin: 4vw auto 0px;
+    padding-top: 8.86vw;
+  }
+  .editing .bottom-block1 .videos .left,
+  .editing .bottom-block1 .videos .right, .editing .bottom-block .videos .left,
+  .editing .bottom-block .videos .right, .illustration .bottom-block1 .videos .left,
+  .illustration .bottom-block1 .videos .right, .illustration .bottom-block .videos .left,
+  .illustration .bottom-block .videos .right, .graphic .bottom-block1 .videos .left,
+  .graphic .bottom-block1 .videos .right, .graphic .bottom-block .videos .left,
+  .graphic .bottom-block .videos .right, .animation .bottom-block1 .videos .left,
+  .animation .bottom-block1 .videos .right, .animation .bottom-block .videos .left,
+  .animation .bottom-block .videos .right {
+    width: 2.7vw;
+    height: 8.444vw;
+    top: 65vw;
+  }
+  .editing .bottom-block1 .videos .left, .editing .bottom-block .videos .left, .illustration .bottom-block1 .videos .left, .illustration .bottom-block .videos .left, .graphic .bottom-block1 .videos .left, .graphic .bottom-block .videos .left, .animation .bottom-block1 .videos .left, .animation .bottom-block .videos .left {
+    left: 37vw;
+  }
+  .editing .bottom-block1 .videos .right, .editing .bottom-block .videos .right, .illustration .bottom-block1 .videos .right, .illustration .bottom-block .videos .right, .graphic .bottom-block1 .videos .right, .graphic .bottom-block .videos .right, .animation .bottom-block1 .videos .right, .animation .bottom-block .videos .right {
+    right: 37vw;
+  }
+  .editing .bottom-block1 .videos .vid, .editing .bottom-block .videos .vid, .illustration .bottom-block1 .videos .vid, .illustration .bottom-block .videos .vid, .graphic .bottom-block1 .videos .vid, .graphic .bottom-block .videos .vid, .animation .bottom-block1 .videos .vid, .animation .bottom-block .videos .vid {
+    width: 85.8vw;
+    height: 46.55vw;
+  }
+  .editing .bottom-block1 .videos .vid iframe, .editing .bottom-block .videos .vid iframe, .illustration .bottom-block1 .videos .vid iframe, .illustration .bottom-block .videos .vid iframe, .graphic .bottom-block1 .videos .vid iframe, .graphic .bottom-block .videos .vid iframe, .animation .bottom-block1 .videos .vid iframe, .animation .bottom-block .videos .vid iframe {
+    width: 85.8vw;
+    height: 46.55vw;
+  }
+  .editing .bottom-block1 .videos .vid iframe p, .editing .bottom-block .videos .vid iframe p, .illustration .bottom-block1 .videos .vid iframe p, .illustration .bottom-block .videos .vid iframe p, .graphic .bottom-block1 .videos .vid iframe p, .graphic .bottom-block .videos .vid iframe p, .animation .bottom-block1 .videos .vid iframe p, .animation .bottom-block .videos .vid iframe p {
+    font-size: 1vw;
+  }
+  .editing .bottom-block1 .videos .vid iframe span, .editing .bottom-block .videos .vid iframe span, .illustration .bottom-block1 .videos .vid iframe span, .illustration .bottom-block .videos .vid iframe span, .graphic .bottom-block1 .videos .vid iframe span, .graphic .bottom-block .videos .vid iframe span, .animation .bottom-block1 .videos .vid iframe span, .animation .bottom-block .videos .vid iframe span {
+    font-size: 0px;
+  }
+  .editing .bottom-block1 .price, .editing .bottom-block .price, .illustration .bottom-block1 .price, .illustration .bottom-block .price, .graphic .bottom-block1 .price, .graphic .bottom-block .price, .animation .bottom-block1 .price, .animation .bottom-block .price {
+    margin-top: 22.93vw;
+  }
+  .editing .bottom-block1 .price .title, .editing .bottom-block .price .title, .illustration .bottom-block1 .price .title, .illustration .bottom-block .price .title, .graphic .bottom-block1 .price .title, .graphic .bottom-block .price .title, .animation .bottom-block1 .price .title, .animation .bottom-block .price .title {
+    font-size: 5vw;
+    text-align: center;
+  }
+  .editing .bottom-block1 .price .price-block, .editing .bottom-block .price .price-block, .illustration .bottom-block1 .price .price-block, .illustration .bottom-block .price .price-block, .graphic .bottom-block1 .price .price-block, .graphic .bottom-block .price .price-block, .animation .bottom-block1 .price .price-block, .animation .bottom-block .price .price-block {
+    width: 90vw;
+    height: 100vw;
+    padding-top: 10.12vw;
+    margin-left: 2vw;
+    margin-bottom: 10vw;
+  }
+  .editing .bottom-block1 .price .price-block .EN, .editing .bottom-block .price .price-block .EN, .illustration .bottom-block1 .price .price-block .EN, .illustration .bottom-block .price .price-block .EN, .graphic .bottom-block1 .price .price-block .EN, .graphic .bottom-block .price .price-block .EN, .animation .bottom-block1 .price .price-block .EN, .animation .bottom-block .price .price-block .EN {
+    display: none;
+  }
+  .editing .bottom-block1 .price .price-block .title, .editing .bottom-block .price .price-block .title, .illustration .bottom-block1 .price .price-block .title, .illustration .bottom-block .price .price-block .title, .graphic .bottom-block1 .price .price-block .title, .graphic .bottom-block .price .price-block .title, .animation .bottom-block1 .price .price-block .title, .animation .bottom-block .price .price-block .title {
+    margin-left: 4vw;
+    font-size: 7vw;
+    margin-top: 0px;
+  }
+  .editing .bottom-block1 .price .price-block .info, .editing .bottom-block .price .price-block .info, .illustration .bottom-block1 .price .price-block .info, .illustration .bottom-block .price .price-block .info, .graphic .bottom-block1 .price .price-block .info, .graphic .bottom-block .price .price-block .info, .animation .bottom-block1 .price .price-block .info, .animation .bottom-block .price .price-block .info {
+    width: 60.09vw;
+    height: 53.09vw;
+    margin-top: 20.86vw;
+    margin-left: 20.37vw;
+  }
+  .editing .bottom-block1 .price .price-block .info h1, .editing .bottom-block .price .price-block .info h1, .illustration .bottom-block1 .price .price-block .info h1, .illustration .bottom-block .price .price-block .info h1, .graphic .bottom-block1 .price .price-block .info h1, .graphic .bottom-block .price .price-block .info h1, .animation .bottom-block1 .price .price-block .info h1, .animation .bottom-block .price .price-block .info h1 {
+    margin: -1.04vw 0px 1.73vw 0px;
+    font-size: 4vw;
+  }
+  .editing .bottom-block1 .price .price-block .info span, .editing .bottom-block .price .price-block .info span, .illustration .bottom-block1 .price .price-block .info span, .illustration .bottom-block .price .price-block .info span, .graphic .bottom-block1 .price .price-block .info span, .graphic .bottom-block .price .price-block .info span, .animation .bottom-block1 .price .price-block .info span, .animation .bottom-block .price .price-block .info span {
+    margin-bottom: 3vw;
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+  .editing .bottom-block1 .price .price-block .info span::after, .editing .bottom-block .price .price-block .info span::after, .illustration .bottom-block1 .price .price-block .info span::after, .illustration .bottom-block .price .price-block .info span::after, .graphic .bottom-block1 .price .price-block .info span::after, .graphic .bottom-block .price .price-block .info span::after, .animation .bottom-block1 .price .price-block .info span::after, .animation .bottom-block .price .price-block .info span::after {
+    width: 2vw;
+    height: 0.5vw;
+    left: -3vw;
+  }
+  .editing .bottom-block1 .price .price-block .price, .editing .bottom-block .price .price-block .price, .illustration .bottom-block1 .price .price-block .price, .illustration .bottom-block .price .price-block .price, .graphic .bottom-block1 .price .price-block .price, .graphic .bottom-block .price .price-block .price, .animation .bottom-block1 .price .price-block .price, .animation .bottom-block .price .price-block .price {
+    width: 70vw;
+    height: 5.43vw;
+    margin: 1.08vw 0vw 0px 14.51vw;
+    margin-right: 0px;
+    padding-top: 0vw;
+    font-size: 4vw;
+  }
+  .editing .bottom-block1 .price .price-blocks, .editing .bottom-block .price .price-blocks, .illustration .bottom-block1 .price .price-blocks, .illustration .bottom-block .price .price-blocks, .graphic .bottom-block1 .price .price-blocks, .graphic .bottom-block .price .price-blocks, .animation .bottom-block1 .price .price-blocks, .animation .bottom-block .price .price-blocks {
+    width: 100vw;
+    height: 200.72vw;
+    display: block;
+    margin: 9.02vw auto 0px;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block, .editing .bottom-block .price .price-blocks .price-block, .illustration .bottom-block1 .price .price-blocks .price-block, .illustration .bottom-block .price .price-blocks .price-block, .graphic .bottom-block1 .price .price-blocks .price-block, .graphic .bottom-block .price .price-blocks .price-block, .animation .bottom-block1 .price .price-blocks .price-block, .animation .bottom-block .price .price-blocks .price-block {
+    width: 90vw;
+    height: 100vw;
+    padding-top: 10.12vw;
+    margin-left: 2vw;
+    margin-bottom: 10vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .EN, .editing .bottom-block .price .price-blocks .price-block .EN, .illustration .bottom-block1 .price .price-blocks .price-block .EN, .illustration .bottom-block .price .price-blocks .price-block .EN, .graphic .bottom-block1 .price .price-blocks .price-block .EN, .graphic .bottom-block .price .price-blocks .price-block .EN, .animation .bottom-block1 .price .price-blocks .price-block .EN, .animation .bottom-block .price .price-blocks .price-block .EN {
+    display: none;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .title, .editing .bottom-block .price .price-blocks .price-block .title, .illustration .bottom-block1 .price .price-blocks .price-block .title, .illustration .bottom-block .price .price-blocks .price-block .title, .graphic .bottom-block1 .price .price-blocks .price-block .title, .graphic .bottom-block .price .price-blocks .price-block .title, .animation .bottom-block1 .price .price-blocks .price-block .title, .animation .bottom-block .price .price-blocks .price-block .title {
+    margin-left: 4vw;
+    font-size: 7vw;
+    margin-top: 0px;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .info, .editing .bottom-block .price .price-blocks .price-block .info, .illustration .bottom-block1 .price .price-blocks .price-block .info, .illustration .bottom-block .price .price-blocks .price-block .info, .graphic .bottom-block1 .price .price-blocks .price-block .info, .graphic .bottom-block .price .price-blocks .price-block .info, .animation .bottom-block1 .price .price-blocks .price-block .info, .animation .bottom-block .price .price-blocks .price-block .info {
+    width: 60.09vw;
+    height: 53.09vw;
+    margin-top: 20.86vw;
+    margin-left: 20.37vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .info h1, .editing .bottom-block .price .price-blocks .price-block .info h1, .illustration .bottom-block1 .price .price-blocks .price-block .info h1, .illustration .bottom-block .price .price-blocks .price-block .info h1, .graphic .bottom-block1 .price .price-blocks .price-block .info h1, .graphic .bottom-block .price .price-blocks .price-block .info h1, .animation .bottom-block1 .price .price-blocks .price-block .info h1, .animation .bottom-block .price .price-blocks .price-block .info h1 {
+    margin: -1.04vw 0px 1.73vw 0px;
+    font-size: 4vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .info span, .editing .bottom-block .price .price-blocks .price-block .info span, .illustration .bottom-block1 .price .price-blocks .price-block .info span, .illustration .bottom-block .price .price-blocks .price-block .info span, .graphic .bottom-block1 .price .price-blocks .price-block .info span, .graphic .bottom-block .price .price-blocks .price-block .info span, .animation .bottom-block1 .price .price-blocks .price-block .info span, .animation .bottom-block .price .price-blocks .price-block .info span {
+    margin-bottom: 3vw;
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .info span::after, .editing .bottom-block .price .price-blocks .price-block .info span::after, .illustration .bottom-block1 .price .price-blocks .price-block .info span::after, .illustration .bottom-block .price .price-blocks .price-block .info span::after, .graphic .bottom-block1 .price .price-blocks .price-block .info span::after, .graphic .bottom-block .price .price-blocks .price-block .info span::after, .animation .bottom-block1 .price .price-blocks .price-block .info span::after, .animation .bottom-block .price .price-blocks .price-block .info span::after {
+    width: 2vw;
+    height: 0.5vw;
+    left: -3vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block .price, .editing .bottom-block .price .price-blocks .price-block .price, .illustration .bottom-block1 .price .price-blocks .price-block .price, .illustration .bottom-block .price .price-blocks .price-block .price, .graphic .bottom-block1 .price .price-blocks .price-block .price, .graphic .bottom-block .price .price-blocks .price-block .price, .animation .bottom-block1 .price .price-blocks .price-block .price, .animation .bottom-block .price .price-blocks .price-block .price {
+    width: 70vw;
+    height: 5.43vw;
+    margin: 1.08vw 0vw 0px 14.51vw;
+    margin-right: 0px;
+    padding-top: 0vw;
+    font-size: 4vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block:nth-child(2), .editing .bottom-block .price .price-blocks .price-block:nth-child(2), .illustration .bottom-block1 .price .price-blocks .price-block:nth-child(2), .illustration .bottom-block .price .price-blocks .price-block:nth-child(2), .graphic .bottom-block1 .price .price-blocks .price-block:nth-child(2), .graphic .bottom-block .price .price-blocks .price-block:nth-child(2), .animation .bottom-block1 .price .price-blocks .price-block:nth-child(2), .animation .bottom-block .price .price-blocks .price-block:nth-child(2) {
+    margin-left: 6vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) .info, .editing .bottom-block .price .price-blocks .price-block:nth-child(2) .info, .illustration .bottom-block1 .price .price-blocks .price-block:nth-child(2) .info, .illustration .bottom-block .price .price-blocks .price-block:nth-child(2) .info, .graphic .bottom-block1 .price .price-blocks .price-block:nth-child(2) .info, .graphic .bottom-block .price .price-blocks .price-block:nth-child(2) .info, .animation .bottom-block1 .price .price-blocks .price-block:nth-child(2) .info, .animation .bottom-block .price .price-blocks .price-block:nth-child(2) .info {
+    margin-left: 14.94vw;
+    margin-top: 16vw;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) .title, .editing .bottom-block .price .price-blocks .price-block:nth-child(2) .title, .illustration .bottom-block1 .price .price-blocks .price-block:nth-child(2) .title, .illustration .bottom-block .price .price-blocks .price-block:nth-child(2) .title, .graphic .bottom-block1 .price .price-blocks .price-block:nth-child(2) .title, .graphic .bottom-block .price .price-blocks .price-block:nth-child(2) .title, .animation .bottom-block1 .price .price-blocks .price-block:nth-child(2) .title, .animation .bottom-block .price .price-blocks .price-block:nth-child(2) .title {
+    margin-left: 0px;
+  }
+  .editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) .price, .editing .bottom-block .price .price-blocks .price-block:nth-child(2) .price, .illustration .bottom-block1 .price .price-blocks .price-block:nth-child(2) .price, .illustration .bottom-block .price .price-blocks .price-block:nth-child(2) .price, .graphic .bottom-block1 .price .price-blocks .price-block:nth-child(2) .price, .graphic .bottom-block .price .price-blocks .price-block:nth-child(2) .price, .animation .bottom-block1 .price .price-blocks .price-block:nth-child(2) .price, .animation .bottom-block .price .price-blocks .price-block:nth-child(2) .price {
+    margin-left: 9.77vw;
+    margin-top: 8.3vw;
+  }
+  .editing .bottom-block1 .description, .editing .bottom-block .description, .illustration .bottom-block1 .description, .illustration .bottom-block .description, .graphic .bottom-block1 .description, .graphic .bottom-block .description, .animation .bottom-block1 .description, .animation .bottom-block .description {
+    font-size: 4vw;
+    margin-top: 20.55vw;
+    line-height: 6vw;
+  }
+  .editing .bottom-block1 .description span, .editing .bottom-block .description span, .illustration .bottom-block1 .description span, .illustration .bottom-block .description span, .graphic .bottom-block1 .description span, .graphic .bottom-block .description span, .animation .bottom-block1 .description span, .animation .bottom-block .description span {
+    display: contents;
+  }
+  .editing .bottom-block1 .description .button, .editing .bottom-block .description .button, .illustration .bottom-block1 .description .button, .illustration .bottom-block .description .button, .graphic .bottom-block1 .description .button, .graphic .bottom-block .description .button, .animation .bottom-block1 .description .button, .animation .bottom-block .description .button {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    border-radius: 10px;
+    margin-top: 5vw;
+  }
+  .editing .bottom-block1 .bottom-menu, .editing .bottom-block .bottom-menu, .illustration .bottom-block1 .bottom-menu, .illustration .bottom-block .bottom-menu, .graphic .bottom-block1 .bottom-menu, .graphic .bottom-block .bottom-menu, .animation .bottom-block1 .bottom-menu, .animation .bottom-block .bottom-menu {
+    display: none;
+  }
+  .editing .bottom-block1 .bottom, .editing .bottom-block .bottom, .illustration .bottom-block1 .bottom, .illustration .bottom-block .bottom, .graphic .bottom-block1 .bottom, .graphic .bottom-block .bottom, .animation .bottom-block1 .bottom, .animation .bottom-block .bottom {
+    display: none;
+  }
+  .editing .bottom-block, .illustration .bottom-block, .graphic .bottom-block, .animation .bottom-block {
+    padding-top: 0px;
+  }
+  .editing .footer, .illustration .footer, .graphic .footer, .animation .footer {
+    display: none;
+  }
+  .graphic .top-block, .animation .top-block, .illustration .top-block {
+    height: 300vw;
+  }
+  .graphic .middle-block, .animation .middle-block, .illustration .middle-block {
+    padding: 10vw 0px;
+  }
+  .graphic .middle-block span, .animation .middle-block span, .illustration .middle-block span {
+    font-size: 5vw;
+  }
+  .graphic .bottom-block, .animation .bottom-block, .illustration .bottom-block {
+    height: 890vw;
+  }
+  .graphic .bottom-block .comments, .animation .bottom-block .comments, .illustration .bottom-block .comments {
+    height: 45vw;
+  }
+  .graphic .bottom-block .comments .left, .graphic .bottom-block .comments .right, .animation .bottom-block .comments .left, .animation .bottom-block .comments .right, .illustration .bottom-block .comments .left, .illustration .bottom-block .comments .right {
+    top: 40vw;
+  }
+  .graphic .bottom-block .comments .title, .animation .bottom-block .comments .title, .illustration .bottom-block .comments .title {
+    margin-bottom: 8vw;
+  }
+  .graphic .bottom-block .works, .animation .bottom-block .works, .illustration .bottom-block .works {
+    width: 100vw;
+    height: 100vw;
+  }
+  .graphic .bottom-block .works .videos, .animation .bottom-block .works .videos, .illustration .bottom-block .works .videos {
+    width: 60.8vw;
+    height: 70vw;
+  }
+  .graphic .bottom-block .works .videos .left,
+  .graphic .bottom-block .works .videos .right, .animation .bottom-block .works .videos .left,
+  .animation .bottom-block .works .videos .right, .illustration .bottom-block .works .videos .left,
+  .illustration .bottom-block .works .videos .right {
+    width: 4vw;
+    height: 7vw;
+    top: 85vw;
+  }
+  .graphic .bottom-block .works .videos .left, .animation .bottom-block .works .videos .left, .illustration .bottom-block .works .videos .left {
+    left: 20vw;
+  }
+  .graphic .bottom-block .works .videos .right, .animation .bottom-block .works .videos .right, .illustration .bottom-block .works .videos .right {
+    right: 20vw;
+  }
+  .graphic .bottom-block .works .videos .vid, .animation .bottom-block .works .videos .vid, .illustration .bottom-block .works .videos .vid {
+    width: 60.8vw;
+    height: 70vw;
+  }
+  .graphic .bottom-block .price .price-block, .animation .bottom-block .price .price-block, .illustration .bottom-block .price .price-block {
+    margin: 10vw auto 0px;
+    padding-top: 16vw;
+  }
+  .graphic .bottom-block .price .price-block .title span, .animation .bottom-block .price .price-block .title span, .illustration .bottom-block .price .price-block .title span {
+    font-size: 5vw;
+  }
+  .graphic .bottom-block .price .price-block .info, .animation .bottom-block .price .price-block .info, .illustration .bottom-block .price .price-block .info {
+    width: 80vw;
+    margin: 5vw 7vw 0vw;
+  }
+  .graphic .bottom-block .price .price-block .info span, .animation .bottom-block .price .price-block .info span, .illustration .bottom-block .price .price-block .info span {
+    margin-bottom: 2vw;
+  }
+  .graphic .bottom-block .price .price-block .price, .animation .bottom-block .price .price-block .price, .illustration .bottom-block .price .price-block .price {
+    width: 61vw;
+    margin-top: 0.3vw;
+  }
+  .animation .top-block, .illustration .top-block {
+    height: 400vw;
+    position: relative;
+  }
+  .animation .top-block .main-title .title, .illustration .top-block .main-title .title {
+    padding-top: 9vw;
+  }
+  .animation .bottom-block, .illustration .bottom-block {
+    height: 640vw;
+  }
+  .animation .bottom-block .extra, .illustration .bottom-block .extra {
+    height: 120vw;
+  }
+  .animation .bottom-block .extra .advice, .illustration .bottom-block .extra .advice {
+    width: 80vw;
+    height: 31vw;
+    font-size: 3vw;
+    line-height: 3.9vw;
+    margin: auto;
+    padding: 4vw 2vw 0px 4vw;
+  }
+  .animation .bottom-block .extra .sertificate-text, .illustration .bottom-block .extra .sertificate-text {
+    margin-top: 5vw;
+  }
+  .animation .bottom-block .experiense, .illustration .bottom-block .experiense {
+    height: 110vw;
+  }
+  .animation .bottom-block .works, .illustration .bottom-block .works {
+    height: 95vw;
+  }
+  .animation .bottom-block .works .videos, .illustration .bottom-block .works .videos {
+    width: 94.9vw;
+    height: 65vw;
+    margin: 4vw auto 0px;
+    padding-top: 8.86vw;
+  }
+  .animation .bottom-block .works .videos .left,
+  .animation .bottom-block .works .videos .right, .illustration .bottom-block .works .videos .left,
+  .illustration .bottom-block .works .videos .right {
+    width: 2.7vw;
+    height: 8.444vw;
+    top: 65vw;
+  }
+  .animation .bottom-block .works .videos .left, .illustration .bottom-block .works .videos .left {
+    left: 37vw;
+  }
+  .animation .bottom-block .works .videos .right, .illustration .bottom-block .works .videos .right {
+    right: 37vw;
+  }
+  .animation .bottom-block .works .videos .vid, .illustration .bottom-block .works .videos .vid {
+    width: 85.8vw;
+    height: 46.55vw;
+  }
+  .animation .bottom-block .works .videos .vid iframe, .illustration .bottom-block .works .videos .vid iframe {
+    width: 85.8vw;
+    height: 46.55vw;
+  }
+  .animation .bottom-block .works .videos .vid iframe p, .illustration .bottom-block .works .videos .vid iframe p {
+    font-size: 1vw;
+  }
+  .animation .bottom-block .works .videos .vid iframe span, .illustration .bottom-block .works .videos .vid iframe span {
+    font-size: 0px;
+  }
+  .animation .bottom-block .price, .illustration .bottom-block .price {
+    overflow: hidden;
+    margin-top: 0vw;
+  }
+  .animation .bottom-block .price .price-block, .illustration .bottom-block .price .price-block {
+    width: 125vw;
+    height: 129vw;
+    margin-left: -10vw;
+    padding-top: 12vw;
+  }
+  .animation .bottom-block .price .price-block .title, .illustration .bottom-block .price .price-block .title {
+    margin-left: -2vw;
+  }
+  .animation .bottom-block .price .price-block .info, .illustration .bottom-block .price .price-block .info {
+    width: 70vw;
+    margin-left: 30vw;
+    margin-top: 14vw;
+  }
+  .animation .bottom-block .price .price-block .info span, .illustration .bottom-block .price .price-block .info span {
+    margin-bottom: 3vw;
+  }
+  .animation .bottom-block .price .price-block .price, .illustration .bottom-block .price .price-block .price {
+    margin-top: 14.5vw;
+    margin-left: 28vw;
+  }
+  .animation .middle-block, .illustration .middle-block {
+    padding-bottom: 0px;
+  }
+  .illustration .top-block {
+    height: 458vw;
+  }
+  .illustration .top-block .question-block {
+    height: 80vw;
+  }
+  .illustration .top-block .zin {
+    width: 90vw;
+    height: 80vw;
+    margin-top: 10vw;
+  }
+  .illustration .top-block .zin .title {
+    width: 30vw;
+    height: 8vw;
+    font-size: 4.6vw;
+    margin: 0px auto 5vw;
+    padding-top: 1vw;
+    background-image: url(./images/editing/title3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .illustration .top-block .zin .termin {
+    font-size: 3.8vw;
+  }
+  .illustration .top-block .zin .description {
+    font-size: 4vw;
+    line-height: 4.5vw;
+  }
+  .illustration .middle-block {
+    padding-bottom: 10vw;
+  }
+  .illustration .bottom-block {
+    padding-top: 5vw;
+    height: 500vw;
+  }
+  .illustration .bottom-block .anika-block .info {
+    margin-left: 0px;
+    padding-right: 5px;
+  }
+  .illustration .bottom-block .anika-block .img {
+    height: 44vw;
+  }
+  .illustration .bottom-block .anika-block .img::before {
+    background-image: url(./images/illustration/teacher.jpg);
+  }
+  .illustration .bottom-block .experiense {
+    height: 130vw;
+  }
+  .illustration .bottom-block .comments {
+    margin-top: 15vw;
+  }
+  .illustration .bottom-block .comments .title {
+    margin-bottom: 0vw;
+  }
+  .illustration .bottom-block .price {
+    margin-top: 5vw;
+  }
+  .illustration .bottom-block .price .price-block {
+    width: 130vw;
+    margin-left: -17vw;
+  }
+  .illustration .bottom-block .price .price-block .title {
+    margin-left: 5vw;
+  }
+  .illustration .bottom-block .price .price-block .info {
+    margin-left: 36vw;
+    width: 60vw;
+  }
+  .illustration .bottom-block .price .price-block .price {
+    margin-left: 36vw;
+    margin-top: 14vw;
+  }
+  .graphic .bottom-block .anika-block .img::before {
+    background-image: url(./images/graphicdesign/msg565874734-32392.jpg);
+  }
+}/*# sourceMappingURL=style.css.map */

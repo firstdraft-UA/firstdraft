@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First draft</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="illustration">
+        <div class="logo" onclick="location.href='index.html'"></div>
+        <div class="menu" onclick="toggle()">
+            <div class="line toggle"></div>
+        </div>
+        <div class="menu-mobile">
+            <div class="button-list">
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA free" onclick="off()">Безкоштовний урок</span></a>
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN" onclick="off()">Free lesson</span></a>
+            <a href="#program"><span class="UA" onclick="off()">Програма курсу</span></a>
+            <a href="#program"><span class="EN" onclick="off()">Course program</span></a>
+            <a href="#teacher"><span class="UA" onclick="off()">Про викладача</span></a>
+            <a href="#teacher"><span class="EN" onclick="off()">About teacher</span></a>
+            <a href="#price"><span class="UA" onclick="off()">Вартість</span></a>
+            <a href="#price"><span class="EN" onclick="off()">Price</span></a>
+                <div class="lang-buttons">
+                    <span class="ukr-button">Ukr</span>
+                    <span class="en-button">En</span>
+                </div>
+            <hr>
+            <p>Зв'язатись</p>
+            <div class="reg">
+                <input type="text" placeholder="Ім'я та прізвище" class="UA">
+                <input type="text" placeholder="First name and surname" class="EN">
+                <input type="text" placeholder="Email*">
+                <input type="text" placeholder="Повідомлення*" class="UA">
+                <input type="text" placeholder="Message*" class="EN">
+                <input type="button" value="НАДІСЛАТИ" class="button">
+            </div>
+            </div>
+            
+        </div>
+        <div class="top-block">
+            <div class="menu">
+
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Безкоштовний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
+            </div>
+            <div class="lang-buttons">
+                <span class="ukr-button">Ukr</span>
+                <span class="en-button">En</span>
+            </div>
+            <div class="main-title">
+                <div class="title UA">КУРС З ІЛЮСТРАЦІЇ</div>
+                <div class="title EN">ILLUSTRATION COURSE</div>
+                <div class="description UA">Хочеш проявити свій творчий потенціал та розвинути мистецькі
+                    здібності? Створити власні ілюстрації для книжок чи коміксів?<br>
+                    Тоді наш курс саме для тебе!
+
+                </div>
+                <div class="description EN">Do you want to show your creativity <br> and develop your artistic skills?
+                    Do you want<br> to create your own illustrations <br> for books or comics? </div>
+            </div>
+            <div class="blocks" id="about">
+                <div class="question-block UA">
+                    <div class="title">
+                        ЩО ТИ ОТРИМАЄШ?
+                         <div class="img"></div>                    
+                     </div>
+                    <span>10 індивідуальних онлайн-уроків зі збалансованою системою теорії й практики</span>
+                    <span>безліч технік для брейнштормінгу, пошуку референсів та натхнення</span>
+                    <span>власноруч зроблений зін</span>
+                </div>
+                <div class="question-block EN">
+                    <div class="arrow"></div>
+                    <div class="title">
+                        WHAT DO YOU GET?
+                        <div class="img"></div>                    
+                    </div>
+                    <span>10 individual online lessons with a balanced system of theory and practice
+                    </span>
+                    <span>a variety of techniques for brainstorming, finding references and inspiration</span>
+                    <span>a handmade zine
+                    </span>
+                </div>
+            </div>
+            
+            <div class="zin UA">
+                <div class="title">ЗІН</div>
+                <div class="termin">невелика книжечка із оригінальними зображеннями</div>
+                <div class="description">
+                    Зіном може стати власна історія чи роздуми на будь-яку тему. <br> А ще це хороший спосіб
+                    самовираження та рефлексії. <br>
+                    Для створення зіну немає жодних обмежень – він може бути <br> вирізаний, коміксом,
+                    намальований ручкою чи складений із твоїх фотографій. <br>
+                    Цей курс про вивільнення думок через мистецтво, а зін – чудовий інструмент для цього
+                </div>
+            </div>
+            <div class="zin EN">
+                <div class="title">Zine</div>
+                <div class="termin">is a small book with original images </div>
+                <div class="description">
+                    It can be your own story or reflections on any topic. <br> It is also a good way to express
+                    yourself. <br>
+                    There are no restrictions for creating a zine - it can be <br> cut out, a comic book, drawn with a
+                    pen or composed of your photos. <br>
+                    This course is about releasing your <br> thoughts through art, and zine is a <br> great tool for
+                    that.
+
+                </div>
+            </div>
+            <div class="foryou-block">
+                <div class="text UA">
+                    <div class="title">ЦЕЙ КУРС САМЕ <br> ДЛЯ ТЕБЕ, ЯКЩО:</div>
+                    <span>ти навчався/лася в художній школі <br> (чи маєш іншу базу), але хочеш поглибити свої знання в
+                        ілюструванніта художніх техніках
+                    </span>
+                    <span>хочеш створити свою маленьку і неповторну книжечку (зін) <br> самостійно</span>
+                    <span>маєш багато ідей, але не знаєш як саме це викласти на папері</span>
+                    <span>хочеш отримати індивідуальний тьюторський підхід</span>
+                </div>
+                <div class="text EN">
+                    <div class="title">THIS COURSE <br> IS FOR YOU IF
+                    </div>
+                    <span>you have studied at an art school (or have another base), but want to deepen your knowledge of
+                        illustration and artistic techniques
+
+                    </span>
+                    <span>you want to create your own small and unique book (zine)
+                    </span>
+                    <span>have a lot of ideas, but don't know how to put them on paper</span>
+                    <span>you want to get an individual tutoring approach
+                    </span>
+                </div>
+            </div>
+            <div class="blocks prog" id="program">
+                <div class="block UA" >
+                    <div class="title">ПРОГРАМА КУРСУ</div>
+                    <div class="info">
+                        <span class="first">Тривалість заняття - 60 хвилин </span>
+                        <span class="second">Інтенсивність - 12 занять <br> з можливістю вибору розкладу</span>
+                        <span class="last">Результат - портфоліо з власними роботами</span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">COURSE PROGRAM
+                    </div>
+                    <div class="info">
+                        <span class="first">Duration of the lesson - 60 minutes
+                        </span>
+                        <span class="second">Intensity - 10 lessons with the possibility of choosing a schedule
+                        </span>
+                        <span class="last">The result - a portfolio with your own works
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="middle-block">
+            <div class="course-progress-block">
+                <div class="block" id="0">
+                    <div class="progress-line" id="0"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="0">1 УРОК - ЗНАЙОМСТВО І ВСТУП ДО КУРСУ З ІЛЮСТРАЦІЇ. ЯКІ
+                            ІСНУЮТЬ СТИЛІ ТА ТЕХНІКИ?</div>
+                        <div class="text" id="0">
+                            <div class="text-line"><span>1. </span><span class="description"> Короткий вступ в історію
+                                    ілюстрації, сфери її використання</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Які бувають художні
+                                    стилі та техніки?</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Що таке зін та його
+                                    різновиди</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Знайомство, обговорення
+                                    досвіду та зацікавленостей – підлаштовуємо програму під
+                                    особисті потреби і бажання</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Пробуємо різні стилі,
+                                    досліджуємо найцікавіші техніки на практиці
+                                </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="0">LESSON 1 - OVERVIEW AND INTRODUCTION TO THE COURSE ON
+                            ILLUSTRATION. WHICH STYLES AND TECHNIQUES EXIST?</div>
+                        <div class="text" id="0">
+                            <div class="text-line"><span>1. </span><span class="description"> A short introduction to
+                                    the history of illustration and the areas of its use
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Different artistic styles
+                                    and techniques </span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> What is zine and which
+                                    varieties are there?</span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Getting to know each
+                                    other, discussing experiences and interests - customize the program to your personal
+                                    needs and desires
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Trying different styles,
+                                    exploring the most interesting techniques in practice
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="1">
+                    <div class="progress-line" id="1"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="1">2 УРОК - ІНСТРУМЕНТИ ІЛЮСТРАТОРА</div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description"> Лінія,точка та пляма як
+                                    інструменти ілюстратора</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Скетчинг як спосіб
+                                    дослідження середовища</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Виконуємо багато
+                                    практичних завдань, щоб побороти страх чистого аркуша і розвинути уяву</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Обговорюємо і пробуємо на
+                                    практиці різні підходи до зображення ідеї за допомогою плями, лінії точки</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="1">lESSON 2 - ILLUSTRATION TOOLS</div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description"> Line, dot and spot as
+                                    illustrator's tools
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Sketching as a way to
+                                    explore the environment
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Do a lot of practical
+                                    exercises to overcome the fear of the «white page» and develop
+                                    imagination
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Discuss and try out
+                                    different approaches to depicting an idea with the help of a spot,
+                                    line and dots</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="2">
+                    <div class="progress-line" id="2"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="2">3 УРОК - ПРАЦЮЄМО З ПРОСТОРОМ І УВАГОЮ ГЛЯДАЧА</div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description"> Які бувають формати, і як
+                                    це впливає на наше сприйняття</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Композиція, основні
+                                    положення.</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Закони перспективи.
+                                    Вивчаємо точку зору і ракурс.</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Розглядаємо на практиці
+                                    композицію і перспективу у скетчах</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Обговорюємо різницю між
+                                    типами перспективи і проходимо цікавий тест на сприйняття композиції</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Аналізуємо свої відчуття
+                                    від картинки і як цього досягнув митець</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="2">lESSON 3 - WORKING WITH SPACE AND THE VIEWER'S ATTENTION
+                        </div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description"> What formats are there and
+                                    how it affects our perception
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Composition, basic
+                                    positions</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> The laws of perspective.
+                                    Study the point of view and angle
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Analyze composition and
+                                    perspective in sketches in practice
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Discuss the difference
+                                    between types of perspective and take an interesting test on the
+                                    perception of composition
+                                </span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Analyze your feelings
+                                    about the picture and how the artist achieved it</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="3">
+                    <div class="progress-line" id="3"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="3">4 УРОК - КОЛІР</div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description"> Вивчаємо теорію кольору та
+                                    різні кольорові схеми і поєднання</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Негативний простір та
+                                    оптичні ілюзії</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Оцінюємо своє сприйняття
+                                    кольору на прикладі оптичних ілюзій і відомих картин</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Робимо короткі замальовки
+                                    з урахуванням нових знань <br> про кольорові схеми</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="3">lESSON 4 - COLOR</div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description"> Learn color theory and
+                                    different color schemes and combinations
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Negative space and optical
+                                    illusions</span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Evaluate your color
+                                    perception using optical illusions and famous paintings as examples</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Make short sketches based
+                                    on the new knowledge of color schemes
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="4">
+                    <div class="progress-line" id="4"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="4">5 УРОК - ПРАЦЮЄМО З СВІТЛОТІННЮ І ТОНАЛЬНІСТЮ</div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description"> Вивчаємо світло та тінь.
+                                    Як штучне і натуральне світло впливає на картинку?
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Контраст,тон, насиченість
+                                    - у чому різниця?</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Аналізуємо зміну штучного
+                                    і натурального світла на предметах, які
+                                    нас оточують. Як змінюються тіні і рефлекси,тон і колір?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Проходимо мінітест аби
+                                    закріпити знання з кольору і його «налаштувань»</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="4">lESSON 5 - WORKING WITH LIGHT AND SHADE TONES</div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description"> Explore light and shadow.
+                                    How artificial and natural light affects the picture?
+
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Contrast, tone, saturation
+                                    - what is the difference?
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Analyze the change of
+                                    artificial and natural light on objects around us. How shadows and reflexes, tone
+                                    and color change</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Take a mini test to
+                                    consolidate your knowledge of color and its "settings"
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="5">
+                    <div class="progress-line" id="5"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="5">6 УРОК - БРЕЙНШТОРМІНГ</div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description"> Де брати ідеї та як
+                                    правильно працювати з референсами?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Авторське право</span>
+                            </div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Розглядаємо і пробуємо
+                                    десятки варіантів для брейнштормінгу, що допоможуть придумати сюжет
+                                    або картинку в тій чи іншій ситуації</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Розвиваємо критичне
+                                    мислення та креативний підхід через завдання на швидкі скетчі</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="5">lESSON 6 - BRAINSTORMING</div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description"> Where to get ideas and how
+                                    to work with references?
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Copyright
+                                </span>
+                            </div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Consider and try dozens of
+                                    brainstorming options that will help you come up with a
+                                    story or a picture in a given situation</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Develop critical thinking
+                                    and creativity through quick sketching tasks
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="6">
+                    <div class="progress-line" id="6"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="6">7 УРОК - СТОРІТЕЛИНГ ТА НАРАТИВ</div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description"> Як будувати сюжет?
+                                    Розглядаємо типи конфліктів</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Арки персонажів та
+                                    архетипи. Як вписати персонажа в сюжет органічно?</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Створюємо цікаві історії з
+                                    врахуванням попередньої лекції про брейнштормінг</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Аналізуємо улюблені
+                                    історії та на основі цього створюємо свої мінікомікси</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="6">lESSON 7 - STORYTELLING AND NARRATIVE</div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description"> How to build a plot.
+                                    Analyze the types of conflicts
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Character arches and
+                                    archetypes. How to fit a character into the plot organically?
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Create interesting stories
+                                    based on the previous lecture on brainstorming.</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Analyze well-known
+                                    favorite stories and create your own mini-comics based on this.
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="7">
+                    <div class="progress-line" id="7"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="7">8 УРОК - РОЗРОБКА ПЕРСОНАЖА</div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description"> Візуальне та психологічне
+                                    пропрацювання і стилізація персонажів
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Емоціі, пропорціїта інші
+                                    елементи, що підкреслюють персонажа</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Гіперболізація та
+                                    спрощення</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Практикуємо створення
+                                    швидких персонажів і портретів, напрацьовуємо вміння на емоціях і пропорціях</span>
+                            </div>
+                            <div class="text-line"><span>2. </span><span class="description"> Тренуємося спрощувати
+                                    ідеталізувати, гіперболізувати і стилізувати власних персонажів</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="7">lESSON 8 - CHARACTER DEVELOPMENT</div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description"> Visual and psychological
+                                    development, stylization of characters
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Emotions, proportions and
+                                    other elements to emphasize the best of the character</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Hyperbolization and
+                                    simplification
+                                </span></div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Practice creating quick
+                                    characters and portraits, working on emotions and proportions</span>
+                            </div>
+                            <div class="text-line"><span>2. </span><span class="description">Practice simplifying and
+                                    detailing. Practice hyperbolizing and stylizing your own characters
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="8">
+                    <div class="progress-line" id="8"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="8">9 УРОК - ВЕРСТКА ЗІНА. ГОТУЄМОСЯ ДО ФІНАЛЬНОЮ РОБОТИ</div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description"> Яка будова книги є
+                                    класичною, як ми можемо підлаштувати власну історію під
+                                    потрібний формат?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Вивчаємо верстку. Яка
+                                    розкадровка допоможе читачу краще зрозуміти вашу ідею?</span></div>
+                            <div class="img">ПРАКТИЧНЕ ЗАНЯТТЯ:</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Робимо розкадровку
+                                    майбутнього зіна.Розробляємо обкладинку</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Працюємо з
+                                    порожнімпростором і досліджуємо його мету</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Адаптуємо історію під
+                                    зручний <br> формат і готуємо до друку</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="8">lESSON 9 - ZINE LAYOUT. PREPARING FOR THE FINAL WORK</div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description">What is the classic
+                                    structure of a book, how can we adapt our story to the right format?
+                                </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Consider the layout and
+                                    what kind of storyboard will help the reader understand your idea better</span>
+                            </div>
+                            <div class="img">PRACTICAL TRAINING</div>
+                            <div class="text-line"><span>1. </span><span class="description"> Create a storyboard for
+                                    future zine. Design the cover</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Work with empty space and
+                                    explore its purpose</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Adapting the story to a
+                                    convenient format and preparing it for publication
+                                </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="9">
+                    <div class="progress-line" id="9"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="9">10 УРОК - ФІНАЛЬНЕ ЗАНЯТТЯ</div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description"> Переглядаємо готову
+                                    роботу</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Підсумовуємо здобуті
+                                    знання</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Проходимо цікавий
+                                    мініквіз</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="9">lESSON 10 - FINAL LESSON</div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description"> Reviewing the finished
+                                    work</span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Summarize the knowledge
+                                    gained</span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Pass an interesting
+                                    mini-quiz</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sertificate-text UA">Отримаєш сертифікат-підтвердження твого успішного проходження курсу.</div>
+            <div class="sertificate-text EN">You will receive a certificate confirming your successful completion of the
+                course</div>
+            <div class="sertificate"></div>
+        </div>
+        <div class="bottom-block">
+            <div class="title UA">ПРО ВИКЛАДАЧА</div>
+            <div class="title EN">ABOUT THE TEACHER
+            </div>
+            <div class="anika-block" id="teacher">
+                <div class="info UA"><span> Андрій!</span>– викладач курсу з ілюстрації, який завжди вдосконалює свої вміння та надихає інших на розвиток. Прагне допомогти кожному знайти свій стиль, щоб не руйнувати ідеї загальними правилами та шаблонами. 
+                </div>
+                <div class="info EN"><span>Anika!</span> Anika is an illustration course teacher who knows how to work
+                    with story and
+                    characters not from words, but from her own experience. A person who wants and can give results
+                    in education.
+
+                </div>
+
+                <div class="img"></div>
+            </div>
+            <div class="experiense">
+                <div class="block UA">
+                    <div class="title">ДОСВІД</div>
+                    <div class="info">
+                        <span>12 років досвіду в арт сфері </span>
+                        <span>10 років роботи над вільною графікою</span>
+                        <span>графічний дизайнер в MAKHNO, SPACE PRODUCTION, MarkoFarm, Dila</span>
+                        <span>досвід викладання для дітей та підлітків </span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EXPERIENCE</div>
+                    <div class="info">
+                        <span>worked as a personal development tutor at the «Mu camp» children's project film camp for 3
+                            years. She received a 4th degree diploma in tutoring
+                        </span>
+                        <span>experience in creating charity art exhibitions abroad involving hundreds of works by
+                            Ukrainian illustrators and photographers
+                        </span>
+                        <span>teaching art disciplines, including illustration, film and photography at an alternative
+                            school
+                        </span>
+                    </div>
+                </div>
+                <div class="block UA">
+                    <div class="title">ОСВІТА</div>
+                    <div class="info">
+                        <span >Київська Академія мистецтв, станкова графіка (бакалавр)</span>
+                        <span> </span>
+                        <span >Національна академія мистецтв, станкова графіка (магістр)</span>
+                        <span></span>
+                        <span>Школа Artcraft, Zbrush курс</span>
+
+
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EDUCATION</div>
+                    <div class="info">
+                        <span class="mini-title">"Fine Arts and Restoration"
+                        </span>
+                        <span>National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute" 
+                        </span>
+                        <span class="mini-title">"Illustration"
+                        </span>
+                        <span>Kyiv Academy of Media and Art KAMA
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="comments">
+                <div class="title UA">ВІДГУКИ</div>
+                <div class="title EN">Reviews</div>
+                <div class="left" onclick="left()"></div>
+                <div class="right" onclick="right()"></div>
+                <div class="comments-block">
+                    <div class="comments-line">
+                        <div class="comment UA">
+                            <div class="comment-text">
+                            Дуже задоволені, сину цікаво, часто стала бачити його малюючого. І з найціннішого - з початку війни син нічого не хотів малювати в кольорах, зараз малює.
+                            </div>
+                            <div class="comment-text">
+                                Подобається віданність Андрія у викладанні, людина підходить до своєї роботи з великим ентузіазмом, що не може не заряджати.
+                            </div>
+                             <div class="comment-text">
+                                Це просто скарб, а не викладач.  Індивідуальний підхід, розбір помилок, гарна подача інформації,влучення у саму ціль. 10 із 10, рекомендасьйон)
+                            </div>
+                            <div class="comment-text">
+                                Підхід викладача надихає. Дуже комфортна робота, продуктивна, все по факту і зрозуміло!
+                            </div>
+                        </div>
+                        <div class="comment EN">
+                            <div class="comment-text">
+                                1Дуже задоволені, сину цікаво, часто стала бачити його малюючого. І з найціннішого - з початку війни син нічого не хотів малювати в кольорах, зараз малює.
+                                </div>
+                                <div class="comment-text">
+                                    2Подобається віданність Андрія у викладанні, людина підходить до своєї роботи з великим ентузіазмом, що не може не заряджати. Доступність та структурованість поданої інформації, відкритість. 
+                                </div>
+                                 <div class="comment-text">
+                                   3 Це просто скарб, а не викладач.  Індивідуальний підхід, розбір помилок, гарна подача інформації,влучення у саму ціль. 10 із 10, рекомендасьйон)
+                                </div>
+                                <div class="comment-text">
+                                    4Підхід викладача надихає. Дуже комфортна робота, продуктивна, все по факту і зрозуміло!
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+            <div class="price" id="price">
+                <div class="title UA">ВАРТІСТЬ</div>
+                <div class="title EN">Price</div>
+                <div class="price-block">
+                    <div class="title UA">5000 ГРН</div>
+                    <div class="title EN">5000 UAH</div>
+                    <div class="info UA">
+                        <span> 10 занять</span>
+                        <span> базові навички з ілюстрації</span>
+                        <span> вміння працювати з кольором та світлотінню, створювати персонажа</span>
+                        <span> власний креативний зін</span>
+                        <span> сертифікат підтвердження проходження курсу</span>
+                    </div>
+                    <div class="info EN">
+                        <span> 10 lessons
+                        </span>
+                        <span> basic skills in illustration</span>
+                        <span> ability to work with color, light and shade, create a character</span>
+                        <span> own creative zine
+                        </span>
+                        <span> certificate of completion of the course</span>
+                    </div>
+                    <div class="price EN" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> CHOOSE</div>
+                        <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-menu">
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                    <a href="#about"><span class="UA">Про курс</span></a>
+                    <a href="#about"><span class="EN">About course</span></a>
+                    <a href="#program"><span class="UA">Програма курсу</span></a>
+                    <a href="#program"><span class="EN">Course program</span></a>
+                    <a href="#teacher"><span class="UA">Про викладача</span></a>
+                    <a href="#teacher"><span class="EN">About teacher</span></a>
+                    <a href="#price"><span class="UA">Вартість</span></a>
+                    <a href="#price"><span class="EN">Price</span></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="illustration.js"></script>
+</body>
+
+</html>

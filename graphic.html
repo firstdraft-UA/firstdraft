@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>First draft</title>
+</head>
+<body>
+    <div class="graphic">
+        <div class="logo" onclick="location.href='index.html'"></div>
+        <div class="menu" onclick="toggle()">
+            <div class="line toggle"></div>
+        </div>
+        <div class="menu-mobile">
+            <div class="button-list">
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA free" onclick="off()">Безкоштовний урок</span></a>
+            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN" onclick="off()">Free lesson</span></a>
+            <a href="#program"><span class="UA" onclick="off()">Програма курсу</span></a>
+            <a href="#program"><span class="EN" onclick="off()">Course program</span></a>
+            <a href="#teacher"><span class="UA" onclick="off()">Про викладача</span></a>
+            <a href="#teacher"><span class="EN" onclick="off()">About teacher</span></a>
+            <a href="#price"><span class="UA" onclick="off()">Вартість</span></a>
+            <a href="#price"><span class="EN" onclick="off()">Price</span></a>
+                <div class="lang-buttons">
+                    <span class="ukr-button">Ukr</span>
+                    <span class="en-button">En</span>
+                </div>
+            <hr>
+            <p>Зв'язатись</p>
+            <div class="reg">
+                <input type="text" placeholder="Ім'я та прізвище" class="UA">
+                <input type="text" placeholder="First name and surname" class="EN">
+                <input type="text" placeholder="Email*">
+                <input type="text" placeholder="Повідомлення*" class="UA">
+                <input type="text" placeholder="Message*" class="EN">
+                <input type="button" value="НАДІСЛАТИ" class="button">
+            </div>
+            </div>
+            
+        </div>
+        <div class="top-block">
+            <div class="menu">
+
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Безкоштовний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
+            </div>
+            <div class="lang-buttons">
+                <span class="ukr-button">Ukr</span>
+                <span class="en-button">En</span>
+            </div>
+            <div class="main-title">
+                <div class="title UA">КУРС ГРАФІЧНОГО ДИЗАЙНУ</div>
+                <div class="title EN">Graphic design course</div>
+                <div class="description UA">Ти в захваті від сторінок відомих брендів, можеш зловити кайф від обкладинки йогурту чи годинами розглядати круті візитівки. Хочеш навчитися створювати такі ж круті речі? Зробити перший крок до майбутньої кар'єри в графічному дизайні? 
+                 <br><br>   Тоді цей курс саме для тебе!                     
+
+                </div>
+                <div class="description EN">You're fascinated by the pages of famous brands, can get a kick out of a yogurt cover, or spend hours looking at cool business cards. Do you want to learn how to create the same cool things? Do you want to take the first step towards a future career in graphic design?
+                    Then this course is for you!
+                     </div>
+            </div>
+            <div class="blocks" id="about">
+                <div class="question-block UA">
+                    <div class="arrow"></div>
+                    <div class="title">
+                        ЦІЛІ КУРСУ
+                    <div class="img"></div>                    
+
+                    </div>
+                    <span>Підготувати твоє професійне портфоліо</span>
+                    <span>Розібратися у всіх незрозумілих повзунках Photoshop та Illustrator</span>
+                    <span>Нарешті зрозуміти що воно таке та композиція і чому на одні обкладинки хочеться дивитися, а інші - швидше закрити</span>
+                </div>
+                <div class="question-block EN">
+                    <div class="title">
+                        COURSE OBJECTIVES
+    
+                    </div>
+                    <span>Prepare your professional portfolio
+                    </span>
+                    <span> Get to know all the confusing sliders in Photoshop and Illustrator</span>
+                    <span>Finally understand what composition is and why you want to look at some covers and close others as soon as possible
+                    </span>
+                </div>
+            </div>
+            <div class="blocks prog" id="program">
+                <div class="block UA" >
+                    <div class="title">ПРОГРАМА КУРСУ</div>
+                    <div class="info">
+                        <span class="first">Тривалість заняття - 60 хвилин </span>
+                        <span class="second">Інтенсивність – 10, 12 чи 20 занять <br> залежно від вибору програми курсу
+                        </span>
+                        <span class="last">Результат - портфоліо з власними роботами</span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">COURSE PROGRAM
+                    </div>
+                    <div class="info">
+                        <span class="first">Duration of the lesson - 60 minutes
+                        </span>
+                        <span class="second">Intensity - 10, 12 or 20 lessons depending on the choice of course program
+                        </span>
+                        <span class="last">The result - a portfolio with your own works
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="middle-block">
+            <div class="program-count " id="1">
+                <span class="UA">ПРОГРАМА 1</span>
+                <span class="EN">PROGRAM 1</span>
+            </div>
+            <div class="course-progress-block" id="1">
+                <div class="block" id="0">
+                    <div class="progress-line" id="0"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="0">1 урок — Що таке графічний дизайн. Які можливості та принципи роботи дизайну
+                        </div>
+                        <div class="text" id="0">
+                            <div class="text-line"><span>1. </span><span class="description">Знайомство з інтерфейсом Adobe Illustrator
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо паттерн з простих фігур  </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="0">Lesson 1 - What is graphic design? What are the possibilities and principles of design?
+                        </div>
+                        <div class="text" id="0">
+                            <div class="text-line"><span>1. </span><span class="description">Getting to know the Adobe Illustrator interface
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Drawing a pattern from simple shapes 
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="1">
+                    <div class="progress-line" id="1"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="1">2 урок -  Векторна графіка. Основні інструменти Adobe Illustrator                        </div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з пером</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо пак іконок</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="1">Lesson 2 - Vector graphics. Basic tools of Adobe Illustrator
+                        </div>
+                        <div class="text" id="1">
+                            <div class="text-line"><span>1. </span><span class="description"> Working with the pen
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Drawing an icon pack
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="2">
+                    <div class="progress-line" id="2"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="2">3 урок - Розбір ілюстрації 
+                        </div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з референсами та пошук власних сенсів
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створення власної ілюстрацію з 5 референсів</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="2">Lesson 3 - Analyzing an illustration 
+                        </div>
+                        <div class="text" id="2">
+                            <div class="text-line"><span>1. </span><span class="description"> Working with references and finding your own senses
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create your own illustration from 5 references
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="3">
+                    <div class="progress-line" id="3"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="3">4 урок - Колір та основні асоціації
+                        </div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати гармонійну палітру?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо обкладинку журналу в Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="3">Lesson 4 - Color and basic associations
+                        </div>
+                        <div class="text" id="3">
+                            <div class="text-line"><span>1. </span><span class="description"> Where to look for a harmonious palette?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a magazine cover in Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="4">
+                    <div class="progress-line" id="4"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="4">5 урок -  Що таке авторське право та ліцензія
+                        </div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати круті фото для роботи?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Робимо кольорокорекцію фото в Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="4">Lesson 5 - What is copyright and license?
+                        </div>
+                        <div class="text" id="4">
+                            <div class="text-line"><span>1. </span><span class="description"> Where to find cool photos for work?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Color correction of photos in Adobe Photoshop
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="5">
+                    <div class="progress-line" id="5"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="5">6 урок - Растрова графіка: де працює, для чого підходить
+                        </div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description">Основні інструменти Adobe Photoshop</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо колаж</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="5">Lesson 6 - Raster graphics: where it works, what it is useful for?
+                        </div>
+                        <div class="text" id="5">
+                            <div class="text-line"><span>1. </span><span class="description"> Basic tools of Adobe Photoshop
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a collage
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="6">
+                    <div class="progress-line" id="6"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="6">7 урок – Типографіка</div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description">Основні терміни та правила типографіки
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Де шукати шрифти?
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Створюємо шрифтовий плакат</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="6">Lesson 7 - Typography
+                        </div>
+                        <div class="text" id="6">
+                            <div class="text-line"><span>1. </span><span class="description"> Basic terms and rules of typography
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Where to look for fonts?
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Create a font poster
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="7">
+                    <div class="progress-line" id="7"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="7">8 урок – Логотип: види та цілі 
+                        </div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description">Аналіз логотипів декількох ніш
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо власний логотип на основі рефенсів та брифу у Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="7">Lesson 8 - Logo: types and purposes  </div>
+                        <div class="text" id="7">
+                            <div class="text-line"><span>1. </span><span class="description">Analyzing logos of several niches
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Creating your own logo based on references and brief in Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="8">
+                    <div class="progress-line" id="8"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="8">9 урок - Де шукати мокапи та як вони працюють?
+                        </div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description">Важливість презентації ідеї та свого продукту
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Готуємо презентацію створеного раніше логотипу
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Брендуємо одяг за допомогою мокапів у Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="8">Lesson 9 - Where to look for mockups and how they work?
+                        </div>
+                        <div class="text" id="8">
+                            <div class="text-line"><span>1. </span><span class="description">The value of presenting your idea and your product</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Preparing a presentation of the previously created logo</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Branding clothes with mockups in Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="9">
+                    <div class="progress-line trans" id="9"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="9">10 урок - Дизайн соціальних мереж. Підсумок курсу
+                        </div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description">Створюємо 3 дописи для соцмереж: фото, афіша, великий сторілінг</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Поєднуємо роботу у Adobe Photoshop & Illustrator
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Розміщуємо роботи на Behance
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="9">Lesson 10 - Social media design. Course summary
+                        </div>
+                        <div class="text" id="9">
+                            <div class="text-line"><span>1. </span><span class="description">Create 3 posts for social media: a photo, a poster, and a large story
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Combine work in Adobe Photoshop & Illustrator</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Posting works on Behance</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="program-count" id="2">
+                <span class="UA">ПРОГРАМА 2</span>
+                <span class="EN">PROGRAM 2</span>
+            </div>
+            <div class="course-progress-block" id="2">
+                <div class="block" id="10">
+                    <div class="progress-line" id="10"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="10">1 урок — Що таке графічний дизайн. Які можливості та принципи роботи дизайну
+                        </div>
+                        <div class="text" id="10">
+                            <div class="text-line"><span>1. </span><span class="description">Знайомство з інтерфейсом Adobe Illustrator
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо паттерн з простих фігур  </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="10">Lesson 1 - What is graphic design? What are the possibilities and principles of design?
+                        </div>
+                        <div class="text" id="10">
+                            <div class="text-line"><span>1. </span><span class="description">Getting to know the Adobe Illustrator interface
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Drawing a pattern from simple shapes </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="11">
+                    <div class="progress-line" id="11"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="11">2 урок -  Векторна графіка. Основні інструменти Adobe Illustrator                        </div>
+                        <div class="text" id="11">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з пером</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо пак іконок</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="11">Lesson 2 - Vector graphics. Basic tools of Adobe Illustrator
+                        </div>
+                        <div class="text" id="11">
+                            <div class="text-line"><span>1. </span><span class="description">Working with the pen
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Drawing an icon pack</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="12">
+                    <div class="progress-line" id="12"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="12">3 урок - Розбір ілюстрації 
+                        </div>
+                        <div class="text" id="12">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з референсами та пошук власних сенсів
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створення власної ілюстрацію з 5 референсів</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="12">Lesson 3 - Analyzing an illustration 
+                        </div>
+                        <div class="text" id="12">
+                            <div class="text-line"><span>1. </span><span class="description">Working with references and finding your own senses</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Create your own illustration from 5 references</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="13">
+                    <div class="progress-line" id="13"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="13">4 урок - Колір та основні асоціації
+                        </div>
+                        <div class="text" id="13">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати гармонійну палітру?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо обкладинку журналу в Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="13">Lesson 4 - Color and basic associations
+                        </div>
+                        <div class="text" id="13">
+                            <div class="text-line"><span>1. </span><span class="description">Where to look for a harmonious palette?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Create a magazine cover in Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="14">
+                    <div class="progress-line" id="14"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="14">5 урок -  Що таке авторське право та ліцензія
+                        </div>
+                        <div class="text" id="14">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати круті фото для роботи?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Робимо кольорокорекцію фото в Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="14">Lesson 5 - What is copyright and license?
+                        </div>
+                        <div class="text" id="14">
+                            <div class="text-line"><span>1. </span><span class="description">Where to find cool photos for work?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Color correction of photos in Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="15">
+                    <div class="progress-line" id="15"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="15">6 урок - Растрова графіка: де працює, для чого підходить
+                        </div>
+                        <div class="text" id="15">
+                            <div class="text-line"><span>1. </span><span class="description">Основні інструменти Adobe Photoshop</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо колаж</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="15">Lesson 6 - Raster graphics: where it works, what it is useful for?
+                        </div>
+                        <div class="text" id="15">
+                            <div class="text-line"><span>1. </span><span class="description">Basic tools of Adobe Photoshop</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Create a collage
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="16">
+                    <div class="progress-line" id="16"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="16">7 урок – Типографіка</div>
+                        <div class="text" id="16">
+                            <div class="text-line"><span>1. </span><span class="description">Основні терміни та правила типографіки
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Де шукати шрифти?
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Створюємо шрифтовий плакат</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="16">Lesson 7 - Typography </div>
+                        <div class="text" id="16">
+                            <div class="text-line"><span>1. </span><span class="description">Basic terms and rules of typography
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Where to look for fonts?</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Create a font poster</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="17">
+                    <div class="progress-line" id="17"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="17">8 урок – Бриф як основний документ для дизайнера
+                        </div>
+                        <div class="text" id="17">
+                            <div class="text-line"><span>1. </span><span class="description">Айдентика та її складові
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Вчимося формулювати запит: генеруємо ідею та брифуємо себе
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Створюємо ескіз логотипу
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="17">Lesson 8 - Brief as the main document for a designer
+                        </div>
+                        <div class="text" id="17">
+                            <div class="text-line"><span>1. </span><span class="description">Identity and its components
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Learn how to formulate a request: generate an idea and brief yourself</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Create a logo sketch</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="18">
+                    <div class="progress-line" id="18"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="18">9 урок – Логотип: види та цілі 
+                        </div>
+                        <div class="text" id="18">
+                            <div class="text-line"><span>1. </span><span class="description">Аналіз логотипів декількох ніш
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо власний логотип на основі рефенсів та брифу у Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="18">Lesson 9 - Logo: types and purposes
+                        </div>
+                        <div class="text" id="18">
+                            <div class="text-line"><span>1. </span><span class="description">Analyzing logos of several niches</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Create your own logo based on the references and brief in Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="19">
+                    <div class="progress-line" id="19"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="19">10 урок - Де шукати мокапи та як вони працюють?
+                        </div>
+                        <div class="text" id="19">
+                            <div class="text-line"><span>1. </span><span class="description">Важливість презентації ідеї та свого продукту
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Готуємо презентацію створеного раніше логотипу
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Брендуємо одяг за допомогою мокапів у Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="19"> Lesson 10 - Where to look for mockups and how they work? 
+                        </div>
+                        <div class="text" id="19">
+                            <div class="text-line"><span>1. </span><span class="description">Present the logo
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Branding clothes and basic documents using mockups in Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="block" id="20">
+                    <div class="progress-line" id="20"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="20">11 урок – Figma: її можливості та основні інструменти
+                        </div>
+                        <div class="text" id="20">
+                            <div class="text-line"><span>1. </span><span class="description">Дизайн соціальних мереж
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо 3 дописи для соцмереж: фото, афіша, великий сторілінг</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="20">Lesson 11 - Figma: its features and basic tools
+                        </div>
+                        <div class="text" id="20">
+                            <div class="text-line"><span>1. </span><span class="description">Social media design
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Preparing a presentation of the previously created logo</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Create 3 posts for social media: photo, poster, and big story</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="21">
+                    <div class="progress-line trans" id="21"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="21">12 урок -  Важливість презентації ідеї та свого продукту. Підсумок курсу
+                        </div>
+                        <div class="text" id="21">
+                            <div class="text-line"><span>1. </span><span class="description">Збираємо проєкт портфоліо у форматі PDF. Розміщуємо його на Behance.</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="21">Lesson 12 - The value of presenting an idea and your product. Course summary
+                        </div>
+                        <div class="text" id="21">
+                            <div class="text-line"><span>1. </span><span class="description">Create a draft portfolio in PDF format. Post it on Behance.</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="program-count" id="3">
+                <span class="UA">ПРОГРАМА 3</span>
+                <span class="EN">PROGRAM 3</span>
+            </div>
+            <div class="course-progress-block" id="3">
+                <div class="block" id="22">
+                    <div class="progress-line" id="22"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="22">1 урок — Що таке графічний дизайн. Які можливості та принципи роботи дизайну
+                        </div>
+                        <div class="text" id="22">
+                            <div class="text-line"><span>1. </span><span class="description">Знайомство з інтерфейсом Adobe Illustrator
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо паттерн з простих фігур </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="22">Lesson 1 - What is graphic design? What are the possibilities and principles of design?
+                        </div>
+                        <div class="text" id="22">
+                            <div class="text-line"><span>1. </span><span class="description"> Getting to know the Adobe Illustrator interface
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Drawing a pattern from simple shapes 
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="23">
+                    <div class="progress-line" id="23"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="23">2 урок - Як створюються ідеї та де брати натхнення? 
+                        </div>
+                        <div class="text" id="23">
+                            <div class="text-line"><span>1. </span><span class="description">Рекомендації платформ, ресурсів та цікавих графічних ігор для розвитку надивленості</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Граємо в гру з пером. Малюємо складний ескіз пером у Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="23">Lesson 2 - How to create ideas and where to get inspiration? 
+                        </div>
+                        <div class="text" id="23">
+                            <div class="text-line"><span>1. </span><span class="description"> Recommendation of platforms, resources and interesting graphic games to develop inspiration
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Playing a game with a feather. Drawing a complex sketch with a feather in Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="24">
+                    <div class="progress-line" id="24"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="24">3 урок -  Векторна графіка. Основні інструменти Adobe Illustrator
+                        </div>
+                        <div class="text" id="24">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з пером
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Малюємо пак іконок
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="24">Lesson 3 - Vector graphics. Basic tools of Adobe Illustrator
+                        </div>
+                        <div class="text" id="24">
+                            <div class="text-line"><span>1. </span><span class="description"> Working with the pen
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Drawing an icon pack
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="25">
+                    <div class="progress-line" id="26"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="25">4 урок - Вивчення інструментів та можливостей Adobe Illustrator 
+                        </div>
+                        <div class="text" id="25">
+                            <div class="text-line"><span>1. </span><span class="description">Інтеграція стокових векторних елементів у власну роботу</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо сертифікат</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="25">Lesson 4 - Exploring the tools and features of Adobe Illustrator 
+                        </div>
+                        <div class="text" id="25">
+                            <div class="text-line"><span>1. </span><span class="description"> Integrate stock vector elements into your own work
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a certificate
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="26">
+                    <div class="progress-line" id="26"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="26">5 урок - Розбір ілюстрації 
+                        </div>
+                        <div class="text" id="26">
+                            <div class="text-line"><span>1. </span><span class="description">Робота з референсами та пошук власних сенсів
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створення власної ілюстрацію з 5 референсів
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="26">Lesson 5 - Analyzing an illustration 
+                        </div>
+                        <div class="text" id="26">
+                            <div class="text-line"><span>1. </span><span class="description"> Working with references and finding your own senses
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create your own illustration from 5 references
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="27">
+                    <div class="progress-line" id="27"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="27">6 урок - Колір та основні асоціації
+                        </div>
+                        <div class="text" id="27">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати гармонійну палітру?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо обкладинку журналу в Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="27">Lesson 6 - Color and basic associations
+                        </div>
+                        <div class="text" id="27">
+                            <div class="text-line"><span>1. </span><span class="description"> Where to look for a harmonious palette?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a magazine cover in Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="28">
+                    <div class="progress-line" id="28"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="28">7 урок -  Що таке авторське право та ліцензія?
+                        </div>
+                        <div class="text" id="28">
+                            <div class="text-line"><span>1. </span><span class="description">Де шукати круті фото для роботи?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Робимо кольорокорекцію фото в Adobe Photoshop
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="28">Lesson 7 - What is copyright and license?
+                        </div>
+                        <div class="text" id="28">
+                            <div class="text-line"><span>1. </span><span class="description"> Where to look for cool photos for work?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Color correction of photos in Adobe Photoshop
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="29">
+                    <div class="progress-line" id="29"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="29">8 урок - Растрова графіка: де працює, для чого підходить
+                        </div>
+                        <div class="text" id="29">
+                            <div class="text-line"><span>1. </span><span class="description">Основні інструменти Adobe Photoshop</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо колаж
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="29">Lesson 8 - Raster graphics: where it works, what it is useful for?
+                        </div>
+                        <div class="text" id="29">
+                            <div class="text-line"><span>1. </span><span class="description"> Basic tools of Adobe Photoshop
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a collage
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="30">
+                    <div class="progress-line" id="30"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="30">9 урок – Типографіка
+                        </div>
+                        <div class="text" id="30">
+                            <div class="text-line"><span>1. </span><span class="description">Основні терміни та правила типографіки</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Де шукати шрифти?</span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Створюємо шрифтовий плакат</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="30">Lesson 9 - Typography
+                        </div>
+                        <div class="text" id="30">
+                            <div class="text-line"><span>1. </span><span class="description"> Basic terms and rules of typography
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Where to look for fonts?
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Create a font poster
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="31">
+                    <div class="progress-line" id="31"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="31">10 урок – Бриф як основний документ для дизайнера
+                        </div>
+                        <div class="text" id="31">
+                            <div class="text-line"><span>1. </span><span class="description">Айдентика та її складові</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Вчимося формулювати запит: генеруємо ідею та брифуємо себе
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description">Створюємо ескіз логотипу</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="31">Lesson 10 - Brief as the main document for a designer
+                        </div>
+                        <div class="text" id="31">
+                            <div class="text-line"><span>1. </span><span class="description"> Identity and its components
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Learning how to formulate a request: generate an idea and brief yourself
+                            </span></div>
+                            <div class="text-line"><span>3. </span><span class="description"> Create a logo sketch
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="32">
+                    <div class="progress-line" id="32"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="32">11 урок -  Логотип: види та цілі
+                        </div>
+                        <div class="text" id="32">
+                            <div class="text-line"><span>1. </span><span class="description">Аналіз логотипів декількох ніш</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створюємо власний логотип на основі рефенсів та брифу у Adobe Illustrator</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id=32"">Lesson 11 - Logo: types and goals
+                        </div>
+                        <div class="text" id="32">
+                            <div class="text-line"><span>1. </span><span class="description"> Analyzing logos of several niches
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create your own logo based on the references and brief in Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="33">
+                    <div class="progress-line" id="33"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="33">12 урок – Створення дизайн-концепції основних елементів айдентики
+                        </div>
+                        <div class="text" id="33">
+                            <div class="text-line"><span>1. </span><span class="description">Створюємо дизайн візитівки у Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="33">Lesson 12 - Creating a design concept for the main elements of identity
+                        </div>
+                        <div class="text" id="33">
+                            <div class="text-line"><span>1. </span><span class="description"> Create a business card design in Adobe Illustrator
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="34">
+                    <div class="progress-line" id="34"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="34"> 13 урок - Додрукарська підготовка макетів
+                        </div>
+                        <div class="text" id="34">
+                            <div class="text-line"><span>1. </span><span class="description">Як правильно віддати макети до друкарні?</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Готуємо вихідні файли для візитівки та сертифікату                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="34">Lesson 13 - Pre-press preparation of layouts
+                        </div>
+                        <div class="text" id="34">
+                            <div class="text-line"><span>1. </span><span class="description"> How to submit layouts to the printer?
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Preparing source files for business cards and certificates
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="35">
+                    <div class="progress-line" id="35"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="35">14 урок - Де шукати мокапи та як вони працюють? 
+                        </div>
+                        <div class="text" id="35">
+                            <div class="text-line"><span>1. </span><span class="description">Презентуємо логотип</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Брендуємо одяг та основні документи за допомогою мокапів у Adobe Photoshop</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="35">Lesson 14 - Where to look for mockups and how they work? 
+                        </div>
+                        <div class="text" id="35">
+                            <div class="text-line"><span>1. </span><span class="description"> Presenting the logo
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Branding clothes and basic documents using mockups in Adobe Photoshop
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="36">
+                    <div class="progress-line" id="36"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="36">15 урок – Figma: її можливості та основні інструменти
+                        </div>
+                        <div class="text" id="36">
+                            <div class="text-line"><span>1. </span><span class="description">Створюємо дизайн чек-листа на 3 сторінки</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="36">Lesson 15 - Figma: its features and basic tools
+                        </div>
+                        <div class="text" id="36">
+                            <div class="text-line"><span>1. </span><span class="description"> Create a 3-page checklist design
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="37">
+                    <div class="progress-line" id="37"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="37">16 урок - Дизайн соціальних мереж
+                        </div>
+                        <div class="text" id="37">
+                            <div class="text-line"><span>1. </span><span class="description">Обираємо нішу, збираємо мудборд у Figma
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Формуємо візуальну стратегію
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="37">Lesson 16 - Social media design
+                        </div>
+                        <div class="text" id="37">
+                            <div class="text-line"><span>1. </span><span class="description"> Choose a niche, build a moodboard in Figma
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create a visual strategy
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="38">
+                    <div class="progress-line" id="38"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="38">17 урок – Створення візуалів для соцмереж
+                        </div>
+                        <div class="text" id="38">
+                            <div class="text-line"><span>1. </span><span class="description">Створюємо 6 дописів для соцмереж: фото, афіша, великий сторілінг</span></div>
+                            <div class="text-line"><span>2. </span><span class="description">Створення 5 обкладинок для хайлайтс</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="38">Lesson 17 - Creating visuals for social media
+                        </div>
+                        <div class="text" id="38">
+                            <div class="text-line"><span>1. </span><span class="description"> Create 6 posts for social media: photo, poster, large story
+                            </span></div>
+                            <div class="text-line"><span>2. </span><span class="description"> Create 5 covers for highlights
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="39">
+                    <div class="progress-line" id="39"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="39">18 урок - Важливість презентації ідеї та свого продукту
+                        </div>
+                        <div class="text" id="39">
+                            <div class="text-line"><span>1. </span><span class="description">Готуємо презентацію на основі створеної раніше айдентики у Figma
+                            </span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="39">Lesson 18 - The value of presenting an idea and your product
+                        </div>
+                        <div class="text" id="39">
+                            <div class="text-line"><span>1. </span><span class="description"> Prepare a presentation based on the previously created identity in Figma
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="40">
+                    <div class="progress-line" id="40"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="40">19 урок - Важливість самопрезентації
+                        </div>
+                        <div class="text" id="40">
+                            <div class="text-line"><span>1. </span><span class="description">Збираємо всі роботи у мокапи та презентації.</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="40">Lesson 19 - The value of self-presentation
+                        </div>
+                        <div class="text" id="40">
+                            <div class="text-line"><span>1. </span><span class="description"> Collect all the works into mockups and presentations.
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="41">
+                    <div class="progress-line" id="41"></div>
+                    <div class="info UA">
+                        <div class="title clickTitle" id="41">20 урок -  Презентація ідеї та свого продукту. Підсумок курсу
+                        </div>
+                        <div class="text" id="41">
+                            <div class="text-line"><span>1. </span><span class="description">Збираємо проєкти в портфоліо у форматі PDF. Розміщуємо його на Behance.</span></div>
+                        </div>
+                    </div>
+                    <div class="info EN">
+                        <div class="title clickTitle" id="41">Lesson 20 - Presentation of the idea and your product. Course summary
+                        </div>
+                        <div class="text" id="41">
+                            <div class="text-line"><span>1. </span><span class="description"> Collect projects in a portfolio in PDF format. Post it on Behance.
+                            </span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-block">
+            <div class="extra">
+                <div class="sertificate-text UA">Отримаєш сертифікат-підтвердження твого успішного проходження курсу.</div>
+                <div class="sertificate-text EN">You will receive a certificate confirming your successful completion of the course</div>
+                <div class="sertificate"></div>
+            </div>
+            
+            
+            <div class="title UA maint">ПРО ВИКЛАДАЧА</div>
+            <div class="title EN maint">ABOUT THE TEACHER
+            </div>
+            <div class="anika-block" id="teacher">
+                <div class="info UA">Мистецтво і Каріна – ці два слова завжди стоять поруч. Наша викладачка має бачення прекрасного і вміння його створювати. І вона готова навчити цьому інших. 
+
+                </div>
+                <div class="info EN">Art and Karina - these two words always stand side by side. Our teacher has a vision of beauty and the ability to create it. And she is ready to teach it to others.
+
+
+                </div>
+
+                <div class="img"></div>
+            </div>
+            <div class="experiense">
+                <div class="block UA">
+                    <div class="title">ДОСВІД</div>
+                    <div class="info">
+                        <span>5 років роботи у сфері графічного дизайну </span>
+                        <span>рік роботи у топових компаніях України Infocus та Laba group на посаді графічного дизайнера</span>
+                        <span>досвід роботи з дітьми та підлітками </span>
+                        <span>2 роки викладання живопису у власній студії</span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EXPERIENCE</div>
+                    <div class="info">
+                        <span>5 years of experience in graphic design 
+                        </span>
+                        <span>a year of work in the top companies of Ukraine Infocus and Laba group as a graphic designer
+                        </span>
+                        <span>experience in working with children and teenagers 
+                        </span>
+                        <span>2 years of teaching painting in her own studio 
+                        </span>
+                    </div>
+                </div>
+                <div class="block UA">
+                    <div class="title">ОСВІТА</div>
+                    <div class="info b2">
+                        <span>Краматорський коледж технологій та дизайну, графічний дизайнер</span>
+                        <span>Харківська академія дизайну і мистецтв, графічний дизайнер </span>
+                        <span>Школа UX/UI дизайну uprock, UX/UI дизайнер  </span>
+                        <span>Креативна школа SKVOT, моушен дизайн</span>
+                    </div>
+                </div>
+                <div class="block EN">
+                    <div class="title">EDUCATION</div>
+                    <div class="info b2">
+                        <span>Kramatorsk College of Technology and Design, graphic designer
+
+                        </span>
+                        <span>Kharkiv Academy of Design and Arts, graphic designer 
+ 
+                        </span>
+                        <span>UX/UI design school uprock, UX/UI designer 
+                        </span>
+                        <span>SKVOT Creative School, motion design
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="comments">
+                <div class="title UA">ВІДГУКИ</div>
+                <div class="title EN">Reviews</div>
+                <div class="left" onclick="left()"></div>
+                <div class="right" onclick="right()"></div>
+                <div class="comments-block">
+                        <div class="comment UA">
+                            <span class="comment-text">
+                                Якщо чесно, не сприймала дизайн якось серйозно, але було цікаво спробувати. Виявилося, що це дуже цікаво і захоплююче.  
+                            </span>
+                            <span class="comment-text">
+                                До цього в мене був різний досвід з викладачами, але саме на твоїх уроках я розвинулася так сильно. Дізналася багато основ, встигла попрацювати з різними матеріалами.
+
+                            </span>
+                            <span class="comment-text">
+                                Хочу порекомендувати Каріну як викладачку, що має індивідуальний підхід до кожного. Чудова техніка, нетиповий погляд на речі, вміння пояснити складні речі простими словами.
+                            </span>
+
+                        </div>
+                        <div class="comment EN">
+                            <span class="comment-text">
+                                To be honest, I didn't take design seriously, but I was curious to try it. It turned out to be very interesting and exciting  
+                            </span>
+                            <span class="comment-text">
+                                Before that, I had different experiences with teachers, but your lessons were the ones where I developed so much. I learned a lot of basics, had time to work with different materials 
+
+                            </span>
+                            <span class="comment-text">
+                                I would like to recommend Karina as a teacher who has an individual approach to everyone. Excellent technique, atypical view of things, ability to explain complex things in simple words. 
+                            </span>
+
+                        </div>
+                </div>
+            </div>
+            <div class="works">
+                <div class="title UA">КАРІНЕНІ РОБОТИ</div>
+                <div class="title EN">Karina's work</div>
+
+            <div class="videos">
+                <div class="left" onclick="leftV()"></div>
+                <div class="right" onclick="rightV()"></div>
+                <div class="vid"></div>
+                <div class="vid"></div>
+                <div class="vid"></div>
+                <div class="vid"></div>
+            </div>
+            </div>
+            <div class="price" id="price">
+                <div class="title UA">ВАРТІСТЬ</div>
+                <div class="title EN">Price</div>
+                <div class="price-block">
+                    <div class="title UA">ПРОГРАМА 1: <span>5000 грн</span> </div>
+                    <div class="title EN">PROGRAM 1: <span>5000 UAH</span></div>
+                    <div class="info UA">
+                        <span> 10 занять</span>
+                        <span>базові навички роботи у Photoshop та Illustrator </span>
+                        <span>практичні знання зі створення айдентики</span>
+                        <span> 9 робіт та 1 презентація айдентики в портфоліо</span>
+                        <span> сертифікат підтвердження проходження курсу</span>
+                    </div>
+                    <div class="info EN">
+                        <span> 10 lessons
+                        </span>
+                        <span> basic skills in Photoshop and Illustrator 
+                        </span>
+                        <span> practical knowledge of creating an identity</span>
+                        <span> 9 works and 1 presentation of identity in the portfolio
+                        </span>
+                        <span> certificate of completion of the course</span>
+                    </div>
+                    <div class="price EN" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> CHOOSE</div>
+                        <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
+
+                </div>
+                <div class="price-block second">
+                    <div class="title UA">ПРОГРАМА 2: <span>6000 грн</span> </div>
+                    <div class="title EN">PROGRAM 2: <span>6000 UAH</span></div>
+                    <div class="info UA">
+                        
+                        <span> 12 занять</span>
+                        <span>базові навички роботи у Photoshop, Illustrator та Figma</span>
+                        <span>практичні знання зі створення айдентики</span>
+                        <span> 9 робіт та 1 презентація айдентики в портфоліо</span>
+                        <span>шаблон брифу</span>
+                        <span> сертифікат підтвердження проходження курсу</span>
+                    </div>
+                    <div class="info EN">
+                        <span> 12 lessons
+                        </span>
+                        <span> basic skills in Photoshop, Illustrator and Figma
+                        </span>
+                        <span> practical knowledge of creating an identity</span>
+                        <span> 11 works and 1 presentation of identity in the portfolio
+                        </span>
+                        <span> brief template</span>
+                        <span> certificate of completion of the course</span>
+                    </div>
+                    <div class="price EN" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> CHOOSE</div>
+                        <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
+
+                </div>
+                <div class="price-block third">
+                    <div class="title UA">ПРОГРАМА 3: <span>10000 грн</span> </div>
+                    <div class="title EN">PROGRAM 3: <span>10000 UAH</span></div>
+                    <div class="info UA">
+                        
+                        <span>20 занять</span>
+                        <span>базові навички роботи у Photoshop, Illustrator та Figma </span>
+                        <span>практичні знання зі створення айдентики</span>
+                        <span>19 робіт та 1 презентація айдентики в портфоліо</span>
+                        <span>шаблон брифу</span>
+                        <span> сертифікат підтвердження проходження курсу</span>
+                    </div>
+                    <div class="info EN">
+                        <span> 20 lessons
+                        </span>
+                        <span> basic skills in Photoshop, Illustrator and Figma
+                        </span>
+                        <span> practical knowledge of creating an identity</span>
+                        <span> 19 works and 1 presentation of identity in the portfolio
+                        </span>
+                        <span> brief template</span>
+                        <span> certificate of completion of the course</span>
+                    </div>
+                    <div class="price EN" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> CHOOSE</div>
+                        <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-menu">
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                    <a href="#about"><span class="UA">Про курс</span></a>
+                    <a href="#about"><span class="EN">About course</span></a>
+                    <a href="#program"><span class="UA">Програма курсу</span></a>
+                    <a href="#program"><span class="EN">Course program</span></a>
+                    <a href="#teacher"><span class="UA">Про викладача</span></a>
+                    <a href="#teacher"><span class="EN">About teacher</span></a>
+                    <a href="#price"><span class="UA">Вартість</span></a>
+                    <a href="#price"><span class="EN">Price</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="graphic.js"></script>
+</body>
+</html>
