@@ -14,14 +14,14 @@
         </div>
         <div class="menu-mobile">
             <div class="button-list">
-            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA free" onclick="off()">Безкоштовний урок</span></a>
-            <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN" onclick="off()">Free lesson</span></a>
-            <a href="#program"><span class="UA" onclick="off()">Програма курсу</span></a>
-            <a href="#program"><span class="EN" onclick="off()">Course program</span></a>
-            <a href="#teacher"><span class="UA" onclick="off()">Про викладача</span></a>
-            <a href="#teacher"><span class="EN" onclick="off()">About teacher</span></a>
-            <a href="#price"><span class="UA" onclick="off()">Вартість</span></a>
-            <a href="#price"><span class="EN" onclick="off()">Price</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA free" onclick="off()">Безкоштовний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN" onclick="off()">Free lesson</span></a>
+                <a href="#program"><span class="UA" onclick="off()">Програма курсу</span></a>
+                <a href="#program"><span class="EN" onclick="off()">Course program</span></a>
+                <a href="#teacher"><span class="UA" onclick="off()">Про викладача</span></a>
+                <a href="#teacher"><span class="EN" onclick="off()">About teacher</span></a>
+                <a href="#price"><span class="UA" onclick="off()">Вартість</span></a>
+                <a href="#price"><span class="EN" onclick="off()">Price</span></a>
                 <div class="lang-buttons">
                     <span class="ukr-button">Ukr</span>
                     <span class="en-button">En</span>
@@ -29,12 +29,14 @@
             <hr>
             <p>Зв'язатись</p>
             <div class="reg">
-                <input type="text" placeholder="Ім'я та прізвище" class="UA">
-                <input type="text" placeholder="First name and surname" class="EN">
-                <input type="text" placeholder="Email*">
-                <input type="text" placeholder="Повідомлення*" class="UA">
-                <input type="text" placeholder="Message*" class="EN">
-                <input type="button" value="НАДІСЛАТИ" class="button">
+                <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
+                <input type="text" placeholder="First name and surname" class="EN username" id="username">
+                <input type="text" placeholder="Email*" id="email" class="email UA">
+                <input type="text" placeholder="Email*" id="email" class="email EN">
+                <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
+                <input type="text" placeholder="Message*" class="EN content" id="content">
+                <input type="button" value="НАДІСЛАТИ" class="button send UA" id="send">
+                <input type="button" value="SEND" class="button send EN" id="send">
             </div>
             </div>
             
@@ -60,10 +62,21 @@
             <div class="main-title">
                 <div class="title UA">КУРС АНІМАЦІЇ</div>
                 <div class="title EN">ANIMATION COURSE</div>
-                <div class="description UA">Хочеш дізнатися як створюють найвідоміших анімаційних героїв? А
-                    спробувати створити власного? Таймлайн, планування кадрів і секрети анімації Disney - не щось далеке і загадкове, а цілком досяжне на курсі анімації.                    
+                <div class="description UA"><span>Для дітей 7-18+ років</span><br>
+                    тривалість - 35 хвилин<br>
+                    викладачка з великим  досвідом анімації <br> та моушен дизайну   <br>
+                    знайомство з програмою  <br>
+                    створення базових анімованих елементів
+                    
+                    <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
                 </div>
-                <div class="description EN">Do you want to know how the most famous animated characters are created?  Do you want to try to create your own? Timelines, scheduling, and the secrets of Disney animation are not something distant and mysterious, but quite achievable in an animation course.
+                <div class="description EN"><span>For kids 7-18+ years old</span><br>
+                    duration - 35 minutes<br>
+                    teacher with extensive experience in <br> animation and motion design <br>
+                    getting to know the program  <br>
+                    creating basic animated elements
+                    
+                    <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>                  
                 </div>
             </div>
             <div class="blocks" id="about">
@@ -120,6 +133,8 @@
                         <span class="first">Тривалість заняття - 60 хвилин </span>
                         <span class="second">Інтенсивність - 10 занять <br> з можливістю вибору розкладу</span>
                         <span class="last">Результат - портфоліо з власними роботами</span>
+                        <span class="last last2">Атестація та сертифікат</span>
+
                     </div>
                 </div>
                 <div class="block EN">
@@ -132,6 +147,8 @@
                         </span>
                         <span class="last">The result - a portfolio with your own works
                         </span>
+                    <span class="last last2">attestation and certificate</span>
+                        
                     </div>
                 </div>
             </div>
@@ -516,19 +533,71 @@
                         <div class="price UA" onclick="location.href='https://forms.gle/xSLP22wkYff7ZWuT7'"> ОБРАТИ</div>
                 </div>
             </div>
-            <div class="bottom">
-                <div class="bottom-menu">
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
-                    <a href="#about"><span class="UA">Про курс</span></a>
-                    <a href="#about"><span class="EN">About course</span></a>
-                    <a href="#program"><span class="UA">Програма курсу</span></a>
-                    <a href="#program"><span class="EN">Course program</span></a>
-                    <a href="#teacher"><span class="UA">Про викладача</span></a>
-                    <a href="#teacher"><span class="EN">About teacher</span></a>
-                    <a href="#price"><span class="UA">Вартість</span></a>
-                    <a href="#price"><span class="EN">Price</span></a>
+            <div class="description UA">
+                тривалість - 35 хвилин<br>
+                викладачка з великим  досвідом анімації <br> та моушен дизайну   <br>
+                знайомство з програмою  <br>
+                створення базових анімованих елементів
+                
+                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
+            </div>
+            <div class="description EN"><span>For kids 7-18+ years old</span> <br>
+                duration - 35 minutes<br>
+                teacher with extensive experience in <br> animation and motion design    <br>
+                getting to know the program  <br>
+                creating basic animated elements
+                
+                <div class="button EN" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>
+            </div>
+        </div>
+        <div class="add-block"></div>
+        <div class="footer" id="contacts">
+            <div class="main-block">
+                <div class="left-block">
+                    <div class="contacts">
+                        <span class="UA">Контакти</span>
+                        <span class="EN">Contacts</span>
+                    </div>
+                    <p>+380508620563</p>
+                    <p>firstdraft.ukraine@gmail.com</p>
+                    <div class="social">
+                        <div class="instagram" onclick="location.href='https://www.instagram.com/firstdraft_ukraine?'"></div>
+                        <div class="facebook" onclick="location.href='https://www.facebook.com/profile.php?id=100095347263208'"></div>
+                        <div class="tik-tok" onclick="location.href='igshid=YzVkODRmOTdmMw=='"></div>
+                    </div>
                 </div>
+                <div class="center-block">
+                    <div class="reg">
+                        <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
+                        <input type="text" placeholder="First name and surname" class="EN username" id="username">
+                        <input type="text" placeholder="Email*" id="email" class="email UA">
+                        <input type="text" placeholder="Email*" id="email" class="email EN">
+                        <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
+                        <input type="text" placeholder="Message*" class="EN content" id="content">
+                    </div>
+                    <div class="send UA" id="send">
+                        <span>Надіслати</span>
+                    </div>
+                    <div class="send EN" id="send">
+                        <span>Send</span>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <span class="UA">ЗВ'ЯЗАТИСЬ</span>
+                    <span class="EN">Contact form</span>
+                </div>
+            </div>
+            <div class="bottom-block1">
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
             </div>
         </div>
     </div>
@@ -542,5 +611,47 @@
 
   gtag('config', 'G-JVENC4P1FR');
 </script>
+<script type="module">
+    let username=document.getElementsByClassName("username");
+let email=document.getElementsByClassName("email");
+let content=document.getElementsByClassName("content");
+let submit=document.getElementsByClassName("send")
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+const firebaseConfig = {
+  apiKey: "AIzaSyAbos2c65af9rW2bYfHGhVwv9fY5mmUJnk",
+  authDomain: "first-draft-7dde7.firebaseapp.com",
+  projectId: "first-draft-7dde7",
+  storageBucket: "first-draft-7dde7.appspot.com",
+  messagingSenderId: "715806973282",
+  appId: "1:715806973282:web:39913670262d1d02dfe03b",
+  measurementId: "G-T64NYTWCMN"
+};
+
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const db= getDatabase(app);
+for(let i=0;i<=3; i++){
+    submit[i].addEventListener("click", function(){
+    if(username[i].value.length>3 && email[i].value.length>4 && content[i].value.length>4){
+        set(ref(db,`${username[i].value}${Math.floor(Math.random()*10000)}`),
+    {
+        username:username[i].value,
+        email:email[i].value,
+        content:content[i].value
+    })
+    username[i].value="";
+    email[i].value="";
+    content[i].value="";
+    }
+    else{
+        alert("Заповніть усі поля")
+    }
+})
+}
+
+
+</script>     
 </body>
 </html>

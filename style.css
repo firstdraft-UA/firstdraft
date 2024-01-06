@@ -1244,9 +1244,9 @@ main .EN {
   display: none;
 }
 .editing .footer .bottom-block {
-  width: 35.83vw;
+  width: 67.83vw;
   height: 6.94vw;
-  margin-left: 50.29vw;
+  margin-left: 20.29vw;
   display: flex;
   justify-content: space-between;
   padding-top: 3vw;
@@ -1370,14 +1370,37 @@ main .EN {
   text-align: center;
   font-size: 1.52vw;
   font-family: "KTS";
-  margin-top: 4.5vw;
+  margin-top: 0vw;
+  line-height: 2vw;
+}
+.illustration .top-block .main-title .description span,
+.animation .top-block .main-title .description span,
+.graphic .top-block .main-title .description span {
+  display: block;
+  font-weight: bold;
+  margin-top: -2vw;
+  margin-bottom: -1vw;
+}
+.illustration .top-block .main-title .description .button,
+.animation .top-block .main-title .description .button,
+.graphic .top-block .main-title .description .button {
+  width: 30vw;
+  height: 4vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 1vw;
+  background-color: rgb(245, 219, 88);
+  border-radius: 1vw;
+  border: 1.5px solid black;
+  margin: 2vw auto;
+  cursor: pointer;
 }
 .illustration .top-block .question-block,
 .animation .top-block .question-block,
 .graphic .top-block .question-block {
   width: 29.86vw;
   height: 37.98vw;
-  margin: 18.61vw 0px 0px 36.8vw;
+  margin: 13.61vw 0px 0px 36.8vw;
   padding-top: 3.6vw;
 }
 .illustration .top-block .question-block .title,
@@ -1489,7 +1512,7 @@ main .EN {
 .graphic .top-block .block .title {
   text-align: center;
   font-size: 2.56vw;
-  margin-bottom: 9.3vw;
+  margin-bottom: 6.3vw;
   margin-top: 0px;
 }
 .illustration .top-block .block .info,
@@ -2082,32 +2105,225 @@ main .EN {
   padding-top: 0.55vw;
   font-size: 1.58vw;
 }
-.illustration .bottom-block .bottom,
-.animation .bottom-block .bottom,
-.graphic .bottom-block .bottom {
-  width: 100%;
-  height: 6.94vw;
-  background-color: black;
-  position: absolute;
-  bottom: 0px;
+.illustration .bottom-block .description,
+.animation .bottom-block .description,
+.graphic .bottom-block .description {
+  margin: auto;
+  width: 42.36vw;
+  text-align: center;
+  font-size: 1.52vw;
+  font-family: "KTS";
+  margin-top: 5vw;
+  line-height: 2vw;
 }
-.illustration .bottom-block .bottom .bottom-menu,
-.animation .bottom-block .bottom .bottom-menu,
-.graphic .bottom-block .bottom .bottom-menu {
-  width: 69.44vw;
-  height: 6.94vw;
+.illustration .bottom-block .description span,
+.animation .bottom-block .description span,
+.graphic .bottom-block .description span {
+  display: block;
+  font-weight: bold;
+  margin-top: -2vw;
+  margin-bottom: 1vw;
+}
+.illustration .bottom-block .description .button,
+.animation .bottom-block .description .button,
+.graphic .bottom-block .description .button {
+  width: 30vw;
+  height: 4vw;
+  font-size: 2vw;
+  color: black;
+  padding-top: 1vw;
+  background-color: rgb(245, 219, 88);
+  border-radius: 1vw;
+  border: 1.5px solid black;
+  margin: 2vw auto;
+  cursor: pointer;
+}
+.illustration .add-block,
+.animation .add-block,
+.graphic .add-block {
+  width: 100vw;
+  height: 10vw;
+  background-image: url(./images/editing/addbottom.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.illustration .footer,
+.animation .footer,
+.graphic .footer {
+  width: 100%;
+  height: 51.4vw;
+  padding: 6.93vw 0px 0px 10.76vw;
+  background-image: url(./images/bottomInfo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.illustration .footer .main-block,
+.animation .footer .main-block,
+.graphic .footer .main-block {
+  display: flex;
+  height: 37.4vw;
+}
+.illustration .footer .main-block .left-block .contacts,
+.animation .footer .main-block .left-block .contacts,
+.graphic .footer .main-block .left-block .contacts {
+  width: 21.52vw;
+  height: 4.51vw;
+  background-image: url(./images/contacts.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 1.45vw;
+  padding-left: 2.77vw;
+  margin-bottom: 3.81vw;
+}
+.illustration .footer .main-block .left-block .contacts span,
+.animation .footer .main-block .left-block .contacts span,
+.graphic .footer .main-block .left-block .contacts span {
+  font-size: 2.5vw;
+}
+.illustration .footer .main-block .left-block p,
+.animation .footer .main-block .left-block p,
+.graphic .footer .main-block .left-block p {
+  margin-bottom: 2.43vw;
+  margin-left: 2.77vw;
+  font-size: 1.11vw;
+}
+.illustration .footer .main-block .left-block .social,
+.animation .footer .main-block .left-block .social,
+.graphic .footer .main-block .left-block .social {
+  width: 13.88vw;
+  margin-top: 5.2vw;
   display: flex;
   justify-content: space-between;
-  padding-top: 2.43vw;
-  position: absolute;
-  bottom: 0px;
-  right: 7.63vw;
-  font-size: 1.52vw;
+  margin-left: 2.77vw;
 }
-.illustration .bottom-block .bottom .bottom-menu span,
-.animation .bottom-block .bottom .bottom-menu span,
-.graphic .bottom-block .bottom .bottom-menu span {
-  color: white;
+.illustration .footer .main-block .left-block .social .instagram,
+.animation .footer .main-block .left-block .social .instagram,
+.graphic .footer .main-block .left-block .social .instagram {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/instagram.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .footer .main-block .left-block .social .facebook,
+.animation .footer .main-block .left-block .social .facebook,
+.graphic .footer .main-block .left-block .social .facebook {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/facebook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .footer .main-block .left-block .social .tik-tok,
+.animation .footer .main-block .left-block .social .tik-tok,
+.graphic .footer .main-block .left-block .social .tik-tok {
+  width: 3.47vw;
+  height: 3.47vw;
+  background-image: url(./images/tiktok.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .footer .main-block .center-block,
+.animation .footer .main-block .center-block,
+.graphic .footer .main-block .center-block {
+  width: 31.25vw;
+  margin-left: 2.43vw;
+}
+.illustration .footer .main-block .center-block .reg,
+.animation .footer .main-block .center-block .reg,
+.graphic .footer .main-block .center-block .reg {
+  margin-top: 3.12vw;
+  margin-left: 12.5vw;
+  width: 18.4vw;
+}
+.illustration .footer .main-block .center-block .reg input,
+.animation .footer .main-block .center-block .reg input,
+.graphic .footer .main-block .center-block .reg input {
+  width: 18.4vw;
+  height: 2.77vw;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-size: 1.25vw;
+  font-family: "KTS-black";
+}
+.illustration .footer .main-block .center-block .reg input::-moz-placeholder, .animation .footer .main-block .center-block .reg input::-moz-placeholder, .graphic .footer .main-block .center-block .reg input::-moz-placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+.illustration .footer .main-block .center-block .reg input::placeholder,
+.animation .footer .main-block .center-block .reg input::placeholder,
+.graphic .footer .main-block .center-block .reg input::placeholder {
+  color: rgb(107, 107, 107);
+  font-family: "KTS-black";
+  font-size: 0.97vw;
+}
+.illustration .footer .main-block .center-block .send,
+.animation .footer .main-block .center-block .send,
+.graphic .footer .main-block .center-block .send {
+  width: 30.9vw;
+  height: 19.09vw;
+  background-image: url(./images/send.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .footer .main-block .center-block .send span,
+.animation .footer .main-block .center-block .send span,
+.graphic .footer .main-block .center-block .send span {
+  position: absolute;
+  font-size: 1.5vw;
+  margin-top: 12.5vw;
+  margin-left: 20.13vw;
+}
+.illustration .footer .main-block .center-block .send .EN,
+.animation .footer .main-block .center-block .send .EN,
+.graphic .footer .main-block .center-block .send .EN {
+  display: none;
+}
+.illustration .footer .main-block .right-block,
+.animation .footer .main-block .right-block,
+.graphic .footer .main-block .right-block {
+  width: 16.31vw;
+  height: 25.69vw;
+  background-image: url(./images/form.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.illustration .footer .main-block .right-block span,
+.animation .footer .main-block .right-block span,
+.graphic .footer .main-block .right-block span {
+  display: block;
+  font-size: 3.2vw;
+  margin-top: 2.43vw;
+  margin-left: 4.86vw;
+}
+.illustration .footer .main-block .right-block .EN,
+.animation .footer .main-block .right-block .EN,
+.graphic .footer .main-block .right-block .EN {
+  display: none;
+}
+.illustration .footer .bottom-block1,
+.animation .footer .bottom-block1,
+.graphic .footer .bottom-block1 {
+  width: 67.83vw;
+  height: 6.94vw;
+  margin-left: 20.29vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3vw;
+}
+.illustration .footer .bottom-block1 span,
+.animation .footer .bottom-block1 span,
+.graphic .footer .bottom-block1 span {
+  color: rgb(223, 223, 223);
+  font-size: 1.6vw;
+}
+.illustration .footer .bottom-block1 a,
+.animation .footer .bottom-block1 a,
+.graphic .footer .bottom-block1 a {
+  text-decoration: none;
 }
 
 .animation .top-block {
@@ -2150,7 +2366,7 @@ main .EN {
 }
 .animation .bottom-block {
   padding-top: 6.26vw;
-  height: 302.19vw;
+  height: 293.19vw;
   background-image: url(./images/animation/bottom.jpg);
 }
 .animation .bottom-block .advice {
@@ -3097,10 +3313,20 @@ main .EN {
     padding-top: 5vw;
   }
   .editing .top-block .main-title .description, .illustration .top-block .main-title .description, .graphic .top-block .main-title .description, .animation .top-block .main-title .description {
+    width: 100vw;
     font-size: 4vw;
-    line-height: 4.5vw;
     margin-top: 5.55vw;
-    width: 85vw;
+    line-height: 6vw;
+  }
+  .editing .top-block .main-title .description span, .illustration .top-block .main-title .description span, .graphic .top-block .main-title .description span, .animation .top-block .main-title .description span {
+    display: contents;
+  }
+  .editing .top-block .main-title .description .button, .illustration .top-block .main-title .description .button, .graphic .top-block .main-title .description .button, .animation .top-block .main-title .description .button {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    border-radius: 10px;
+    margin-top: 5vw;
   }
   .editing .top-block .mtitle, .illustration .top-block .mtitle, .graphic .top-block .mtitle, .animation .top-block .mtitle {
     display: block;
@@ -3780,8 +4006,9 @@ main .EN {
     margin-top: 8.3vw;
   }
   .editing .bottom-block1 .description, .editing .bottom-block .description, .illustration .bottom-block1 .description, .illustration .bottom-block .description, .graphic .bottom-block1 .description, .graphic .bottom-block .description, .animation .bottom-block1 .description, .animation .bottom-block .description {
+    width: 100vw;
     font-size: 4vw;
-    margin-top: 20.55vw;
+    margin-top: 0.55vw;
     line-height: 6vw;
   }
   .editing .bottom-block1 .description span, .editing .bottom-block .description span, .illustration .bottom-block1 .description span, .illustration .bottom-block .description span, .graphic .bottom-block1 .description span, .graphic .bottom-block .description span, .animation .bottom-block1 .description span, .animation .bottom-block .description span {
@@ -3800,11 +4027,23 @@ main .EN {
   .editing .bottom-block1 .bottom, .editing .bottom-block .bottom, .illustration .bottom-block1 .bottom, .illustration .bottom-block .bottom, .graphic .bottom-block1 .bottom, .graphic .bottom-block .bottom, .animation .bottom-block1 .bottom, .animation .bottom-block .bottom {
     display: none;
   }
+  .editing .bottom-block1, .illustration .bottom-block1, .graphic .bottom-block1, .animation .bottom-block1 {
+    height: 800vw;
+  }
+  .editing .bottom-block1 .description, .illustration .bottom-block1 .description, .graphic .bottom-block1 .description, .animation .bottom-block1 .description {
+    margin-top: 25vw;
+  }
+  .editing .add-block, .illustration .add-block, .graphic .add-block, .animation .add-block {
+    display: none;
+  }
   .editing .bottom-block, .illustration .bottom-block, .graphic .bottom-block, .animation .bottom-block {
     padding-top: 0px;
   }
   .editing .footer, .illustration .footer, .graphic .footer, .animation .footer {
     display: none;
+  }
+  .editing .bottom-block .description {
+    margin-top: 20vw;
   }
   .graphic .top-block, .animation .top-block, .illustration .top-block {
     height: 300vw;
@@ -3879,7 +4118,7 @@ main .EN {
     padding-top: 9vw;
   }
   .animation .bottom-block, .illustration .bottom-block {
-    height: 640vw;
+    height: 700vw;
   }
   .animation .bottom-block .extra, .illustration .bottom-block .extra {
     height: 120vw;

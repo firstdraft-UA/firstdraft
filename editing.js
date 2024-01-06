@@ -29,7 +29,6 @@ for(let i=0;i<en.length;i++){
           UA[i].style.display="none";
           EN[i].style.display="block";
           for(let i=0;i<comment.length;i++){
-            console.log(i)
             if(i==2){
               comment[i].style.opacity="100%";
               comment[i].style.display="block";

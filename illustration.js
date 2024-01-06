@@ -20,7 +20,6 @@ let commentNum=0;
 let ENcheck=false;
 for(let i=0;i<height.length;i++){
   maxHeight.push(height[i]+40)
-  console.log(maxHeight)
 }
 en[0].addEventListener("click", function(){
   ENcheck=true;

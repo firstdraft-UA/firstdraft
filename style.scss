@@ -1485,9 +1485,9 @@ main {
         }
 
         .bottom-block {
-            width: 35.83vw;
+            width: 67.83vw;
             height: 6.94vw;
-            margin-left: 50.29vw;
+            margin-left: 20.29vw;
             display: flex;
             justify-content: space-between;
             padding-top: 3vw;
@@ -1602,14 +1602,34 @@ main {
                 text-align: center;
                 font-size: 1.52vw;
                 font-family: "KTS";
-                margin-top: 4.5vw;
+                margin-top: 0vw;
+                line-height: 2vw;
+                span{
+                    display: block;
+                    font-weight: bold;
+                    margin-top: -2vw;
+                    margin-bottom: -1vw;
+                }
+                .button{
+                    width: 30vw;
+                    height: 4vw;
+                    font-size: 2vw;
+                    color: black;
+                    padding-top: 1vw;
+                    background-color: rgb(245, 219, 88);
+                    border-radius: 1vw;
+                    border:1.5px solid black;
+                    margin:2vw auto;
+                    cursor: pointer;
+                }
             }
+            
         }
 
         .question-block {
             width: 29.86vw;
             height: 37.98vw;
-            margin: 18.61vw 0px 0px 36.8vw;
+            margin: 13.61vw 0px 0px 36.8vw;
             padding-top: 3.6vw;
 
             .title {
@@ -1706,7 +1726,7 @@ main {
             .title {
                 text-align: center;
                 font-size: 2.56vw;
-                margin-bottom: 9.3vw;
+                margin-bottom: 6.3vw;
                 margin-top: 0px;
             }
 
@@ -2250,28 +2270,189 @@ main {
             }
 
         }
+        .description {
+            margin: auto;
+            width: 42.36vw;
+            text-align: center;
+            font-size: 1.52vw;
+            font-family: "KTS";
+            margin-top: 5vw;
+            line-height: 2vw;
+            span{
+                display: block;
+                font-weight: bold;
+                margin-top: -2vw;
+                margin-bottom: 1vw;
+            }
+            .button{
+                width: 30vw;
+                height: 4vw;
+                font-size: 2vw;
+                color: black;
+                padding-top: 1vw;
+                background-color: rgb(245, 219, 88);
+                border-radius: 1vw;
+                border:1.5px solid black;
+                margin:2vw auto;
+                cursor: pointer;
+            }
+        }
+    }
+    .add-block{
+        width: 100vw;
+        height: 10vw;
+        background-image: url(./images/editing/addbottom.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .footer {
+        width: 100%;
+        height: 51.4vw;
+        padding: 6.93vw 0px 0px 10.76vw;
+        background-image: url(./images/bottomInfo.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        .main-block {
+            display: flex;
+            height: 37.4vw;
 
-        .bottom {
-            width: 100%;
-            height: 6.94vw;
-            background-color: black;
-            position: absolute;
-            bottom: 0px;
+            .left-block {
+                .contacts {
+                    width: 21.52vw;
+                    height: 4.51vw;
+                    background-image: url(./images/contacts.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    padding-top: 1.45vw;
+                    padding-left: 2.77vw;
+                    margin-bottom: 3.81vw;
 
-            .bottom-menu {
-                width: 69.44vw;
-                height: 6.94vw;
-                display: flex;
-                justify-content: space-between;
-                padding-top: 2.43vw;
-                position: absolute;
-                bottom: 0px;
-                right: 7.63vw;
-                font-size: 1.52vw;
+                    span {
+                        font-size: 2.5vw;
+                    }
+                }
+
+                p {
+                    margin-bottom: 2.43vw;
+                    margin-left: 2.77vw;
+                    font-size: 1.11vw;
+                }
+
+                .social {
+                    width: 13.88vw;
+                    margin-top: 5.20vw;
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 2.77vw;
+
+                    .instagram {
+                        width: 3.47vw;
+                        height: 3.47vw;
+                        background-image: url(./images/instagram.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+
+                    .facebook {
+                        width: 3.47vw;
+                        height: 3.47vw;
+                        background-image: url(./images/facebook.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+
+                    .tik-tok {
+                        width: 3.47vw;
+                        height: 3.47vw;
+                        background-image: url(./images/tiktok.png);
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            .center-block {
+                width: 31.25vw;
+                margin-left: 2.43vw;
+
+                .reg {
+                    margin-top: 3.12vw;
+                    margin-left: 12.5vw;
+                    width: 18.4vw;
+
+                    input {
+                        width: 18.4vw;
+                        height: 2.77vw;
+                        background-color: transparent;
+                        border: none;
+                        border-bottom: 1px solid black;
+                        outline: none;
+                        font-size: 1.25vw;
+                        font-family: "KTS-black";
+
+                        &::placeholder {
+                            color: rgb(107, 107, 107);
+                            font-family: "KTS-black";
+                            font-size: 0.97vw;
+                        }
+                    }
+                }
+
+                .send {
+                    width: 30.9vw;
+                    height: 19.09vw;
+                    background-image: url(./images/send.png);
+                    background-size: contain;
+                    background-repeat: no-repeat;
+
+                    span {
+                        position: absolute;
+                        font-size: 1.5vw;
+                        margin-top: 12.5vw;
+                        margin-left: 20.13vw;
+                    }
+
+                    .EN {
+                        display: none;
+                    }
+                }
+            }
+
+            .right-block {
+                width: 16.31vw;
+                height: 25.69vw;
+                background-image: url(./images/form.png);
+                background-size: contain;
+                background-repeat: no-repeat;
 
                 span {
-                    color: white;
+                    display: block;
+                    font-size: 3.2vw;
+                    margin-top: 2.43vw;
+                    margin-left: 4.86vw;
                 }
+
+                .EN {
+                    display: none;
+                }
+            }
+        }
+
+        .bottom-block1 {
+            width: 67.83vw;
+            height: 6.94vw;
+            margin-left: 20.29vw;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 3vw;
+
+            span {
+                color: rgb(223, 223, 223);
+                font-size: 1.6vw;
+            }
+
+            a {
+                text-decoration: none;
             }
         }
     }
@@ -2332,7 +2513,7 @@ main {
 
     .bottom-block {
         padding-top: 6.26vw;
-        height: 302.19vw;
+        height: 293.19vw;
         background-image: url(./images/animation/bottom.jpg);
 
         .advice {
@@ -3398,11 +3579,21 @@ main {
                     line-height: 7.16vw;
                     padding-top: 5vw;
                 }
-                .description{
+                .description {
+                    width: 100vw;
                     font-size: 4vw;
-                    line-height: 4.5vw;
                     margin-top: 5.55vw;
-                    width: 85vw;
+                    line-height: 6vw;
+                    span{
+                        display: contents;
+                    }
+                    .button{
+                        width: 55vw;
+                        height: 8vw;
+                        font-size: 3.3vw;
+                        border-radius: 10px;
+                        margin-top: 5vw;
+                    }
                 }
             }
             .mtitle {
@@ -4154,8 +4345,9 @@ main {
                 
             }
             .description {
+                width: 100vw;
                 font-size: 4vw;
-                margin-top: 20.55vw;
+                margin-top: 0.55vw;
                 line-height: 6vw;
                 span{
                     display: contents;
@@ -4168,6 +4360,7 @@ main {
                     margin-top: 5vw;
                 }
             }
+            
             .bottom-menu {
                 display: none;
             }
@@ -4175,11 +4368,25 @@ main {
                 display: none;
             }
         }
+        .bottom-block1 {
+            height: 800vw;
+            .description{
+                margin-top: 25vw;
+            }
+        }
+        .add-block{
+            display: none;
+        }
         .bottom-block{
             padding-top: 0px;
         }
         .footer{
             display: none;
+        }
+    }
+    .editing{
+        .bottom-block .description{
+            margin-top: 20vw;
         }
     }
     .graphic, .animation, .illustration{
@@ -4263,7 +4470,7 @@ main {
             }
         }
         .bottom-block{
-            height: 640vw;
+            height: 700vw;
             .extra{
                 height: 120vw;
                 .advice{

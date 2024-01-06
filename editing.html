@@ -32,12 +32,14 @@
             <hr>
             <p>Зв'язатись</p>
             <div class="reg">
-                <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">>
-                <input type="text" placeholder="First name and surname" class="EN username" id="username">>
-                <input type="text" placeholder="Email*" id="email" class="email">
+                <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
+                <input type="text" placeholder="First name and surname" class="EN username" id="username">
+                <input type="text" placeholder="Email*" id="email" class="email UA">
+                <input type="text" placeholder="Email*" id="email" class="email EN">
                 <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
                 <input type="text" placeholder="Message*" class="EN content" id="content">
-                <input type="button" value="НАДІСЛАТИ" class="button send" id="send">
+                <input type="button" value="НАДІСЛАТИ" class="button send UA" id="send">
+                <input type="button" value="SEND" class="button send EN" id="send">
             </div>
             </div>
             
@@ -70,11 +72,11 @@
                 
                 <div class="button UA" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>
             </div>
-            <div class="description EN"><span>Для дітей 7-18+ років</span> <br>
-                тривалість - 35 хвилин<br>
-                викладачка з 6-річним досвідом у відеомонтажі  <br>
-                знайомство з програмою  <br>
-                монтаж відео з 3-5 кліпів
+            <div class="description EN"><span>For kids 7-18+ years old</span> <br>
+                duration - 35 minutes<br>
+                teacher with 6 years of experience in video editing   <br>
+                getting to know the program  <br>
+                video editing from 3-5 clips
                 
                 <div class="button EN" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>
             </div>
@@ -134,6 +136,7 @@
                     <span class="first">Duration of the lesson - 60 minutes </span>
                     <span class="second">Intensity - 12 lessons with the possibility of choosing a schedule</span>
                     <span class="last">The result - a portfolio with your own works</span>
+                    <span>attestation and certificate</span>
                 </div>
             </div>
             </div>
@@ -707,13 +710,13 @@
                 
                 <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>
             </div>
-            <div class="description EN">
-                тривалість - 35 хвилин<br>
-                викладачка з 6-річним досвідом у відеомонтажі  <br>
-                знайомство з програмою  <br>
-                монтаж відео з 3-5 кліпів
+            <div class="description EN"><span>For kids 7-18+ years old</span> <br>
+                duration - 35 minutes<br>
+                teacher with 6 years of experience in video editing   <br>
+                getting to know the program  <br>
+                video editing from 3-5 clips
                 
-                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>
+                <div class="button EN" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>
             </div>
         </div>
         <div class="add-block"></div>
@@ -736,14 +739,16 @@
                     <div class="reg">
                         <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
                         <input type="text" placeholder="First name and surname" class="EN username" id="username">
-                        <input type="text" placeholder="Email* " class="email" id="email">
+                        <input type="text" placeholder="Email* " class="email UA" id="email">
+                        <input type="text" placeholder="Email* " class="email EN" id="email">
                         <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
                         <input type="text" placeholder="Message*" class="EN content" id="content">
                     </div>
-                    <div class="send" id="send">
-                        <span class="UA">Надіслати</span>
-                        <span class="EN" >Send</span>
-
+                    <div class="send UA" id="send">
+                        <span>Надіслати</span>
+                    </div>
+                    <div class="send EN" id="send">
+                        <span>Send</span>
                     </div>
                 </div>
                 <div class="right-block">
@@ -752,12 +757,16 @@
                 </div>
             </div>
             <div class="bottom-block">
-                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Безкоштовний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
                 <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
-                <a href="#course"><span class="UA">Курси</span></a>
-                <a href="#course"><span class="EN">Courses</span></a>
-                <a href="#about"><span class="UA">Про нас</span></a>
-                <a href="#about"><span class="EN">About us</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
             </div>
         </div>
     </div>
@@ -782,9 +791,8 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
     const db= getDatabase(app);
-    for(let i=0;i<1; i++){
+    for(let i=0;i<=3; i++){
         submit[i].addEventListener("click", function(){
-        console.log(username[i].value.length)
         if(username[i].value.length>3 && email[i].value.length>4 && content[i].value.length>4){
             set(ref(db,`${username[i].value}${Math.floor(Math.random()*10000)}`),
         {
@@ -797,7 +805,7 @@
         content[i].value="";
         }
         else{
-            console.log("Заповніть усі поля")
+            alert("Заповніть усі поля")
         }
     })
     }

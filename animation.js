@@ -17,21 +17,28 @@ let menu=document.getElementsByClassName("menu-mobile");
 let body=document.getElementsByTagName("body");
 let check1=false;
 let maxHeight=[];
+let ENcheck=false;
 for(let i=0;i<height.length;i++){
   maxHeight.push(height[i]+20)
 }
-en[0].addEventListener("click", function(){
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="none";
-        EN[i].style.display="block";
-    }
-})
-ua[0].addEventListener("click", function(){
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="block";
-        EN[i].style.display="none";
-    }
-})
+for(let i=0;i<en.length;i++){
+  en[i].addEventListener("click", function(){
+    ENcheck=true;
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="none";
+          EN[i].style.display="block";
+
+      }
+  })
+  ua[i].addEventListener("click", function(){
+    ENcheck=false;
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="block";
+          EN[i].style.display="none";
+      }
+      
+  })
+}
 function open(i){
   if (check[i]) {
     check[i] = false;
