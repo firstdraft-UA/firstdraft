@@ -31,10 +31,12 @@
             <div class="reg">
                 <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
                 <input type="text" placeholder="First name and surname" class="EN username" id="username">
-                <input type="text" placeholder="Email*" id="email" class="email">
+                <input type="text" placeholder="Email*" id="email" class="email UA">
+                <input type="text" placeholder="Email*" id="email" class="email EN">
                 <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
                 <input type="text" placeholder="Message*" class="EN content" id="content">
-                <input type="button" value="НАДІСЛАТИ" class="button send" id="send">
+                <input type="button" value="НАДІСЛАТИ" class="button send UA" id="send">
+                <input type="button" value="SEND" class="button send EN" id="send">
             </div>
             </div>
             
@@ -60,13 +62,22 @@
             <div class="main-title">
                 <div class="title UA">КУРС ГРАФІЧНОГО ДИЗАЙНУ</div>
                 <div class="title EN">Graphic design course</div>
-                <div class="description UA">Ти в захваті від сторінок відомих брендів, можеш зловити кайф від обкладинки йогурту чи годинами розглядати круті візитівки. Хочеш навчитися створювати такі ж круті речі? Зробити перший крок до майбутньої кар'єри в графічному дизайні? 
-                 <br><br>   Тоді цей курс саме для тебе!                     
-
+                <div class="description UA"><span>Для дітей 7-18+ років</span><br>
+                    тривалість - 35 хвилин<br>
+                    викладачка з 5-річним досвідом графічного дизайну   <br>
+                    знайомство з програмою Photoshop  <br>
+                    створення колажу з базовими інструментами
+                    
+                    <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
                 </div>
-                <div class="description EN">You're fascinated by the pages of famous brands, can get a kick out of a yogurt cover, or spend hours looking at cool business cards. Do you want to learn how to create the same cool things? Do you want to take the first step towards a future career in graphic design?
-                    Then this course is for you!
-                     </div>
+                <div class="description EN"><span>For kids 7-18+ years old</span><br>
+                    duration - 35 minutes<br>
+                    teacher with 5 years of experience in graphic design <br>
+                    getting to know the Photoshop <br>
+                    creating a collage with basic tools
+                    
+                    <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>                  
+                </div>
             </div>
             <div class="blocks" id="about">
                 <div class="question-block UA">
@@ -100,6 +111,8 @@
                         <span class="second">Інтенсивність – 10, 12 чи 20 занять <br> залежно від вибору програми курсу
                         </span>
                         <span class="last">Результат - портфоліо з власними роботами</span>
+                        <span class="last last2">Атестація та сертифікат</span>
+
                     </div>
                 </div>
                 <div class="block EN">
@@ -112,13 +125,15 @@
                         </span>
                         <span class="last">The result - a portfolio with your own works
                         </span>
+                    <span class="last last2">attestation and certificate</span>
+
                     </div>
                 </div>
             </div>
             
         </div>
         <div class="middle-block">
-            <div class="program-count " id="1">
+            <div class="program-count m0" id="1">
                 <span class="UA">ПРОГРАМА 1</span>
                 <span class="EN">PROGRAM 1</span>
             </div>
@@ -1111,6 +1126,7 @@
                 <div class="left" onclick="left()"></div>
                 <div class="right" onclick="right()"></div>
                 <div class="comments-block">
+                    <div class="comments-line">
                         <div class="comment UA">
                             <span class="comment-text">
                                 Якщо чесно, не сприймала дизайн якось серйозно, але було цікаво спробувати. Виявилося, що це дуже цікаво і захоплююче.  
@@ -1137,6 +1153,8 @@
                             </span>
 
                         </div>
+                    </div>
+                        
                 </div>
             </div>
             <div class="works">
@@ -1234,19 +1252,71 @@
 
                 </div>
             </div>
-            <div class="bottom">
-                <div class="bottom-menu">
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
-                    <a href="#about"><span class="UA">Про курс</span></a>
-                    <a href="#about"><span class="EN">About course</span></a>
-                    <a href="#program"><span class="UA">Програма курсу</span></a>
-                    <a href="#program"><span class="EN">Course program</span></a>
-                    <a href="#teacher"><span class="UA">Про викладача</span></a>
-                    <a href="#teacher"><span class="EN">About teacher</span></a>
-                    <a href="#price"><span class="UA">Вартість</span></a>
-                    <a href="#price"><span class="EN">Price</span></a>
+            <div class="description UA">
+                тривалість - 35 хвилин<br>
+                викладачка з 5-річним досвідом графічного дизайну   <br>
+                знайомство з програмою Photoshop  <br>
+                створення колажу з базовими інструментами
+                
+                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
+            </div>
+            <div class="description EN">
+                duration - 35 minutes<br>
+                teacher with 5 years of experience in graphic design <br>
+                getting to know the Photoshop <br>
+                creating a collage with basic tools
+                
+                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>                  
+            </div>
+        </div>
+        <div class="add-block"></div>
+        <div class="footer" id="contacts">
+            <div class="main-block">
+                <div class="left-block">
+                    <div class="contacts">
+                        <span class="UA">Контакти</span>
+                        <span class="EN">Contacts</span>
+                    </div>
+                    <p>+380508620563</p>
+                    <p>firstdraft.ukraine@gmail.com</p>
+                    <div class="social">
+                        <div class="instagram" onclick="location.href='https://www.instagram.com/firstdraft_ukraine?'"></div>
+                        <div class="facebook" onclick="location.href='https://www.facebook.com/profile.php?id=100095347263208'"></div>
+                        <div class="tik-tok" onclick="location.href='igshid=YzVkODRmOTdmMw=='"></div>
+                    </div>
                 </div>
+                <div class="center-block">
+                    <div class="reg">
+                        <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
+                        <input type="text" placeholder="First name and surname" class="EN username" id="username">
+                        <input type="text" placeholder="Email*" id="email" class="email UA">
+                        <input type="text" placeholder="Email*" id="email" class="email EN">
+                        <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
+                        <input type="text" placeholder="Message*" class="EN content" id="content">
+                    </div>
+                    <div class="send UA" id="send">
+                        <span>Надіслати</span>
+                    </div>
+                    <div class="send EN" id="send">
+                        <span>Send</span>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <span class="UA">ЗВ'ЯЗАТИСЬ</span>
+                    <span class="EN">Contact form</span>
+                </div>
+            </div>
+            <div class="bottom-block1">
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
             </div>
         </div>
     </div>

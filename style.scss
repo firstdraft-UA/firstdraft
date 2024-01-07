@@ -31,6 +31,11 @@ main {
         position: absolute;
         top: 2vw;
         left: 2vw;
+        opacity: 100%;
+        cursor: pointer;
+        &:hover{
+            opacity: 80%;
+        }
     }
     .header {
         height: 63vw;
@@ -67,12 +72,15 @@ main {
             margin: 2.46% 3% 0px 0px;
             float: right;
             padding: 1.9% 0px 0px 0px;
-
+            
             span {
                 float: left;
                 margin-right: 12.50%;
                 font-size: 1.45vw;
                 color: black;
+                &:hover{
+                    color: rgb(130, 68, 181);
+                }
             }
 
             .button {
@@ -186,7 +194,7 @@ main {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-image: url(./images/editing.png);
-
+                cursor: pointer;
                 span {
                     margin-top: 12vw;
                     margin-left: -1.84vw;
@@ -200,6 +208,7 @@ main {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-image: url(./images/graphicdesign\ \(2\).png);
+                cursor: pointer;
 
                 span {
                     margin-top: 0.6vw;
@@ -216,13 +225,17 @@ main {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-image: url(./images/animation.png);
+                cursor: pointer;
 
                 span {
                     margin-top: 12.37vw;
                     margin-left: 4.94vw;
                 }
             }
+            .b:hover span{
+                font-size: 3.2vw;
 
+            }
             .illustration {
                 height: 19.50vw;
                 width: 24.78vw;
@@ -232,6 +245,7 @@ main {
                 background-size: contain;
                 background-repeat: no-repeat;
                 background-image: url(./images/illustration.png);
+                cursor: pointer;
 
                 span {
                     margin-top: 7.18vw;
@@ -255,6 +269,10 @@ main {
                 margin-top: 11.31vw;
                 margin-left: -3.47vw;
                 font-size: 3.1vw;
+                cursor: pointer;
+                &:hover{
+                    font-size: 3.2vw;
+                }
             }
 
             .EN {
@@ -406,6 +424,10 @@ main {
             span {
                 color: rgb(223, 223, 223);
                 font-size: 1.6vw;
+                &:hover{
+                    color: rgb(130, 68, 181);
+
+                }
             }
 
             a {
@@ -446,6 +468,10 @@ main {
         z-index: 2;
         top: 2.56vw;
         left: 2.56vw;
+        opacity: 100%;
+        &:hover{
+            opacity: 80%;
+        }
     }
     .top-block {
         width: 100vw;
@@ -515,7 +541,6 @@ main {
             text-align: center;
             font-size: 1.4vw;
             font-family: "KTS";
-            // margin-top: 5.55vw;
             margin-top: 0vw;
             line-height: 2vw;
             span{
@@ -534,6 +559,13 @@ main {
                 border:1.5px solid black;
                 margin:2vw auto;
                 cursor: pointer;
+                transition-duration: 0.15s;
+               &:hover{
+                width: 31vw;
+                height: 4.2vw;
+                font-size: 2.1vw;
+                margin-top: 1.8vw;
+               } 
             }
         }
 
@@ -1288,6 +1320,10 @@ main {
                         text-align: center;
                         padding-top: 0.55vw;
                         font-size: 1.38vw;
+                        &:hover{
+                            color: rgb(95, 95, 95);
+                            cursor: pointer;
+                        }
                     }
                 }
     
@@ -1324,6 +1360,12 @@ main {
                 border:1.5px solid black;
                 margin:2vw auto;
                 cursor: pointer;
+                &:hover{
+                    width: 31vw;
+                    height: 4.2vw;
+                    font-size: 2.1vw;
+                    margin-top: 1.8vw;
+                   } 
             }
         }
     
@@ -1450,7 +1492,7 @@ main {
                     background-image: url(./images/send.png);
                     background-size: contain;
                     background-repeat: no-repeat;
-
+                    cursor: pointer;
                     span {
                         position: absolute;
                         font-size: 1.5vw;
@@ -1495,6 +1537,10 @@ main {
             span {
                 color: rgb(223, 223, 223);
                 font-size: 1.6vw;
+                &:hover{
+                    color: rgb(130, 68, 181);
+
+                }
             }
 
             a {
@@ -1533,6 +1579,10 @@ main {
         position: absolute;
         top: 2.56vw;
         left: 2.56vw;
+        opacity: 100%;
+        &:hover{
+            opacity: 80%;
+        }
     }
     .top-block {
         width: 100%;
@@ -1581,6 +1631,10 @@ main {
             font-size: 1.38vw;
             margin-left: auto;
             padding: 2.5vw 2.77vw 0px 4.51vw;
+            a:hover{
+                color: rgb(130, 68, 181);
+                transition-duration: 0.2s;
+            }
         }
 
         .main-title {
@@ -1604,6 +1658,9 @@ main {
                 font-family: "KTS";
                 margin-top: 0vw;
                 line-height: 2vw;
+                #span{
+                    margin-top: -3.5vw;
+                } 
                 span{
                     display: block;
                     font-weight: bold;
@@ -1621,6 +1678,12 @@ main {
                     border:1.5px solid black;
                     margin:2vw auto;
                     cursor: pointer;
+                    &:hover{
+                        width: 31vw;
+                        height: 4.2vw;
+                        font-size: 2.1vw;
+                        margin-top: 1.8vw;
+                       } 
                 }
             }
             
@@ -2266,6 +2329,10 @@ main {
                     text-align: center;
                     padding-top: 0.55vw;
                     font-size: 1.58vw;
+                    &:hover{
+                        color: rgb(95, 95, 95);
+                        cursor: pointer;
+                    }
                 }
             }
 
@@ -2295,6 +2362,12 @@ main {
                 border:1.5px solid black;
                 margin:2vw auto;
                 cursor: pointer;
+                &:hover{
+                    width: 31vw;
+                    height: 4.2vw;
+                    font-size: 2.1vw;
+                    margin-top: 1.8vw;
+                   } 
             }
         }
     }
@@ -2449,6 +2522,10 @@ main {
             span {
                 color: rgb(223, 223, 223);
                 font-size: 1.6vw;
+                &:hover{
+                    color: rgb(130, 68, 181);
+                    transition-duration: 0.2s;
+                }
             }
 
             a {
@@ -2457,7 +2534,16 @@ main {
         }
     }
 }
-
+.illustration{
+    .top-block{
+        .blocks .block .title{
+            margin-bottom: 9vw;
+        }
+    }
+    .bottom-block{
+        height: 208vw;
+    }
+}
 .animation {
     
     .top-block {
@@ -2682,12 +2768,14 @@ main {
             }
 
             .description {
-                margin-top: 2.77vw;
+                span{
+                    margin-top: -2.5vw;
+                }
             }
         }
 
         .question-block {
-            margin-top: 15.97vw;
+            margin-top: 15vw;
         }
 
         .block {
@@ -2696,11 +2784,18 @@ main {
     }
 
     .middle-block{
+        padding-top: 10vw;
         .program-count{
             font-size: 3.12vw;
             text-align: center;
             margin: 3.47vw 0px;
             cursor: pointer;
+            &:hover{
+                font-size: 3.2vw;
+            }
+        }
+        .m0{
+            margin-top: 0px;
         }
         .EN{
             display: none;
@@ -2786,7 +2881,7 @@ main {
     }
     .bottom-block {
         background-image: url(./images/graphicdesign/bottom.jpg);
-        height: 441vw;
+        height: 433.3vw;
         padding-top: 6.94vw;
         .maint {
             margin-top: 27.77vw;
@@ -3073,6 +3168,9 @@ main {
                     font-size: 7vw;
                     margin-bottom: 8.5vw;
                     color: black;
+                    &:hover{
+                        color: rgb(130, 68, 181);
+                    }
                 }
                 a{
                     text-decoration: none;
@@ -3138,6 +3236,10 @@ main {
                     margin-top: 12vw;
                     margin-left: 10vw;
                     cursor: pointer;
+                    &:hover{
+                        color:rgb(130, 68, 181);
+                        
+                    }
                 }
             }
         }
@@ -3230,7 +3332,10 @@ main {
                 .EN {
                     display: none;
                 }
-    
+                .b:hover span{
+                    font-size: 10vw;
+                    color: rgb(60, 60, 60);
+                }
                 .editing {
                     width: 18.9vw;
                     height: 20.75vw;
@@ -3300,6 +3405,10 @@ main {
                     margin-top: 14.31vw;
                     margin-left: -3.47vw;
                     font-size: 6vw;
+                    &:hover{
+                        font-size: 6vw;
+                        color: rgb(60, 60, 60);
+                    } 
                 }
     
                 .EN {
@@ -3473,6 +3582,9 @@ main {
                     font-size: 7vw;
                     margin-bottom: 8.5vw;
                     color: black;
+                    &:hover{
+                        color: rgb(130, 68, 181);
+                    }
                 }
                 a{
                     text-decoration: none;
@@ -3538,6 +3650,10 @@ main {
                     margin-top: 12vw;
                     margin-left: 10vw;
                     cursor: pointer;
+                    &:hover{
+                        color:rgb(130, 68, 181);
+                        
+                    }
                 }
             }
         }
@@ -3593,6 +3709,13 @@ main {
                         font-size: 3.3vw;
                         border-radius: 10px;
                         margin-top: 5vw;
+                        &:hover{
+                            width: 55vw;
+                            height: 8vw;
+                            font-size: 3.3vw;
+                            margin-top: 5vw;
+                            background-color: #f5db58a5;
+                        } 
                     }
                 }
             }
@@ -3627,6 +3750,14 @@ main {
                     font-size: 3.3vw;
                     border-radius: 10px;
                     margin-top: 5vw;
+                    background-color: #f5db58;
+                    &:hover{
+                        width: 55vw;
+                        height: 8vw;
+                        font-size: 3.3vw;
+                        margin-top: 5vw;
+                        background-color: #f5db58a5;
+                    } 
                 }
             }
             .question-block {
@@ -4358,6 +4489,13 @@ main {
                     font-size: 3.3vw;
                     border-radius: 10px;
                     margin-top: 5vw;
+                    &:hover{
+                        width: 55vw;
+                        height: 8vw;
+                        font-size: 3.3vw;
+                        margin-top: 5vw;
+                        background-color: #f5db58a5;
+                    } 
                 }
             }
             
@@ -4389,6 +4527,12 @@ main {
             margin-top: 20vw;
         }
     }
+    .graphic .top-block .prog{
+        height: 84vw;
+        .block .info span{
+            margin-bottom: 5vw;
+        }
+    }
     .graphic, .animation, .illustration{
         .top-block{
             height: 300vw;
@@ -4397,10 +4541,13 @@ main {
             padding:10vw 0px;
             span{
                 font-size: 5vw;
+                &:hover{
+                    font-size: 5.3vw;
+                }
             }
         }
         .bottom-block{
-            height: 890vw;
+            height: 950vw;
             .comments{
             height: 45vw;
             .left, .right{
@@ -4562,7 +4709,8 @@ main {
     }
     .illustration{
         .top-block{
-            height: 458vw;
+            height: 500vw;
+
             .question-block{
                 height: 80vw;
             }
@@ -4586,6 +4734,7 @@ main {
                 .description{
                     font-size: 4vw;
                     line-height: 4.5vw;
+                    
                 }
             }
         }
@@ -4595,7 +4744,7 @@ main {
         .bottom-block{
             padding-top: 5vw;
             
-            height: 500vw;
+            height: 550vw;
             .anika-block {
                 .info{
                 margin-left: 0px;
@@ -4613,8 +4762,9 @@ main {
                 height: 130vw;
             }
             .comments{
-                margin-top: 15vw;
+                margin-top: 0vw;
                 .title{
+                    margin-top: 0vw;
                     margin-bottom: 0vw;
                 }
             }

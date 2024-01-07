@@ -62,7 +62,7 @@
             <div class="main-title">
                 <div class="title UA">КУРС З ІЛЮСТРАЦІЇ</div>
                 <div class="title EN">ILLUSTRATION COURSE</div>
-                <div class="description UA"><span>Для дітей 7-18+ років</span><br>
+                <div class="description UA"><span id="span">Для дітей 7-18+ років</span><br>
                     тривалість - 35 хвилин<br>
                     викладач з 10-річним досвідом у вільній графіці   <br>
                     знайомство з базовими формами, силуетами та композицією   <br>
@@ -70,8 +70,8 @@
                     
                     <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
                 </div>
-                <div class="description EN"><span>Для дітей 7-18+ років</span><br>
-                    тривалість - 35 хвилин<br>
+                <div class="description EN"><span id="span">For kids 7-18+ years</span><br>
+                    duration - 35 minutes<br>
                     teacher with 10 years of experience in freehand graphics <br>
                     familiarity with basic shapes, silhouettes and composition <br>
                     creating a sketch of your own character
@@ -158,6 +158,7 @@
                         <span class="first">Тривалість заняття - 60 хвилин </span>
                         <span class="second">Інтенсивність - 12 занять <br> з можливістю вибору розкладу</span>
                         <span class="last">Результат - портфоліо з власними роботами</span>
+                        <span class="last last2">Атестація та сертифікат</span>
                     </div>
                 </div>
                 <div class="block EN">
@@ -170,6 +171,8 @@
                         </span>
                         <span class="last">The result - a portfolio with your own works
                         </span>
+                    <span class="last last2">attestation and certificate</span>
+
                     </div>
                 </div>
             </div>
@@ -690,22 +693,73 @@
 
                 </div>
             </div>
-            <div class="bottom">
-                <div class="bottom-menu">
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
-                    <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
-                    <a href="#about"><span class="UA">Про курс</span></a>
-                    <a href="#about"><span class="EN">About course</span></a>
-                    <a href="#program"><span class="UA">Програма курсу</span></a>
-                    <a href="#program"><span class="EN">Course program</span></a>
-                    <a href="#teacher"><span class="UA">Про викладача</span></a>
-                    <a href="#teacher"><span class="EN">About teacher</span></a>
-                    <a href="#price"><span class="UA">Вартість</span></a>
-                    <a href="#price"><span class="EN">Price</span></a>
-                </div>
+            <div class="description UA">
+                тривалість - 35 хвилин<br>
+                викладач з 10-річним досвідом у вільній графіці   <br>
+                знайомство з базовими формами, силуетами та композицією   <br>
+                створення ескізу власного персонажа
+                
+                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">БЕЗКОШТОВНИЙ УРОК</div>                  
+            </div>
+            <div class="description EN">
+                duration - 35 minutes<br>
+                teacher with 10 years of experience in freehand graphics <br>
+                familiarity with basic shapes, silhouettes and composition <br>
+                creating a sketch of your own character
+                
+                <div class="button" onclick="location.href='https://forms.gle/YMonhQ68djzZySDh7'">FREE LESSON</div>                  
             </div>
         </div>
-
+        <div class="add-block"></div>
+        <div class="footer" id="contacts">
+            <div class="main-block">
+                <div class="left-block">
+                    <div class="contacts">
+                        <span class="UA">Контакти</span>
+                        <span class="EN">Contacts</span>
+                    </div>
+                    <p>+380508620563</p>
+                    <p>firstdraft.ukraine@gmail.com</p>
+                    <div class="social">
+                        <div class="instagram" onclick="location.href='https://www.instagram.com/firstdraft_ukraine?'"></div>
+                        <div class="facebook" onclick="location.href='https://www.facebook.com/profile.php?id=100095347263208'"></div>
+                        <div class="tik-tok" onclick="location.href='igshid=YzVkODRmOTdmMw=='"></div>
+                    </div>
+                </div>
+                <div class="center-block">
+                    <div class="reg">
+                        <input type="text" placeholder="Ім'я та прізвище" class="UA username" id="username">
+                        <input type="text" placeholder="First name and surname" class="EN username" id="username">
+                        <input type="text" placeholder="Email*" id="email" class="email UA">
+                        <input type="text" placeholder="Email*" id="email" class="email EN">
+                        <input type="text" placeholder="Повідомлення*" class="UA content" id="content">
+                        <input type="text" placeholder="Message*" class="EN content" id="content">
+                    </div>
+                    <div class="send UA" id="send">
+                        <span>Надіслати</span>
+                    </div>
+                    <div class="send EN" id="send">
+                        <span>Send</span>
+                    </div>
+                </div>
+                <div class="right-block">
+                    <span class="UA">ЗВ'ЯЗАТИСЬ</span>
+                    <span class="EN">Contact form</span>
+                </div>
+            </div>
+            <div class="bottom-block1">
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="UA">Пробний урок</span></a>
+                <a href="https://forms.gle/YMonhQ68djzZySDh7"><span class="EN">Free lesson</span></a>
+                <a href="#about"><span class="UA">Про курс</span></a>
+                <a href="#about"><span class="EN">About course</span></a>
+                <a href="#program"><span class="UA">Програма курсу</span></a>
+                <a href="#program"><span class="EN">Course program</span></a>
+                <a href="#teacher"><span class="UA">Про викладача</span></a>
+                <a href="#teacher"><span class="EN">About teacher</span></a>
+                <a href="#price"><span class="UA">Вартість</span></a>
+                <a href="#price"><span class="EN">Price</span></a>
+            </div>
+        </div>
     </div>
     <script src="illustration.js"></script>
     <!-- Google tag (gtag.js) -->

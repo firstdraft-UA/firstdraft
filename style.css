@@ -31,6 +31,11 @@ main .imgg {
   position: absolute;
   top: 2vw;
   left: 2vw;
+  opacity: 100%;
+  cursor: pointer;
+}
+main .imgg:hover {
+  opacity: 80%;
 }
 main .header {
   height: 63vw;
@@ -69,6 +74,9 @@ main .header .buttons span {
   margin-right: 12.5%;
   font-size: 1.45vw;
   color: black;
+}
+main .header .buttons span:hover {
+  color: rgb(130, 68, 181);
 }
 main .header .buttons .button {
   margin: 0px;
@@ -154,6 +162,7 @@ main .main .main-midle .editing {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/editing.png);
+  cursor: pointer;
 }
 main .main .main-midle .editing span {
   margin-top: 12vw;
@@ -166,6 +175,7 @@ main .main .main-midle .gdesign {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/graphicdesign\ \(2\).png);
+  cursor: pointer;
 }
 main .main .main-midle .gdesign span {
   margin-top: 0.6vw;
@@ -180,10 +190,14 @@ main .main .main-midle .animation {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/animation.png);
+  cursor: pointer;
 }
 main .main .main-midle .animation span {
   margin-top: 12.37vw;
   margin-left: 4.94vw;
+}
+main .main .main-midle .b:hover span {
+  font-size: 3.2vw;
 }
 main .main .main-midle .illustration {
   height: 19.5vw;
@@ -194,6 +208,7 @@ main .main .main-midle .illustration {
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url(./images/illustration.png);
+  cursor: pointer;
 }
 main .main .main-midle .illustration span {
   margin-top: 7.18vw;
@@ -214,6 +229,10 @@ main .main .main-bottom span {
   margin-top: 11.31vw;
   margin-left: -3.47vw;
   font-size: 3.1vw;
+  cursor: pointer;
+}
+main .main .main-bottom span:hover {
+  font-size: 3.2vw;
 }
 main .main .main-bottom .EN {
   display: none;
@@ -347,6 +366,9 @@ main .footer .bottom-block span {
   color: rgb(223, 223, 223);
   font-size: 1.6vw;
 }
+main .footer .bottom-block span:hover {
+  color: rgb(130, 68, 181);
+}
 main .footer .bottom-block a {
   text-decoration: none;
 }
@@ -381,6 +403,10 @@ main .EN {
   z-index: 2;
   top: 2.56vw;
   left: 2.56vw;
+  opacity: 100%;
+}
+.editing .logo:hover {
+  opacity: 80%;
 }
 .editing .top-block {
   width: 100vw;
@@ -459,6 +485,13 @@ main .EN {
   border: 1.5px solid black;
   margin: 2vw auto;
   cursor: pointer;
+  transition-duration: 0.15s;
+}
+.editing .top-block .description .button:hover {
+  width: 31vw;
+  height: 4.2vw;
+  font-size: 2.1vw;
+  margin-top: 1.8vw;
 }
 .editing .top-block .question-block {
   width: 29.86vw;
@@ -1075,6 +1108,10 @@ main .EN {
   padding-top: 0.55vw;
   font-size: 1.38vw;
 }
+.editing .bottom-block1 .price .price-blocks .price-block .price:hover {
+  color: rgb(95, 95, 95);
+  cursor: pointer;
+}
 .editing .bottom-block1 .price .price-blocks .price-block:nth-child(2) {
   background-image: url(./images/editing/cost2.png);
 }
@@ -1102,6 +1139,12 @@ main .EN {
   border: 1.5px solid black;
   margin: 2vw auto;
   cursor: pointer;
+}
+.editing .bottom-block1 .description .button:hover {
+  width: 31vw;
+  height: 4.2vw;
+  font-size: 2.1vw;
+  margin-top: 1.8vw;
 }
 .editing .bottom-block1 .bottom-menu {
   width: 69.44vw;
@@ -1217,6 +1260,7 @@ main .EN {
   background-image: url(./images/send.png);
   background-size: contain;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 .editing .footer .main-block .center-block .send span {
   position: absolute;
@@ -1254,6 +1298,9 @@ main .EN {
 .editing .footer .bottom-block span {
   color: rgb(223, 223, 223);
   font-size: 1.6vw;
+}
+.editing .footer .bottom-block span:hover {
+  color: rgb(130, 68, 181);
 }
 .editing .footer .bottom-block a {
   text-decoration: none;
@@ -1294,6 +1341,12 @@ main .EN {
   position: absolute;
   top: 2.56vw;
   left: 2.56vw;
+  opacity: 100%;
+}
+.illustration .logo:hover,
+.animation .logo:hover,
+.graphic .logo:hover {
+  opacity: 80%;
 }
 .illustration .top-block,
 .animation .top-block,
@@ -1349,6 +1402,12 @@ main .EN {
   margin-left: auto;
   padding: 2.5vw 2.77vw 0px 4.51vw;
 }
+.illustration .top-block .menu a:hover,
+.animation .top-block .menu a:hover,
+.graphic .top-block .menu a:hover {
+  color: rgb(130, 68, 181);
+  transition-duration: 0.2s;
+}
 .illustration .top-block .main-title .title,
 .animation .top-block .main-title .title,
 .graphic .top-block .main-title .title {
@@ -1373,6 +1432,11 @@ main .EN {
   margin-top: 0vw;
   line-height: 2vw;
 }
+.illustration .top-block .main-title .description #span,
+.animation .top-block .main-title .description #span,
+.graphic .top-block .main-title .description #span {
+  margin-top: -3.5vw;
+}
 .illustration .top-block .main-title .description span,
 .animation .top-block .main-title .description span,
 .graphic .top-block .main-title .description span {
@@ -1394,6 +1458,14 @@ main .EN {
   border: 1.5px solid black;
   margin: 2vw auto;
   cursor: pointer;
+}
+.illustration .top-block .main-title .description .button:hover,
+.animation .top-block .main-title .description .button:hover,
+.graphic .top-block .main-title .description .button:hover {
+  width: 31vw;
+  height: 4.2vw;
+  font-size: 2.1vw;
+  margin-top: 1.8vw;
 }
 .illustration .top-block .question-block,
 .animation .top-block .question-block,
@@ -2105,6 +2177,12 @@ main .EN {
   padding-top: 0.55vw;
   font-size: 1.58vw;
 }
+.illustration .bottom-block .price .price-block .price:hover,
+.animation .bottom-block .price .price-block .price:hover,
+.graphic .bottom-block .price .price-block .price:hover {
+  color: rgb(95, 95, 95);
+  cursor: pointer;
+}
 .illustration .bottom-block .description,
 .animation .bottom-block .description,
 .graphic .bottom-block .description {
@@ -2137,6 +2215,14 @@ main .EN {
   border: 1.5px solid black;
   margin: 2vw auto;
   cursor: pointer;
+}
+.illustration .bottom-block .description .button:hover,
+.animation .bottom-block .description .button:hover,
+.graphic .bottom-block .description .button:hover {
+  width: 31vw;
+  height: 4.2vw;
+  font-size: 2.1vw;
+  margin-top: 1.8vw;
 }
 .illustration .add-block,
 .animation .add-block,
@@ -2320,10 +2406,23 @@ main .EN {
   color: rgb(223, 223, 223);
   font-size: 1.6vw;
 }
+.illustration .footer .bottom-block1 span:hover,
+.animation .footer .bottom-block1 span:hover,
+.graphic .footer .bottom-block1 span:hover {
+  color: rgb(130, 68, 181);
+  transition-duration: 0.2s;
+}
 .illustration .footer .bottom-block1 a,
 .animation .footer .bottom-block1 a,
 .graphic .footer .bottom-block1 a {
   text-decoration: none;
+}
+
+.illustration .top-block .blocks .block .title {
+  margin-bottom: 9vw;
+}
+.illustration .bottom-block {
+  height: 208vw;
 }
 
 .animation .top-block {
@@ -2507,20 +2606,29 @@ main .EN {
 .graphic .top-block .main-title .title {
   padding-top: 3.47vw;
 }
-.graphic .top-block .main-title .description {
-  margin-top: 2.77vw;
+.graphic .top-block .main-title .description span {
+  margin-top: -2.5vw;
 }
 .graphic .top-block .question-block {
-  margin-top: 15.97vw;
+  margin-top: 15vw;
 }
 .graphic .top-block .block {
   padding-top: 5.55vw;
+}
+.graphic .middle-block {
+  padding-top: 10vw;
 }
 .graphic .middle-block .program-count {
   font-size: 3.12vw;
   text-align: center;
   margin: 3.47vw 0px;
   cursor: pointer;
+}
+.graphic .middle-block .program-count:hover {
+  font-size: 3.2vw;
+}
+.graphic .middle-block .m0 {
+  margin-top: 0px;
 }
 .graphic .middle-block .EN {
   display: none;
@@ -2579,7 +2687,7 @@ main .EN {
 }
 .graphic .bottom-block {
   background-image: url(./images/graphicdesign/bottom.jpg);
-  height: 441vw;
+  height: 433.3vw;
   padding-top: 6.94vw;
 }
 .graphic .bottom-block .maint {
@@ -2842,6 +2950,9 @@ main .EN {
     margin-bottom: 8.5vw;
     color: black;
   }
+  main .menu-mobile .button-list span:hover {
+    color: rgb(130, 68, 181);
+  }
   main .menu-mobile .button-list a {
     text-decoration: none;
   }
@@ -2909,6 +3020,9 @@ main .EN {
     margin-top: 12vw;
     margin-left: 10vw;
     cursor: pointer;
+  }
+  main .menu-mobile .reg .button:hover {
+    color: rgb(130, 68, 181);
   }
   main .header {
     background-image: url("./images/top.jpg");
@@ -2988,6 +3102,10 @@ main .EN {
   main .main .main-midle .EN {
     display: none;
   }
+  main .main .main-midle .b:hover span {
+    font-size: 10vw;
+    color: rgb(60, 60, 60);
+  }
   main .main .main-midle .editing {
     width: 18.9vw;
     height: 20.75vw;
@@ -3052,6 +3170,10 @@ main .EN {
     margin-top: 14.31vw;
     margin-left: -3.47vw;
     font-size: 6vw;
+  }
+  main .main .main-bottom span:hover {
+    font-size: 6vw;
+    color: rgb(60, 60, 60);
   }
   main .main .main-bottom .EN {
     display: none;
@@ -3211,6 +3333,9 @@ main .EN {
     margin-bottom: 8.5vw;
     color: black;
   }
+  .editing .menu-mobile .button-list span:hover, .illustration .menu-mobile .button-list span:hover, .graphic .menu-mobile .button-list span:hover, .animation .menu-mobile .button-list span:hover {
+    color: rgb(130, 68, 181);
+  }
   .editing .menu-mobile .button-list a, .illustration .menu-mobile .button-list a, .graphic .menu-mobile .button-list a, .animation .menu-mobile .button-list a {
     text-decoration: none;
   }
@@ -3279,6 +3404,9 @@ main .EN {
     margin-left: 10vw;
     cursor: pointer;
   }
+  .editing .menu-mobile .reg .button:hover, .illustration .menu-mobile .reg .button:hover, .graphic .menu-mobile .reg .button:hover, .animation .menu-mobile .reg .button:hover {
+    color: rgb(130, 68, 181);
+  }
   .editing a, .illustration a, .graphic a, .animation a {
     text-decoration: none;
     color: black;
@@ -3328,6 +3456,13 @@ main .EN {
     border-radius: 10px;
     margin-top: 5vw;
   }
+  .editing .top-block .main-title .description .button:hover, .illustration .top-block .main-title .description .button:hover, .graphic .top-block .main-title .description .button:hover, .animation .top-block .main-title .description .button:hover {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    margin-top: 5vw;
+    background-color: rgba(245, 219, 88, 0.6470588235);
+  }
   .editing .top-block .mtitle, .illustration .top-block .mtitle, .graphic .top-block .mtitle, .animation .top-block .mtitle {
     display: block;
     width: 90vw;
@@ -3358,6 +3493,14 @@ main .EN {
     font-size: 3.3vw;
     border-radius: 10px;
     margin-top: 5vw;
+    background-color: #f5db58;
+  }
+  .editing .top-block .description .button:hover, .illustration .top-block .description .button:hover, .graphic .top-block .description .button:hover, .animation .top-block .description .button:hover {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    margin-top: 5vw;
+    background-color: rgba(245, 219, 88, 0.6470588235);
   }
   .editing .top-block .question-block, .illustration .top-block .question-block, .graphic .top-block .question-block, .animation .top-block .question-block {
     position: relative;
@@ -4021,6 +4164,13 @@ main .EN {
     border-radius: 10px;
     margin-top: 5vw;
   }
+  .editing .bottom-block1 .description .button:hover, .editing .bottom-block .description .button:hover, .illustration .bottom-block1 .description .button:hover, .illustration .bottom-block .description .button:hover, .graphic .bottom-block1 .description .button:hover, .graphic .bottom-block .description .button:hover, .animation .bottom-block1 .description .button:hover, .animation .bottom-block .description .button:hover {
+    width: 55vw;
+    height: 8vw;
+    font-size: 3.3vw;
+    margin-top: 5vw;
+    background-color: rgba(245, 219, 88, 0.6470588235);
+  }
   .editing .bottom-block1 .bottom-menu, .editing .bottom-block .bottom-menu, .illustration .bottom-block1 .bottom-menu, .illustration .bottom-block .bottom-menu, .graphic .bottom-block1 .bottom-menu, .graphic .bottom-block .bottom-menu, .animation .bottom-block1 .bottom-menu, .animation .bottom-block .bottom-menu {
     display: none;
   }
@@ -4045,6 +4195,12 @@ main .EN {
   .editing .bottom-block .description {
     margin-top: 20vw;
   }
+  .graphic .top-block .prog {
+    height: 84vw;
+  }
+  .graphic .top-block .prog .block .info span {
+    margin-bottom: 5vw;
+  }
   .graphic .top-block, .animation .top-block, .illustration .top-block {
     height: 300vw;
   }
@@ -4054,8 +4210,11 @@ main .EN {
   .graphic .middle-block span, .animation .middle-block span, .illustration .middle-block span {
     font-size: 5vw;
   }
+  .graphic .middle-block span:hover, .animation .middle-block span:hover, .illustration .middle-block span:hover {
+    font-size: 5.3vw;
+  }
   .graphic .bottom-block, .animation .bottom-block, .illustration .bottom-block {
-    height: 890vw;
+    height: 950vw;
   }
   .graphic .bottom-block .comments, .animation .bottom-block .comments, .illustration .bottom-block .comments {
     height: 45vw;
@@ -4202,7 +4361,7 @@ main .EN {
     padding-bottom: 0px;
   }
   .illustration .top-block {
-    height: 458vw;
+    height: 500vw;
   }
   .illustration .top-block .question-block {
     height: 80vw;
@@ -4234,7 +4393,7 @@ main .EN {
   }
   .illustration .bottom-block {
     padding-top: 5vw;
-    height: 500vw;
+    height: 550vw;
   }
   .illustration .bottom-block .anika-block .info {
     margin-left: 0px;
@@ -4250,9 +4409,10 @@ main .EN {
     height: 130vw;
   }
   .illustration .bottom-block .comments {
-    margin-top: 15vw;
+    margin-top: 0vw;
   }
   .illustration .bottom-block .comments .title {
+    margin-top: 0vw;
     margin-bottom: 0vw;
   }
   .illustration .bottom-block .price {

@@ -21,19 +21,47 @@ let line1=document.getElementsByClassName("toggle");
 let menu=document.getElementsByClassName("menu-mobile");
 let body=document.getElementsByTagName("body");
 let check1=false;
+let ENcheck=false;
 let checkCount=[false,false,false]
-en[0].addEventListener("click", function(){
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="none";
-        EN[i].style.display="block";
-    }
-})
-ua[0].addEventListener("click", function(){
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="block";
-        EN[i].style.display="none";
-    }
-})
+for(let i=0;i<en.length;i++){
+  en[i].addEventListener("click", function(){
+    ENcheck=true;
+    commentNum=3;
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="none";
+          EN[i].style.display="block";
+          for(let i=0;i<comment.length;i++){
+            if(i==3){
+              comment[i].style.opacity="100%";
+              comment[i].style.display="block";
+            }
+            else{
+              comment[i].style.opacity="0%"
+              comment[i].style.display="none";
+            }
+          }
+      }
+  })
+  ua[i].addEventListener("click", function(){
+    ENcheck=false;
+    commentNum=0;
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="block";
+          EN[i].style.display="none";
+      }
+      for(let i=0;i<comment.length;i++){
+        console.log(i)
+        if(i==0){
+          comment[i].style.opacity="100%";
+          comment[i].style.display="block";
+        }
+        else{
+          comment[i].style.opacity="0%"
+          comment[i].style.display="none";
+        }
+      }
+  })
+}
 for(let i=0;i<height.length;i++){
   maxHeight.push(height[i]+20)
 }
@@ -134,9 +162,17 @@ for(let i=0;i<comment.length;i++){
 }
 function right(){
   commentNum++;
-  if(commentNum==3){
-    commentNum=0;
+  if(ENcheck){
+    if(commentNum==6){
+      commentNum=3;
+    }
   }
+  else{
+    if(commentNum==3){
+    commentNum=0;
+    }
+  }
+  
     for(let i=0;i<comment.length;i++){
       if(commentNum==i){
         
@@ -162,8 +198,15 @@ function right(){
 }
 function left(){
   commentNum--;
-  if(commentNum==-1){
+  if(ENcheck){
+    if(commentNum==2){
+      commentNum=5;
+    }
+  }
+  else{
+    if(commentNum==-1){
     commentNum=2;
+    }
   }
     for(let i=0;i<comment.length;i++){
       if(commentNum==i){
