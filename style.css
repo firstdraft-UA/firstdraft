@@ -2075,6 +2075,14 @@ main .EN {
   position: relative;
   float: left;
 }
+.illustration .bottom-block .comments .comments-block .comments-line .comment .name,
+.animation .bottom-block .comments .comments-block .comments-line .comment .name,
+.graphic .bottom-block .comments .comments-block .comments-line .comment .name {
+  position: absolute;
+  bottom: 3.5vw;
+  right: 5vw;
+  font-weight: bold;
+}
 .illustration .bottom-block .comments .left,
 .illustration .bottom-block .comments .right,
 .animation .bottom-block .comments .left,
@@ -2418,6 +2426,9 @@ main .EN {
   text-decoration: none;
 }
 
+.illustration .top-block .main-title .description {
+  width: 45vw;
+}
 .illustration .top-block .blocks .block .title {
   margin-bottom: 9vw;
 }
@@ -2465,7 +2476,7 @@ main .EN {
 }
 .animation .bottom-block {
   padding-top: 6.26vw;
-  height: 293.19vw;
+  height: 294.19vw;
   background-image: url(./images/animation/bottom.jpg);
 }
 .animation .bottom-block .advice {
@@ -2687,7 +2698,7 @@ main .EN {
 }
 .graphic .bottom-block {
   background-image: url(./images/graphicdesign/bottom.jpg);
-  height: 433.3vw;
+  height: 430.3vw;
   padding-top: 6.94vw;
 }
 .graphic .bottom-block .maint {
@@ -2780,6 +2791,10 @@ main .EN {
 .graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text {
   transition-property: opacity;
   transition: 0.3;
+}
+.graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text .name {
+  bottom: 5vw;
+  right: 7vw;
 }
 .graphic .bottom-block .works {
   margin-top: 10.41vw;
@@ -3634,6 +3649,7 @@ main .EN {
     font-size: 3.5vw;
     margin-left: 5.73vw;
     position: relative;
+    width: 70vw;
   }
   .editing .top-block .prog .block .info span::after, .illustration .top-block .prog .block .info span::after, .graphic .top-block .prog .block .info span::after, .animation .top-block .prog .block .info span::after {
     width: 4.98vw;

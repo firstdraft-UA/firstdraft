@@ -2238,6 +2238,12 @@ main {
                     padding: 2.08vw 5.2vw;
                     position: relative;
                     float: left;
+                    .name{
+                            position: absolute;
+                            bottom: 3.5vw;
+                            right: 5vw;
+                            font-weight: bold;
+                        }
                 }
             }
             }   
@@ -2536,6 +2542,9 @@ main {
 }
 .illustration{
     .top-block{
+        .main-title .description{
+            width: 45vw;
+        }
         .blocks .block .title{
             margin-bottom: 9vw;
         }
@@ -2599,7 +2608,7 @@ main {
 
     .bottom-block {
         padding-top: 6.26vw;
-        height: 293.19vw;
+        height: 294.19vw;
         background-image: url(./images/animation/bottom.jpg);
 
         .advice {
@@ -2780,6 +2789,7 @@ main {
 
         .block {
             padding-top: 5.55vw;
+            
         }
     }
 
@@ -2881,7 +2891,7 @@ main {
     }
     .bottom-block {
         background-image: url(./images/graphicdesign/bottom.jpg);
-        height: 433.3vw;
+        height: 430.3vw;
         padding-top: 6.94vw;
         .maint {
             margin-top: 27.77vw;
@@ -2980,6 +2990,10 @@ main {
                         .comment-text{
                             transition-property: opacity;
                             transition: 0.3;
+                            .name{
+                                bottom: 5vw;
+                                right: 7vw;
+                            }
                         }
                     }
                 }
@@ -3898,7 +3912,7 @@ main {
                         font-size: 3.5vw;
                         margin-left: 5.73vw;
                         position: relative;
-    
+                        width: 70vw;
                         &::after {
                             width: 4.98vw;
                             height: 4.98vw;

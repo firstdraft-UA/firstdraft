@@ -21,22 +21,26 @@ let ENcheck=false;
 for(let i=0;i<height.length;i++){
   maxHeight.push(height[i]+40)
 }
-en[0].addEventListener("click", function(){
-  ENcheck=true;
-  comm()
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="none";
-        EN[i].style.display="block";
-    }
-})
-ua[0].addEventListener("click", function(){
-  ENcheck=false;
-  comm()
-    for(let i=0;i<UA.length;i++){
-        UA[i].style.display="block";
-        EN[i].style.display="none";
-    }
-})
+for(let i=0;i<en.length;i++){
+  en[i].addEventListener("click", function(){
+    ENcheck=true;
+    comm()
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="none";
+          EN[i].style.display="block";
+
+      }
+  })
+  ua[i].addEventListener("click", function(){
+    ENcheck=false;
+    comm()
+      for(let i=0;i<UA.length;i++){
+          UA[i].style.display="block";
+          EN[i].style.display="none";
+      }
+      
+  })
+}
 function open(i){
   if (check[i]) {
     check[i] = false;
