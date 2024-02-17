@@ -1764,6 +1764,7 @@ main .EN {
   font-family: "KTS";
   transition-property: max-height;
   transition-timing-function: ease-in, ease, linear;
+  padding-right: 2px;
 }
 .illustration .middle-block .course-progress-block .block .info .text .img,
 .animation .middle-block .course-progress-block .block .info .text .img,
@@ -3897,6 +3898,7 @@ main .EN {
   }
   .editing .bottom-block1 .experiense .block, .editing .bottom-block .experiense .block, .illustration .bottom-block1 .experiense .block, .illustration .bottom-block .experiense .block, .graphic .bottom-block1 .experiense .block, .graphic .bottom-block .experiense .block, .animation .bottom-block1 .experiense .block, .animation .bottom-block .experiense .block {
     width: 80vw;
+    max-height: 90vw;
     margin-bottom: 15vw;
   }
   .editing .bottom-block1 .experiense .block .title, .editing .bottom-block .experiense .block .title, .illustration .bottom-block1 .experiense .block .title, .illustration .bottom-block .experiense .block .title, .graphic .bottom-block1 .experiense .block .title, .graphic .bottom-block .experiense .block .title, .animation .bottom-block1 .experiense .block .title, .animation .bottom-block .experiense .block .title {
@@ -3969,11 +3971,12 @@ main .EN {
     font-size: 3vw;
     text-align: center;
     line-height: 3.5vw;
-    padding: 4.08vw 6.2vw 0vw;
+    padding: 3.08vw 4vw 0vw;
     position: relative;
     float: left;
   }
   .editing .bottom-block1 .comments .comments-block .comment .comment-text, .editing .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .editing .bottom-block .comments .comments-block .comment .comment-text, .editing .bottom-block .comments .comments-block .comments-line .comment .comment-text, .illustration .bottom-block1 .comments .comments-block .comment .comment-text, .illustration .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .illustration .bottom-block .comments .comments-block .comment .comment-text, .illustration .bottom-block .comments .comments-block .comments-line .comment .comment-text, .graphic .bottom-block1 .comments .comments-block .comment .comment-text, .graphic .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .graphic .bottom-block .comments .comments-block .comment .comment-text, .graphic .bottom-block .comments .comments-block .comments-line .comment .comment-text, .animation .bottom-block1 .comments .comments-block .comment .comment-text, .animation .bottom-block1 .comments .comments-block .comments-line .comment .comment-text, .animation .bottom-block .comments .comments-block .comment .comment-text, .animation .bottom-block .comments .comments-block .comments-line .comment .comment-text {
+    width: 103%;
     transition-property: opacity;
     transition: 0.2s;
   }
@@ -4423,6 +4426,10 @@ main .EN {
   }
   .illustration .bottom-block .experiense {
     height: 130vw;
+    margin-bottom: 15vw;
+  }
+  .illustration .bottom-block .experiense .m {
+    margin-bottom: 0px;
   }
   .illustration .bottom-block .comments {
     margin-top: 0vw;

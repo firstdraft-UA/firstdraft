@@ -1953,7 +1953,7 @@ main {
                         font-family: "KTS";
                         transition-property: max-height;
                         transition-timing-function: ease-in, ease, linear;
-
+                        padding-right: 2px;
                         .img {
                             width: 21.18vw;
                             height: 4.16vw;
@@ -4191,6 +4191,7 @@ main {
                 }
                 .block {
                     width: 80vw;
+                    max-height: 90vw;
                     margin-bottom: 15vw;
                     
                     .title {
@@ -4274,10 +4275,11 @@ main {
                         font-size: 3vw;
                         text-align: center;
                         line-height: 3.5vw;
-                        padding: 4.08vw 6.2vw 0vw;
+                        padding: 3.08vw 4vw 0vw;
                         position: relative;
                         float: left;
                         .comment-text{
+                            width: 103%;
                             transition-property: opacity;
                             transition: 0.2s;
                             .name{
@@ -4774,6 +4776,10 @@ main {
             }
             .experiense{
                 height: 130vw;
+                margin-bottom: 15vw;
+                .m{
+                    margin-bottom: 0px;
+                }
             }
             .comments{
                 margin-top: 0vw;
